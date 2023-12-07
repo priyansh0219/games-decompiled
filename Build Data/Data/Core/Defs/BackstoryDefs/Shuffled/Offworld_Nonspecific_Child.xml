@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============================== Non-specific (could work for various planet types) ============================-->
+
+  <BackstoryDef>
+    <defName>VatgrownSoldier8</defName>
+    <title>vatgrown soldier</title>
+    <titleShort>vatgrown</titleShort>
+    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as an instrument of destruction. Grown in a bioweapons facility and taught combat during [PAWN_possessive] accelerated growth, [PAWN_nameDef] still has a proclivity for combat of all kinds and an aversion to human contact.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Melee</key><value>4</value></li>
+      <li><key>Shooting</key><value>4</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+      <li>ImperialFighter</li>
+      <li>Vatgrown</li>
+    </spawnCategories>
+    <workDisables>
+      <li>Social</li>
+      <li>Caring</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>SicklyChild55</defName>
+    <title>sickly child</title>
+    <titleShort>patient</titleShort>
+    <baseDesc>As a child, [PAWN_nameDef] suffered from a rare disease. Quarantined in a hospital, [PAWN_pronoun] had minimal human contact and got little physical exercise. In the sterile hospital environment, however, [PAWN_pronoun] became very familiar with science and medicine.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Intellectual</key><value>4</value></li>
+      <li><key>Medicine</key><value>5</value></li>
+      <li><key>Melee</key><value>-2</value></li>
+      <li><key>Social</key><value>-2</value></li>
+      <li><key>Construction</key><value>-2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>ImperialCommon</li>
+      <li>ImperialFighter</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>FrightenedChild43</defName>
+    <title>frightened child</title>
+    <titleShort>scared</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up with a laundry list of phobias and neuroses. [PAWN_pronoun] feared, among other things, doctors and foodborne pathogens.\n\nAs a result, [PAWN_pronoun] learned to cook and care for [PAWN_objective]self, but many of [PAWN_possessive] fears dog [PAWN_objective] in adulthood.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Medicine</key><value>3</value></li>
+      <li><key>Cooking</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>ImperialCommon</li>
+      <li>Madman</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ComaChild93</defName>
+    <title>coma child</title>
+    <titleShort>coma child</titleShort>
+    <baseDesc>A childhood accident put [PAWN_nameDef] into a coma. [PAWN_pronoun] didn't wake up until [PAWN_pronoun] was in [PAWN_possessive] late teens. [PAWN_possessive] body never recovered from the years of inactivity, but people tend to take pity on [PAWN_objective] when they hear [PAWN_possessive] story.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Social</key><value>4</value></li>
+      <li><key>Construction</key><value>-2</value></li>
+      <li><key>Mining</key><value>-2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+      <li>ImperialFighter</li>
+    </spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Pyromaniac18</defName>
+    <title>pyromaniac</title>
+    <titleShort>pyro</titleShort>
+    <baseDesc>From an early age, [PAWN_nameDef] had an unhealthy fascination with fire. [PAWN_pronoun] would set refuse heaps ablaze and become so entranced by the flames [PAWN_pronoun] would absent-mindedly burn [PAWN_objective]self.\n\nOne day while playing with matches, [PAWN_pronoun] carelessly burned down [PAWN_possessive] home.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Firefighting</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Social</key><value>-3</value></li>
+      <li><key>Cooking</key><value>-2</value></li>
+      <li><key>Artistic</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+      <li>ImperialFighter</li>
+    </spawnCategories>
+    <forcedTraits>
+      <Pyromaniac />
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Mute34</defName>
+    <title>mute</title>
+    <titleShort>mute</titleShort>
+    <baseDesc>[PAWN_nameDef] was greatly affected by a traumatic event early in [PAWN_possessive] life. For many years [PAWN_pronoun] refused to speak to people, preferring instead to play with [PAWN_possessive] household's numerous pets.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Animals</key><value>5</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>ImperialCommon</li>
+      <li>ImperialFighter</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>WarRefugee51</defName>
+    <title>war refugee</title>
+    <titleShort>refugee</titleShort>
+    <baseDesc>War broke out in [PAWN_nameDef]'s home when [PAWN_pronoun] was a baby. [PAWN_possessive] parents fled with [PAWN_objective], seeking safety wherever they could find it. [PAWN_nameDef]'s earliest memories are of being taught how to defend [PAWN_objective]self.\n\nThe violence and destruction [PAWN_pronoun] witnessed left [PAWN_objective] scarred for life.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Cooking</key><value>2</value></li>
+      <li><key>Crafting</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>ImperialCommon</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>MusicalKid86</defName> 
+    <title>musical kid</title>
+    <titleShort>musician</titleShort>
+    <baseDesc>As a child, [PAWN_nameDef] had a talent for playing musical instruments and singing. [PAWN_pronoun] was given expert training and loved to perform in recitals and concerts, though the lavish praise [PAWN_pronoun] received made [PAWN_objective] a little self-obsessed.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Social</key><value>-2</value></li>
+      <li><key>Artistic</key><value>5</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+      <li>ImperialFighter</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ChildStar74</defName> 
+    <title>child star</title>
+    <titleShort>star</titleShort>
+    <baseDesc>[PAWN_nameDef] was well-known throughout [PAWN_possessive] homeworld as a child actor in films and TV shows. [PAWN_possessive] fame put [PAWN_objective] in contact with many different kinds of people, but also tended to get in the way of [PAWN_possessive] education.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Social</key><value>3</value></li>
+      <li><key>Artistic</key><value>3</value></li>
+      <li><key>Intellectual</key><value>-2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ChildSpy47</defName>
+    <title>child spy</title>
+    <titleShort>spy</titleShort>
+    <baseDesc>Children are presumed innocent, which makes them excellent spies. [PAWN_nameDef] was trained in the art of infiltration when [PAWN_pronoun] was just a small child.
+\n[PAWN_possessive] years undercover gave [PAWN_objective] experience with social manipulation and lying, but [PAWN_pronoun] never had a normal education.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Social</key><value>4</value></li>
+      <li><key>Intellectual</key><value>-2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+      <li>ImperialFighter</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ShopKid36</defName>
+    <title>shop kid</title>
+    <titleShort>shopkid</titleShort>
+    <baseDesc>[PAWN_nameDef]'s mother was often ill, and it fell to [PAWN_objective] to run the store which was their only source of income. [PAWN_pronoun] learned a little about the exotic artifacts which [PAWN_pronoun] sold, and a lot about the art of the deal.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Social</key><value>4</value></li>
+      <li><key>Intellectual</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+      <li>ImperialFighter</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>OrganFarm67</defName>
+    <title>organ farm</title>
+    <titleShort>organ farm</titleShort>
+    <baseDesc>[PAWN_nameDef] was raised in an illegal underground organ farm. [PAWN_possessive] body was used to grow organic implants for wounded mercenaries. Though [PAWN_possessive] upbringing has left [PAWN_objective] haunted, it has also given [PAWN_objective] a unique understanding of human biology.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Medicine</key><value>5</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>ImperialCommon</li>
+      <li>Madman</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>MedicalAssistant12</defName>
+    <title>medical assistant</title>
+    <titleShort>medic</titleShort>
+    <baseDesc>[PAWN_nameDef] was born during a catastrophic war in which both sides used incendiary weapons. [PAWN_pronoun] grew up helping [PAWN_possessive] parents in an infirmary, treating the cascade of horrific burns from the battlefields. [PAWN_pronoun] was left with a lifelong fear of fire.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Firefighting</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Medicine</key><value>5</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+      <li>ImperialFighter</li>
+      <li>Scientist</li>
+    </spawnCategories>
+    <disallowedTraits>
+      <Pyromaniac />
+    </disallowedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>CultChild3</defName>
+    <title>cult child</title>
+    <titleShort>cult kid</titleShort>
+    <baseDesc>[PAWN_nameDef] was born into a powerful cult which shunned advanced technology and believed that all illness could be cured by cleansing the soul through sacred art.\n\nAfter [PAWN_possessive] first glimpse of the outside world, [PAWN_pronoun] decided to run away.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Medicine</key><value>-3</value></li>
+      <li><key>Artistic</key><value>5</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Madman</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>StoryWriter67</defName>
+    <title>story writer</title>
+    <titleShort>writer</titleShort>
+    <baseDesc>As a child, [PAWN_nameDef] was addicted to reading. [PAWN_pronoun] would spend all day in [PAWN_possessive] local library with [PAWN_possessive] nose in a book. When budget cuts forced the library to close, [PAWN_nameDef] was distraught. [PAWN_pronoun] decided to fill the gap by writing [PAWN_possessive] own stories instead.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Artistic</key><value>4</value></li>
+      <li><key>Intellectual</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+      <li>ImperialFighter</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+</Defs>

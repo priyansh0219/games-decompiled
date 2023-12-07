@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackStoryDef Abstract="True" Name="Solid">
+    <shuffleable>false</shuffleable>
+  </BackStoryDef>
+
+  <BackstoryDef ParentName="Solid">
+    <defName>TynanCustomChildhood</defName>
+    <title>punk</title>
+    <titleShort>punk</titleShort>
+    <baseDesc>[PAWN_nameDef] spent his childhood selling knockoff cigarettes to 15-year-olds. The cigarettes were often full of grass clippings.</baseDesc>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>-2</value>
+      </li>
+    </skillGains>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <BackstoryDef ParentName="Solid">
+    <defName>TynanCustomAdulthood</defName>
+    <title>game developer</title>
+    <titleShort>game dev</titleShort>
+    <baseDesc>[PAWN_nameDef] was an independent game developer.\n\nAfter an early success, [PAWN_possessive] career quickly degenerated into a circus of misguided ideas, deals gone wrong, and desperate, failed PR stunts.</baseDesc>
+    <skillGains>
+      <li>
+        <key>Construction</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Mining</key>
+        <value>-2</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Pirate</li>
+    </spawnCategories>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <forcedTraits>
+      <Industriousness>-2</Industriousness>
+    </forcedTraits>
+    <possessions>
+      <li>
+        <key>GameOfUrBoard</key>
+        <value>1</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+</Defs>

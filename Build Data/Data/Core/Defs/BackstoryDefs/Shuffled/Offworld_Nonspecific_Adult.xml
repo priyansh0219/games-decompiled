@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============================== Non-specific (could work for various planet types) ============================-->
+
+  <BackstoryDef>
+    <defName>Policeman45</defName>
+    <title>policeman</title>
+    <titleShort>policeman</titleShort>
+    <titleFemale>policewoman</titleFemale>
+    <titleShortFemale>policewoman</titleShortFemale>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <baseDesc>[PAWN_nameDef] kept the peace as a line officer in a municipal police force.
+\n[PAWN_pronoun] was trained in de-escalation, physical control, shooting, and other police skills.</baseDesc>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>ImperialCommon</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <skillGains>
+      <li><key>Social</key><value>3</value></li>
+      <li><key>Shooting</key><value>4</value></li>
+      <li><key>Melee</key><value>3</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Chef52</defName>
+    <title>chef</title>
+    <titleShort>chef</titleShort>
+    <baseDesc>[PAWN_nameDef] ran a high-class restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, and infamous among kitchen workers for [PAWN_possessive] casual disdain for grunt work.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Cleaning</li>
+      <li>ManualDumb</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Cooking</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Cooking</key><value>6</value></li>
+      <li><key>Social</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <possessions>
+      <li>
+        <key>MealFine</key>
+        <value>3</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Housemate8</defName>
+    <title>housemate</title>
+    <titleShort>housemate</titleShort>
+    <titleFemale>housewife</titleFemale>
+    <titleShortFemale>housewife</titleShortFemale>
+    <baseDesc>As an adult, [PAWN_nameDef] kept house and cared for children while [PAWN_possessive] spouse worked.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li><key>Cooking</key><value>3</value></li>
+      <li><key>Medicine</key><value>3</value></li>
+      <li><key>Crafting</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>ImperialCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Inventor6</defName>
+    <title>inventor</title>
+    <titleShort>inventor</titleShort>
+    <baseDesc>On [PAWN_possessive] homeworld, [PAWN_nameDef] worked as a moderately successful inventor. [PAWN_pronoun] developed several minor technologies.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+      <li>Crafting</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Crafting</key><value>5</value></li>
+      <li><key>Intellectual</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Scientist</li>
+    </spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Teacher20</defName>
+    <title>teacher</title>
+    <titleShort>teacher</titleShort>
+    <baseDesc>[PAWN_nameDef] was educated in the liberal arts and taught at a public school. [PAWN_pronoun] was widely knowledgeable and well-liked by [PAWN_possessive] students.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Intellectual</key><value>3</value></li>
+      <li><key>Social</key><value>4</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>CivilServant2</defName>
+    <title>civil servant</title>
+    <titleShort>bureaucrat</titleShort>
+    <baseDesc>[PAWN_nameDef] worked as a low-ranking administrator for a moribund government bureaucracy. [PAWN_pronoun] is most at home filling out complicated paperwork and playing office politics.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li><key>Social</key><value>3</value></li>
+      <li><key>Intellectual</key><value>3</value></li>
+      <li><key>Construction</key><value>-2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>ImperialCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bartender62</defName>
+    <title>bartender</title>
+    <titleShort>barkeep</titleShort>
+    <baseDesc>[PAWN_nameDef] worked as a bartender in a seedy establishment. The job was one part drink-mixing, one part diplomacy, and one part head-bashing.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Cooking</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Social</key><value>4</value></li>
+      <li><key>Melee</key><value>2</value></li>
+      <li><key>Cooking</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+    <possessions>
+      <li>
+        <key>Beer</key>
+        <value>6</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ConceptualArtist39</defName>
+    <title>conceptual artist</title>
+    <titleShort>artist</titleShort>
+    <baseDesc>[PAWN_nameDef] was well-known in art circles on [PAWN_possessive] home world for [PAWN_possessive] unique and creative conceptual artworks.\n\nNobody was sure exactly what [PAWN_pronoun] was trying to communicate, but [PAWN_possessive] pieces were highly valued by collectors.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Social</li>
+      <li>Caring</li>
+      <li>Hauling</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Artistic</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Artistic</key><value>8</value></li>
+      <li><key>Crafting</key><value>1</value></li>
+    </skillGains>
+    <spawnCategories><li>Offworld</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Evangelist39</defName>
+    <title>evangelist</title>
+    <titleShort>evangelist</titleShort>
+    <baseDesc>As a youth, [PAWN_nameDef] experienced a religious awakening. [PAWN_pronoun] decided to spend the rest of [PAWN_possessive] life spreading the word of [PAWN_possessive] deity, the beauty of its culture, and its unusual medical tradition.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Caring</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Social</key><value>4</value></li>
+      <li><key>Artistic</key><value>4</value></li>
+      <li><key>Medicine</key><value>-3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>AsceticPriest84</defName>
+    <title>ascetic priest</title>
+    <titleShort>priest</titleShort>
+    <baseDesc>After taking a vow of silence, [PAWN_nameDef] joined a monastery to spend [PAWN_possessive] days in quiet contemplation.\n\n[PAWN_pronoun] found happiness growing vegetables in the garden and making cheese in the monastery cellars.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Violent</li>
+      <li>Social</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+      <li>ManualDumb</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Plants</key><value>4</value></li>
+      <li><key>Medicine</key><value>2</value></li>
+      <li><key>Cooking</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <forcedTraits>
+      <Ascetic>0</Ascetic>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EscapedConvict90</defName>
+    <title>escaped convict</title>
+    <titleShort>escapee</titleShort>
+    <baseDesc>[PAWN_nameDef] denies involvement in the crimes that brought about [PAWN_possessive] incarceration in a brutal penal colony. [PAWN_pronoun] escaped by tunneling beneath the perimeter using modified cutlery.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Mining</key><value>4</value></li>
+      <li><key>Crafting</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+      <li>Madman</li>
+      <li>Miner</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Nurse61</defName>
+    <title>nurse</title>
+    <titleShort>nurse</titleShort>
+    <baseDesc>[PAWN_nameDef] worked in a hospital, doing routine work such as changing bandages and taking temperatures.\n\nIt was a busy job, but [PAWN_pronoun] could always find time for a chat with a patient.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Caring</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Social</key><value>4</value></li>
+      <li><key>Medicine</key><value>5</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>ImperialCommon</li>
+      <li>Scientist</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>HouseServant63</defName>
+    <title>house servant</title>
+    <titleShort>servant</titleShort>
+    <baseDesc>[PAWN_nameDef] was a domestic servant to wealthy homeowners.\n\n[PAWN_pronoun] got to know the kitchens and basements of [PAWN_possessive] master's mansion well, but never did any work outside.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>Cleaning</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Cooking</key><value>4</value></li>
+      <li><key>Plants</key><value>-3</value></li>
+      <li><key>Mining</key><value>-3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bodyguard58</defName>
+    <title>bodyguard</title>
+    <titleShort>bodyguard</titleShort>
+    <baseDesc>[PAWN_nameDef] protected whoever paid [PAWN_objective]. [PAWN_pronoun] gained proficiency in many different combat forms, and was known for [PAWN_possessive] ruthlessness against those who crossed [PAWN_objective].</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Shooting</key><value>4</value></li>
+      <li><key>Melee</key><value>4</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <possessions>
+      <li>
+        <key>Gun_Autopistol</key>
+        <value>1</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Mathematician6</defName>
+    <title>mathematician</title>
+    <titleShort>math prof</titleShort>
+    <baseDesc>[PAWN_nameDef] did mathematical research at a university.\n\n[PAWN_pronoun] spent much of [PAWN_possessive] spare time immersed in shooting simulations, though [PAWN_pronoun] was frequently ridiculed by other players for [PAWN_possessive] terrible aim.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Shooting</key><value>-3</value></li>
+      <li><key>Intellectual</key><value>8</value></li>
+    </skillGains>
+    <spawnCategories><li>Offworld</li></spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Paramedic45</defName>
+    <title>paramedic</title>
+    <titleShort>paramedic</titleShort>
+    <baseDesc>[PAWN_nameDef]'s job was to respond rapidly to medical emergencies. [PAWN_pronoun] is used to dealing with severe injuries with only limited medical supplies.\n\n[PAWN_pronoun] treated so many gunshot wounds over the years that even seeing a gun made [PAWN_objective] uncomfortable.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Caring</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Shooting</key><value>-5</value></li>
+      <li><key>Medicine</key><value>6</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>ImperialCommon</li>
+      <li>Scientist</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Gardener99</defName>
+    <title>gardener</title>
+    <titleShort>gardener</titleShort>
+    <baseDesc>[PAWN_nameDef] worked at the mansion of a powerful family, tending the lavish gardens as part of a team of servants.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Crafting</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Plants</key><value>8</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+      <li>Farmer</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <possessions>
+      <li>
+        <key>PlantPot</key>
+        <value>1</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Torturer37</defName>
+    <title>torturer</title>
+    <titleShort>torturer</titleShort>
+    <baseDesc>Working for a tyrannical dictator, [PAWN_nameDef] earned a reputation as an expert in 'persuasion.' Any prisoner who went down into the dungeons left with no secrets - and with [PAWN_nameDef]'s smile scarred permanently into their nightmares.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Social</li>
+      <li>Caring</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Melee</key><value>6</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+      <Psychopath />
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Defector78</defName>
+    <title>defector</title>
+    <titleShort>defector</titleShort>
+    <baseDesc>Early in [PAWN_possessive] adulthood, [PAWN_nameDef] decided to leave the oppressive dictatorship where [PAWN_pronoun] lived. [PAWN_possessive] defection was not well-received, and agents were sent out after [PAWN_objective].\n\n[PAWN_pronoun] spent years on the run, treating [PAWN_possessive] own wounds so no doctor could betray [PAWN_objective]. The ordeal made [PAWN_objective] bitter and untrusting.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Caring</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Shooting</key><value>5</value></li>
+      <li><key>Social</key><value>-4</value></li>
+      <li><key>Medicine</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ConstructionEngineer32</defName>
+    <title>construction engineer</title>
+    <titleShort>builder</titleShort>
+    <baseDesc>[PAWN_nameDef] was a construction worker. [PAWN_pronoun] lead a team which built everything from office blocks to cathedrals.\n\n[PAWN_possessive] busy job and numerous nearby fast-food outlets meant [PAWN_pronoun] never cooked for [PAWN_objective]self.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Cooking</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Construction</key><value>8</value></li>
+      <li><key>Plants</key><value>-3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Rancher43</defName>
+    <title>rancher</title>
+    <titleShort>rancher</titleShort>
+    <baseDesc>[PAWN_nameDef] owned and operated a successful ranch where [PAWN_pronoun] raised animals for meat and wool.\n\n[PAWN_pronoun] refused to do any dumb labour [PAWN_pronoun] could pay someone else to do for [PAWN_objective].</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Animals</key><value>8</value></li>
+      <li><key>Cooking</key><value>-4</value></li>
+      <li><key>Mining</key><value>-4</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Hunter</li>
+    </spawnCategories>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+    <possessions>
+      <li>
+        <key>Apparel_CowboyHat</key>
+        <value>1</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>LowWageWorker7</defName>
+    <title>low-wage worker</title>
+    <titleShort>grunt</titleShort>
+    <baseDesc>[PAWN_nameDef] worked a variety of casual jobs to support [PAWN_possessive] family, gaining a set of basic hands-on skills.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>Cleaning</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Cooking</key><value>4</value></li>
+      <li><key>Plants</key><value>3</value></li>
+      <li><key>Crafting</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Model99</defName> 
+    <title>model</title>
+    <titleShort>model</titleShort>
+    <baseDesc>[PAWN_nameDef] modelled clothes and jewellery for advertisers, and was also used as a physical blueprint for characters in virtual reality simulations.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Intellectual</li>
+      <li>ManualSkilled</li>
+      <li>Caring</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Artistic</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Social</key><value>5</value></li>
+      <li><key>Artistic</key><value>6</value></li>
+    </skillGains>
+    <spawnCategories><li>Offworld</li></spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <forcedTraits>
+      <Beauty>2</Beauty>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Geologist66</defName> 
+    <title>geologist</title>
+    <titleShort>geologist</titleShort>
+    <baseDesc>[PAWN_nameDef] worked with miners and cave-diggers, identifying rock types and natural formations.\n\nDuring [PAWN_possessive] years underground [PAWN_pronoun] also gained experience repairing drilling machines and other technical equipment.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Mining</key><value>8</value></li>
+      <li><key>Crafting</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Scientist</li>
+	    <li>Miner</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <possessions>
+      <li>
+        <key>Jade</key>
+        <value>2</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Jailbird40</defName> 
+    <title>jailbird</title>
+    <titleShort>jailbird</titleShort>
+    <baseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] life in prisons, where [PAWN_pronoun] was put to work in the kitchens. [PAWN_pronoun] had a habit of getting into fights, and developed an aggressive way of speaking.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Social</li>
+      <li>Caring</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Melee</key><value>5</value></li>
+      <li><key>Cooking</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Madman</li>
+    </spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Actor72</defName>
+    <title>actor</title>
+    <titleShort>actor</titleShort>
+    <baseDesc>[PAWN_nameDef] travelled with a company of actors, playing to packed theatres and loving audiences everywhere. [PAWN_pronoun] was a perfectionist, and made [PAWN_possessive] own props and costumes rather than use the ones [PAWN_pronoun] was given.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Social</key><value>8</value></li>
+      <li><key>Crafting</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>ImperialCommon</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Veterinarian99</defName>
+    <title>veterinarian</title>
+    <titleShort>vet</titleShort>
+    <baseDesc>[PAWN_nameDef] treated sick and injured animals for a living. Seeing their suffering affected [PAWN_possessive] stance on the practice of eating meat, and for many years [PAWN_pronoun] lived as a vegetarian.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Caring</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Animals</key><value>4</value></li>
+      <li><key>Medicine</key><value>4</value></li>
+      <li><key>Cooking</key><value>-4</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Scientist</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ExplosivesExpert26</defName>
+    <title>explosives expert</title>
+    <titleShort>blaster</titleShort>
+    <baseDesc>[PAWN_nameDef] was an explosive engineer employed in mines. [PAWN_pronoun] took [PAWN_possessive] job very seriously and was well-versed in the technicalities - so much so that [PAWN_pronoun] refused to demean [PAWN_objective]self by helping with the clean-up once [PAWN_possessive] carefully-calculated explosion was complete.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Mining</key><value>5</value></li>
+      <li><key>Intellectual</key><value>5</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+	    <li>Miner</li>
+    </spawnCategories>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Counselor26</defName>
+    <title>counselor</title>
+    <titleShort>counselor</titleShort>
+    <baseDesc>A terrifying trauma when [PAWN_nameDef] was a young adult caused [PAWN_objective] to develop a serious eating disorder. With counseling [PAWN_pronoun] learned to have a healthier relationship with food, and decided to put [PAWN_possessive] new skills to use helping others overcome their emotional problems.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Cooking</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Social</key><value>9</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Recruiter14</defName>
+    <title>recruiter</title>
+    <titleShort>recruiter</titleShort>
+    <baseDesc>[PAWN_nameDef] was part of a revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.\n\n[PAWN_pronoun] travelled [PAWN_possessive] homeworld, judging the young people [PAWN_pronoun] met to determine if they might be suitable for training.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Melee</key><value>5</value></li>
+      <li><key>Social</key><value>5</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+	    <li>Miner</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Drifter67</defName>
+    <title>drifter</title>
+    <titleShort>drifter</titleShort>
+    <baseDesc>[PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] travelled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li><key>Cooking</key><value>3</value></li>
+      <li><key>Construction</key><value>3</value></li>
+      <li><key>Artistic</key><value>-4</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>MachineCollector55</defName> 
+    <title>machine collector</title>
+    <titleShort>collector</titleShort>
+    <baseDesc>[PAWN_nameDef] was obsessed with old machines and arcane pieces of technology. [PAWN_pronoun] obtained them wherever [PAWN_pronoun] could, and loved taking them apart to see how they worked.\n\n[PAWN_pronoun] had a habit of talking about [PAWN_possessive] collection long after people around [PAWN_objective] had stopped listening.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Crafting</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Social</key><value>-3</value></li>
+      <li><key>Crafting</key><value>6</value></li>
+      <li><key>Intellectual</key><value>6</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Scientist</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ConArtist80</defName>
+    <title>con artist</title>
+    <titleShort>con artist</titleShort>
+    <baseDesc>[PAWN_nameDef] never created anything in [PAWN_possessive] life. [PAWN_pronoun] did, however, prove to be a natural at getting others to give [PAWN_objective] what they had created.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li><key>Social</key><value>10</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>CaveExplorer45</defName>
+    <title>cave explorer</title>
+    <titleShort>cave explorer</titleShort>
+    <baseDesc>[PAWN_nameDef] made a living mapping out dark tunnels and near-inaccessible crevices in search of valuable minerals. [PAWN_possessive] work was very dangerous, but the pay was good.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Mining</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Mining</key><value>8</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Scientist</li>
+	    <li>Miner</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>QuarryWorker29</defName>
+    <title>quarry worker</title>
+    <titleShort>quarry worker</titleShort>
+    <baseDesc>[PAWN_nameDef] worked in a quarry helping to extract valuable stone from the hillside. [PAWN_pronoun] learned to sense opportunities and dangers in the stone by sight, touch, and intuition.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Mining</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Mining</key><value>8</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Scientist</li>
+	    <li>Miner</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ContractMiner86</defName>
+    <title>contract miner</title>
+    <titleShort>contract miner</titleShort>
+    <baseDesc>[PAWN_nameDef] moved from job to job, extracting minerals and ancient valuables in tunnels and strip-mines. The work was tough and dirty, but [PAWN_pronoun] found it rewarding.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Mining</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Mining</key><value>8</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Scientist</li>
+	    <li>Miner</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Logger95</defName>
+    <title>logger</title>
+    <titleShort>logger</titleShort>
+    <baseDesc>[PAWN_nameDef] took down trees and collected wood in hilly passes and ravines. [PAWN_pronoun] learned both how to fell the trees safely, and how to manage the forest to keep it healthy.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Plants</key><value>8</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Scientist</li>
+	    <li>Logger</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <possessions>
+      <li>
+        <key>WoodLog</key>
+        <value>10</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Ranger96</defName>
+    <title>ranger</title>
+    <titleShort>ranger</titleShort>
+    <baseDesc>[PAWN_nameDef] tracked animals and people for a wide range of clients. [PAWN_pronoun] became adept at reading spoor, finding food in the wild, and stalking prey.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Plants</key><value>6</value><key>Shooting</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Scientist</li>
+	    <li>Logger</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Forester96</defName>
+    <title>forester</title>
+    <titleShort>forester</titleShort>
+    <baseDesc>[PAWN_nameDef] grew and harvested forests. [PAWN_pronoun] understood both the practical challenges of soil types, wind, and rain, as well as the long-term planning of forest growth.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Plants</key><value>6</value><key>Intellectual</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Scientist</li>
+	    <li>Logger</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>FurnitureBuilder83</defName>
+    <title>furniture builder</title>
+    <titleShort>builder</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up near forests. [PAWN_pronoun] spent [PAWN_possessive] time building beautiful furniture for wealthy glitterworld clients.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+      <li>Constructing</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Construction</key><value>4</value></li>
+      <li><key>Plants</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Scientist</li>
+	    <li>Logger</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Hunter89</defName>
+    <title>hunter</title>
+    <titleShort>hunter</titleShort>
+    <baseDesc>[PAWN_nameDef] hunted wild animals to help feed [PAWN_possessive] community. When times became tough, others looked to [PAWN_objective] as the one to help people through a tough season.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Animals</key><value>3</value><key>Shooting</key><value>5</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Scientist</li>
+	    <li>Hunter</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <possessions>
+      <li>
+        <key>Leather_Bear</key>
+        <value>10</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Slaughterer58</defName>
+    <title>slaughterer</title>
+    <titleShort>slaughterer</titleShort>
+    <baseDesc>[PAWN_nameDef] slaughtered animals for a living. Others looked down on this work as filthy, but the skills required to manage and cleanly slaughter large numbers of animals were never simple.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Animals</key><value>5</value><key>Shooting</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Scientist</li>
+	    <li>Hunter</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <possessions>
+      <li>
+        <key>Meat_Pig</key>
+        <value>5</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>AnimalFarmer21</defName>
+    <title>animal farmer</title>
+    <titleShort>animal farmer</titleShort>
+    <baseDesc>[PAWN_nameDef] raised a variety of animals to provide meat, milk, eggs, and leather.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Animals</key><value>5</value><key>Shooting</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+      <li>Scientist</li>
+	    <li>Hunter</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <possessions>
+      <li>
+        <key>Kibble</key>
+        <value>10</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>CropFarmer17</defName>
+    <title>crop farmer</title>
+    <titleShort>farmer</titleShort>
+    <baseDesc>[PAWN_nameDef] ran a crop farm. [PAWN_pronoun] analyzed soil, agricultural equipment, weather patterns, and price trends to optimize the planting and harvesting of massive crop fields.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>ImperialCommon</li>
+      <li>Offworld</li>
+	    <li>Farmer</li>
+    </spawnCategories>
+    <skillGains>
+      <li><key>Plants</key><value>8</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <possessions>
+      <li>
+        <key>SunLamp</key>
+        <value>1</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>CorporateManager76</defName>
+    <title>corporate manager</title>
+    <titleShort>manager</titleShort>
+    <baseDesc>[PAWN_nameDef] worked in a massive open-plan office, ensuring that [PAWN_possessive] assigned team of workers stayed mostly on-task.
+\nThe job was intensely political. In order to advance, [PAWN_nameDef] learned how to arrange things so [PAWN_pronoun] could take credit for work done by almost anyone.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>ImperialCommon</li>
+      <li>Offworld</li>
+    </spawnCategories>
+    <skillGains>
+      <li><key>Social</key><value>6</value></li>
+      <li><key>Intellectual</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>LivestockFarmer8</defName> 
+    <title>livestock farmer</title>
+    <titleShort>farmer</titleShort>
+    <baseDesc>[PAWN_nameDef] ran a livestock farm. [PAWN_pronoun] analyzed animal genetics, feed types, birth and slaughter methods, and price trends to optimize the raising of huge animal herds.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>ImperialCommon</li>
+      <li>Offworld</li>
+	    <li>Hunter</li>
+    </spawnCategories>
+    <skillGains>
+      <li><key>Animals</key><value>7</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <possessions>
+      <li>
+        <key>Milk</key>
+        <value>3</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+</Defs>

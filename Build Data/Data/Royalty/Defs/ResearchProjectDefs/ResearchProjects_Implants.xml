@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef Abstract="True" Name="BaseBodyPartEmpire_TierA">
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>1</techprintCommonality>
+    <techprintMarketValue>1000</techprintMarketValue>
+    <heldByFactionCategoryTags><li>Empire</li></heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef Abstract="True" Name="BaseBodyPartEmpire_TierB" ParentName="BaseBodyPartEmpire_TierA">
+    <techLevel>Ultra</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <techprintMarketValue>2000</techprintMarketValue>
+  </ResearchProjectDef>
+
+  <!--========================== Imperial implants Tier A =============================-->
+
+  <ResearchProjectDef ParentName="BaseBodyPartEmpire_TierA">
+    <defName>BrainWiring</defName>
+    <label>brain wiring</label>
+    <description>Craft brain implants that induce or prevent blunt sensations like joy or pain.</description>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>Prosthetics</li>
+    </hiddenPrerequisites>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>4.10</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="BaseBodyPartEmpire_TierA">
+    <defName>SpecializedLimbs</defName>
+    <label>specialized limbs</label>
+    <description>Craft specialized bionic limbs built for specific purposes - both combat and labor.</description>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>Prosthetics</li>
+    </hiddenPrerequisites>
+    <researchViewX>13.00</researchViewX>
+    <researchViewY>4.10</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="BaseBodyPartEmpire_TierA">
+    <defName>CompactWeaponry</defName>
+    <label>compact weaponry</label>
+    <description>Craft compact, concealable bionic weapons which can be embedded in various body parts.</description>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>Prosthetics</li>
+    </hiddenPrerequisites>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>4.60</researchViewY>
+  </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="BaseBodyPartEmpire_TierA">
+    <defName>VenomSynthesis</defName>
+    <label>poison synthesis</label>
+    <description>Craft bionics that synthesize venom from internal chemical reactors for use in toxifying attacks.</description>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>CompactWeaponry</li>
+    </prerequisites>
+    <researchViewX>13.00</researchViewX>
+    <researchViewY>4.60</researchViewY>
+  </ResearchProjectDef>
+
+  <!--========================== Imperial implants Tier B =============================-->
+
+  <ResearchProjectDef ParentName="BaseBodyPartEmpire_TierB">
+    <defName>ArtificialMetabolism</defName>
+    <label>artificial metabolism</label>
+    <description>Craft bionics that process food more safely or efficiently than a biological stomach.</description>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+    <hiddenPrerequisites><li>Prosthetics</li></hiddenPrerequisites>
+    <researchViewX>16.00</researchViewX>
+    <researchViewY>4.30</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="BaseBodyPartEmpire_TierB">
+    <defName>NeuralComputation</defName>
+    <label>neural computation</label>
+    <description>Craft brain implants that assist thought and learning by use of a direct, shallow brain-computer interface.</description>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+    <hiddenPrerequisites><li>Prosthetics</li></hiddenPrerequisites>
+    <researchViewX>16.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="BaseBodyPartEmpire_TierB">
+    <defName>SkinHardening</defName>
+    <label>skin hardening</label>
+    <description>Craft bionic implants which induce the toughening of natural skin, producing an armor-like effect.</description>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+    <hiddenPrerequisites><li>Prosthetics</li></hiddenPrerequisites>
+    <researchViewX>17.00</researchViewX>
+    <researchViewY>3.80</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="BaseBodyPartEmpire_TierB">
+    <defName>HealingFactors</defName>
+    <label>healing factors</label>
+    <description>Craft bionics that enhance natural healing processes.</description>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+    <hiddenPrerequisites><li>Prosthetics</li></hiddenPrerequisites>
+    <researchViewX>17.00</researchViewX>
+    <researchViewY>4.30</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="BaseBodyPartEmpire_TierB">
+    <defName>FleshShaping</defName>
+    <label>flesh shaping</label>
+    <description>Craft bionics which induce the reshaping of natural flesh, usually for the purposes of aesthetic enhancement or personal pleasure.</description>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+    <hiddenPrerequisites><li>Prosthetics</li></hiddenPrerequisites>
+    <researchViewX>17.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="BaseBodyPartEmpire_TierB">
+    <defName>MolecularAnalysis</defName>
+    <label>molecular analysis</label>
+    <description>Craft bionics with molecular analyzers for assisting the immune system or analyzing food.</description>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+    <hiddenPrerequisites><li>Prosthetics</li></hiddenPrerequisites>
+    <researchViewX>18.00</researchViewX>
+    <researchViewY>3.80</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="BaseBodyPartEmpire_TierB">
+    <defName>CircadianInfluence</defName>
+    <label>circadian influence</label>
+    <description>Craft brain implants that chemically manipulate the circadian rhythm, reducing or altering the need to sleep.</description>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+    <hiddenPrerequisites><li>Prosthetics</li></hiddenPrerequisites>
+    <researchViewX>18.00</researchViewX>
+    <researchViewY>4.30</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

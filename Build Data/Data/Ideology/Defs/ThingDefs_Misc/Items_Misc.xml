@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Skull</defName>
+    <label>skull</label>
+    <description>A human skull.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Skull</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>(0.75, 0.75)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>25</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <rotatable>false</rotatable>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <statBases>
+      <Mass>1.5</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>5</MarketValue>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_HasSources"/>
+    </comps>
+  </ThingDef>
+
+</Defs>

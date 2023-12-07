@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+  <ThingDef Abstract="True" Name="AncientMechBuildingBase" ParentName="BuildingBase">
+    <rotatable>false</rotatable>
+    <fillPercent>0.5</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <Flammability>0.5</Flammability>
+      <WorkToBuild>1000</WorkToBuild>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <building>
+      <deconstructible>false</deconstructible>
+      <claimable>false</claimable>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="AncientMechBuildingBase">
+    <defName>AncientMechGestator</defName>
+    <label>ancient mech gestator</label>
+    <description>An ancient mech gestator. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+    <rotatable>true</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientMechGestator</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(6,4)</drawSize>
+      <shadowData>
+        <volume>(3, 2, 1.9)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(3,2)</size>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="AncientMechBuildingBase">
+    <defName>AncientLargeMechGestator</defName>
+    <label>ancient large mech gestator</label>
+    <description>An ancient large mech gestator. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientLargeMechGestator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5.7, 4.275)</drawSize>
+      <shadowData>
+        <volume>(4, 1, 2.9)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(4,3)</size>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="AncientMechBuildingBase">
+    <defName>AncientBasicRecharger</defName>
+    <label>ancient basic recharger</label>
+    <description>An ancient basic recharger. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+    <rotatable>true</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientBasicRecharger</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.9,1.25)</drawSize>
+      <shadowData>
+        <volume>(2.9, 0.5, 0.9)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(3,1)</size>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="AncientMechBuildingBase">
+    <defName>AncientStandardRecharger</defName>
+    <label>ancient standard recharger</label>
+    <description>An ancient standard recharger. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientStandardRecharger</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.8,2.8)</drawSize>
+      <shadowData>
+        <volume>(2.8, 0.5, 1.8)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(3,2)</size>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="AncientMechBuildingBase">
+    <defName>AncientToxifierGenerator</defName>
+    <label>ancient toxifier generator</label>
+    <description>An ancient toxifier generator. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientToxifierGenerator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(1.8, 2, 1.8)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="AncientMechBuildingBase">
+    <defName>AncientBandNode</defName>
+    <label>ancient band node</label>
+    <description>An ancient band node. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientBandNode</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(0.9, 1, 0.9)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+    </statBases>
+  </ThingDef>
+
+</Defs>

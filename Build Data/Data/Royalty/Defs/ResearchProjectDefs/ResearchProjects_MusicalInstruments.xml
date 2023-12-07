@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>Harp</defName>
+    <label>harp</label>
+    <description>Craft the harp, a simple stationary musical instrument popular among nobility in some cultures.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+    <prerequisites>
+      <li>ComplexFurniture</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Harpsichord</defName>
+    <label>harpsichord</label>
+    <description>Craft the harpsichord, a complex stationary musical instrument.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+    <prerequisites>
+      <li>Harp</li>
+      <li>Smithing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Piano</defName>
+    <label>piano</label>
+    <description>Craft the piano, an advanced stationary musical instrument.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+    <prerequisites>
+      <li>Harpsichord</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

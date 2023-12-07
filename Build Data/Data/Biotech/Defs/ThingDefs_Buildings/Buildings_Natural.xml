@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Abstract="True" Name="CocoonBase" ParentName="BuildingNaturalBase">
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <pathCost>42</pathCost>
+    <blockWind>true</blockWind>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <receivesSignals>true</receivesSignals>
+    <building>
+      <isInsectCocoon>true</isInsectCocoon>
+    </building>
+    <comps>
+      <li Class="CompProperties_CanBeDormant">
+        <startsDormant>true</startsDormant>
+        <wakeUpDelayRange>162</wakeUpDelayRange>
+        <wakeUpEffect>CocoonWakingUp</wakeUpEffect>
+        <maxDistAwakenByOther>3</maxDistAwakenByOther>
+        <wakeUpRepeatSignalDelayRange>30~60</wakeUpRepeatSignalDelayRange>
+        <delayedWakeUpDoesZs>false</delayedWakeUpDoesZs>
+        <showSleepingZs>false</showSleepingZs>
+        <wakeUpDelayStateLabelKey>DormantCompOpening</wakeUpDelayStateLabelKey>
+      </li>
+      <li Class="CompProperties_WakeUpDormant">
+        <wakeUpIfAnyTargetClose>true</wakeUpIfAnyTargetClose>
+        <wakeUpCheckRadius>4.9</wakeUpCheckRadius>
+        <wakeUpOnThingConstructedRadius>4.9</wakeUpOnThingConstructedRadius>
+        <wakeUpTargetingParams>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>false</canTargetAnimals>
+          <canTargetMechs>false</canTargetMechs>
+          <canTargetHumans>true</canTargetHumans>
+        </wakeUpTargetingParams>
+        <wakeUpWithDelay>true</wakeUpWithDelay>
+        <radiusCheckInspectPaneKey>TriggerRadius</radiusCheckInspectPaneKey>
+        <activateMessageKey>MessageCocoonDisturbed</activateMessageKey>
+        <activatePluralMessageKey>MessageCocoonDisturbedPlural</activatePluralMessageKey>
+      </li>
+      <li Class="CompProperties_SelfhealHitpoints">
+        <ticksPerHeal>6000</ticksPerHeal>
+      </li>
+      <li Class="CompProperties_SpawnerFilth">
+        <filthDef>Filth_Slime</filthDef>
+        <spawnCountOnSpawn>10</spawnCountOnSpawn>
+        <spawnMtbHours>4</spawnMtbHours>
+        <spawnRadius>1</spawnRadius>
+      </li>
+      <li Class="CompProperties_SpawnEffecterOnDestroy">
+        <effect>CocoonDestroyed</effect>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_CocoonTriggerRadius</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+  </ThingDef>
+
+  <ThingDef ParentName="CocoonBase">
+    <defName>CocoonMegaspider</defName>
+    <label>megaspider cocoon</label>
+    <description>A stasis cocoon containing a megaspider.\n\nWhen conditions are inhospitable, insects sometimes form stasis cocoons and burrow underground. These cocoons keep insects safe from fire, extreme temperatures, and other threats for years.\n\nPollutants can stimulate cocoons and cause them to resurface, and strong pollutants can attract cocoons from great distances.\n\nCocoons do nothing if they are not disturbed. If a cocoon is disturbed or destroyed, the insect within will awaken and attack, triggering other nearby cocoons in the process.</description>
+    <graphicData>
+      <texPath>Things/Building/Natural/CocoonMegaspider</texPath>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <building>
+      <combatPower>150</combatPower>
+    </building>
+    <comps>
+      <li Class="CompProperties_PawnSpawnOnWakeup">
+        <pawnSpawnRadius>0</pawnSpawnRadius>
+        <points>150</points>
+        <spawnablePawnKinds>
+          <li>Megaspider</li>
+        </spawnablePawnKinds>
+        <lordJob>LordJob_AssaultColony</lordJob>
+        <shouldJoinParentLord>True</shouldJoinParentLord>
+        <mentalState>CocoonDisturbed</mentalState>
+        <destroyAfterSpawn>true</destroyAfterSpawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CocoonBase">
+    <defName>CocoonMegascarab</defName>
+    <label>megascarab cocoon</label>
+    <description>A stasis cocoon containing a megascarab.\n\nWhen conditions are inhospitable, insects sometimes form stasis cocoons and burrow underground. These cocoons keep insects safe from fire, extreme temperatures, and other threats for years.\n\nPollutants can stimulate cocoons and cause them to resurface, and strong pollutants can attract cocoons from great distances.\n\nCocoons do nothing if they are not disturbed. If a cocoon is disturbed or destroyed, the insect within will awaken and attack, triggering other nearby cocoons in the process.</description>
+    <graphicData>
+      <texPath>Things/Building/Natural/CocoonMegascarab</texPath>
+    </graphicData>
+    <building>
+      <combatPower>40</combatPower>
+    </building>
+    <comps>
+      <li Class="CompProperties_PawnSpawnOnWakeup">
+        <pawnSpawnRadius>0</pawnSpawnRadius>
+        <points>40</points>
+        <spawnablePawnKinds>
+          <li>Megascarab</li>
+        </spawnablePawnKinds>
+        <lordJob>LordJob_AssaultColony</lordJob>
+        <shouldJoinParentLord>True</shouldJoinParentLord>
+        <mentalState>CocoonDisturbed</mentalState>
+        <destroyAfterSpawn>true</destroyAfterSpawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CocoonBase">
+    <defName>CocoonSpelopede</defName>
+    <label>spelopede cocoon</label>
+    <description>A stasis cocoon containing a spelopede.\n\nWhen conditions are inhospitable, insects sometimes form stasis cocoons and burrow underground. These cocoons keep insects safe from fire, extreme temperatures, and other threats for years.\n\nPollutants can stimulate cocoons and cause them to resurface, and strong pollutants can attract cocoons from great distances.\n\nCocoons do nothing if they are not disturbed. If a cocoon is disturbed or destroyed, the insect within will awaken and attack, triggering other nearby cocoons in the process.</description>
+    <graphicData>
+      <texPath>Things/Building/Natural/CocoonSpelopede</texPath>
+    </graphicData>
+    <building>
+      <combatPower>75</combatPower>
+    </building>
+    <comps>
+      <li Class="CompProperties_PawnSpawnOnWakeup">
+        <pawnSpawnRadius>0</pawnSpawnRadius>
+        <points>75</points>
+        <spawnablePawnKinds>
+          <li>Spelopede</li>
+        </spawnablePawnKinds>
+        <lordJob>LordJob_AssaultColony</lordJob>
+        <shouldJoinParentLord>True</shouldJoinParentLord>
+        <mentalState>CocoonDisturbed</mentalState>
+        <destroyAfterSpawn>true</destroyAfterSpawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TransportShipDef>
+    <defName>Ship_Shuttle</defName>
+    <label>shuttle</label>
+    <shipThing>Shuttle</shipThing>
+    <arrivingSkyfaller>ShuttleIncoming</arrivingSkyfaller>
+    <leavingSkyfaller>ShuttleLeaving</leavingSkyfaller>
+    <worldObject>TravelingShuttle</worldObject>
+    <maxLaunchDistance>70</maxLaunchDistance>
+  </TransportShipDef>
+  
+  <ShipJobDef>
+    <defName>FlyAway</defName>
+    <jobClass>ShipJob_FlyAway</jobClass>
+    <blocksDisposalIfQueuedUnspawned>false</blocksDisposalIfQueuedUnspawned>
+  </ShipJobDef>
+
+  <ShipJobDef>
+    <defName>Unload_Destination</defName>
+    <jobClass>ShipJob_Unload</jobClass>
+  </ShipJobDef>
+
+  <ShipJobDef>
+    <defName>WaitForever</defName>
+    <jobClass>ShipJob_WaitForever</jobClass>
+  </ShipJobDef>
+
+  <ShipJobDef>
+    <defName>WaitSendable</defName>
+    <jobClass>ShipJob_WaitSendable</jobClass>
+  </ShipJobDef>
+
+</Defs>

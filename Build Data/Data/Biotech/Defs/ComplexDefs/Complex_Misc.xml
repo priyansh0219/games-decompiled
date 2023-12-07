@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ComplexDef>
+    <defName>AncientComplex_Mechanitor_Loot</defName>
+    <workerClass>ComplexWorker_Mechanitor</workerClass>
+    <roomRewardCrateFactor>0</roomRewardCrateFactor>
+    <roomDefs>
+      <li>AncientRechargeRoom</li>
+      <li>AncientMechGestatorRoom</li>
+      <li>AncientMechGeneratorRoom</li>
+      <li>AncientBandNodeRoom</li>
+    </roomDefs>
+    <threats>
+      <li>
+        <def>SleepingMechanoids</def>
+      </li>
+      <li>
+        <def>MechDrop</def>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <def>FuelNode</def>
+        <maxPerRoom>1</maxPerRoom>
+        <selectionWeight>3</selectionWeight>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <def>RaidTerminal</def>
+        <maxPerComplex>1</maxPerComplex>
+        <chancePerComplex>0.5</chancePerComplex>
+      </li>
+    </threats>
+  </ComplexDef>
+
+</Defs>

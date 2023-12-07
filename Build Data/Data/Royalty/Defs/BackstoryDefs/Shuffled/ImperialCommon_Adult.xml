@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============================== Imperial domestic ============================-->
+
+  <BackstoryDef>
+    <defName>HouseServant86</defName>
+    <title>house servant</title>
+    <titleShort>servant</titleShort>
+    <baseDesc>[PAWN_nameDef] was a low-level servant in a royal house.
+\n[PAWN_pronoun] cleaned rooms and moved items as directed by the senior staff, while attempting to remain invisible to the lords and ladies of the house.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories><li>ImperialCommon</li></spawnCategories>
+    <skillGains>
+      <li><key>Cooking</key><value>3</value></li>
+      <li><key>Construction</key><value>3</value></li>
+      <li><key>Mining</key><value>4</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>HeadButler50</defName>
+    <title>head butler</title>
+    <titleShort>butler</titleShort>
+    <baseDesc>[PAWN_nameDef] was the head servant in a royal house.
+\n[PAWN_pronoun] managed the other servants to ensure the lord's will was done, even before the lord knew what it was.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+    <spawnCategories><li>ImperialCommon</li></spawnCategories>
+    <skillGains>
+      <li><key>Social</key><value>4</value></li>
+      <li><key>Cooking</key><value>3</value></li>
+      <li><key>Crafting</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+      <li>Social</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>RoyalMasseuse43</defName>
+    <title>royal masseuse</title>
+    <titleShort>masseuse</titleShort>
+    <baseDesc>[PAWN_nameDef] was a massage artist for an extended royal house. [PAWN_pronoun] serviced many members of the royal family, and their guests.
+\n[PAWN_nameDef] occasionally offered something extra, if the lord or lady was in the mood. Advancing in this line of work meant having refined social skills.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories><li>ImperialCommon</li></spawnCategories>
+    <skillGains>
+      <li><key>Social</key><value>6</value></li>
+    </skillGains>
+    <forcedTraits>
+      <Beauty>2</Beauty>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>MenagerieKeeper1</defName>
+    <title>menagerie keeper</title>
+    <titleShort>zookeeper</titleShort>
+    <baseDesc>[PAWN_nameDef] managed the royal menagerie of a powerful family at their estate.
+\n[PAWN_nameDef]'s job saw [PAWN_pronoun] feeding elephants, tranquilizing lions, and training birds to display their plumage to titled visitors.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories><li>ImperialCommon</li></spawnCategories>
+    <skillGains>
+      <li><key>Animals</key><value>8</value></li>
+    </skillGains>
+    <forcedTraits>
+      <Beauty>2</Beauty>
+    </forcedTraits>
+    <requiredWorkTags>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <possessions>
+      <li>
+        <key>Kibble</key>
+        <value>3</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BalletDancer81</defName>
+    <title>ballet dancer</title>
+    <titleShort>dancer</titleShort>
+    <titleShortFemale>ballerina</titleShortFemale>
+    <baseDesc>[PAWN_nameDef] was a dancer in a traditional ballet troupe. [PAWN_pronoun] mastered the ancient motions and entertained thousands.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <spawnCategories><li>ImperialCommon</li></spawnCategories>
+    <skillGains>
+      <li><key>Social</key><value>3</value></li>
+      <li><key>Melee</key><value>3</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <Nimble>0</Nimble>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>OrnamentMaker56</defName>
+    <title>ornament maker</title>
+    <titleShort>ornamenter</titleShort>
+    <baseDesc>[PAWN_nameDef] crafted watches, medals, machined jewelry and other complex curios for royal patrons.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <spawnCategories><li>ImperialCommon</li></spawnCategories>
+    <skillGains>
+      <li><key>Crafting</key><value>5</value></li>
+      <li><key>Artistic</key><value>5</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Artistic</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>RoyalCook18</defName>
+    <title>royal cook</title>
+    <titleShort>cook</titleShort>
+    <baseDesc>[PAWN_nameDef] made meals for [PAWN_possessive] aristocratic patrons.
+\nOnly the finest food was acceptable, so [PAWN_nameDef] tended a small garden on the mansion grounds to get the freshest herbs and vegetables. [PAWN_pronoun] fell in love with the food [PAWN_objective]self.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+    <spawnCategories><li>ImperialCommon</li></spawnCategories>
+    <skillGains>
+      <li><key>Cooking</key><value>7</value></li>
+      <li><key>Plants</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Cooking</li>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <Gourmand>0</Gourmand>
+    </forcedTraits>
+    <possessions>
+      <li>
+        <key>MealLavish</key>
+        <value>2</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <!--============================== Imperial religious ============================-->
+
+  <BackstoryDef>
+    <defName>ImperialPriest24</defName>
+    <title>imperial priest</title>
+    <titleShort>priest</titleShort>
+    <titleShortFemale>priestess</titleShortFemale>
+    <baseDesc>[PAWN_nameDef] was a priest in the imperial church.
+\n[PAWN_pronoun] spent half [PAWN_possessive] time studying books to understand the relationship between God's aspects and the facets of [PAWN_possessive] society. The other half was spent preaching the evils of sloth and drink.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories><li>ImperialCommon</li></spawnCategories>
+    <skillGains>
+      <li><key>Social</key><value>5</value></li>
+      <li><key>Intellectual</key><value>5</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <DrugDesire>-1</DrugDesire>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ImperialInquisitor53</defName>
+    <title>imperial inquisitor</title>
+    <titleShort>inquisitor</titleShort>
+    <titleShortFemale>inquisitress</titleShortFemale>
+    <baseDesc>[PAWN_nameDef] was an inquisitor in the imperial church's anti-heresy school.
+\n[PAWN_nameDef] hunted unorthodox thoughts wherever they could be found - art, music, code, even private conversations. Upon finding deviance, [PAWN_pronoun] exposed it to bring on the punishment of the collective. And [PAWN_pronoun] could always find the deviance if [PAWN_pronoun] looked hard enough.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <spawnCategories><li>ImperialCommon</li></spawnCategories>
+    <skillGains>
+      <li><key>Social</key><value>4</value></li>
+      <li><key>Intellectual</key><value>4</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <Abrasive>0</Abrasive>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ChurchPsychic98</defName>
+    <title>church psychic</title>
+    <titleShort>psychic</titleShort>
+    <baseDesc>[PAWN_nameDef] was a psychic in the imperial church's psychic school.
+\n[PAWN_nameDef] trained [PAWN_possessive] mind to sense the collective emotions and impressions of the people. It was a way to touch the spirit of the empire. It was also a way to root out heretical trends in thought.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <spawnCategories><li>ImperialCommon</li></spawnCategories>
+    <skillGains>
+      <li><key>Social</key><value>3</value></li>
+      <li><key>Intellectual</key><value>5</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <PsychicSensitivity>2</PsychicSensitivity>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <!--============================== Imperial corporate ============================-->
+
+  <BackstoryDef>
+    <defName>CorporateDrone10</defName>
+    <title>corporate drone</title>
+    <titleShort>drone</titleShort>
+    <baseDesc>[PAWN_nameDef] worked in a very large office complex along with thousands of other suited drones.
+\nThe work itself consisted of endless organizational drudgery and pointless meetings, punctuated by the occasional performance review.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>ImperialCommon</li>
+      <li>Offworld</li>
+    </spawnCategories>
+    <skillGains>
+      <li><key>Social</key><value>2</value></li>
+      <li><key>Intellectual</key><value>4</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>CorporateFixer36</defName>
+    <title>corporate fixer</title>
+    <titleShort>fixer</titleShort>
+    <baseDesc>[PAWN_nameDef] was a fixer for an energy corporation. [PAWN_pronoun] work required knowing when to push, when to pull, when to back down and when to strike. The job fit [PAWN_possessive] natural lack of empathy.
+\nWhile violence was unusual, [PAWN_nameDef] stayed prepared for anything.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories><li>ImperialCommon</li></spawnCategories>
+    <skillGains>
+      <li><key>Social</key><value>4</value></li>
+      <li><key>Shooting</key><value>3</value></li>
+      <li><key>Melee</key><value>3</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <Psychopath>0</Psychopath>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PlanetaryMiner64</defName>
+    <title>planetary miner</title>
+    <titleShort>miner</titleShort>
+    <baseDesc>[PAWN_nameDef] was a mining engineer for a major planetary mining corporation. [PAWN_pronoun] work kept [PAWN_objective] underground for weeks at a time, and [PAWN_pronoun] grew to appreciate the darkness.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+    <spawnCategories><li>ImperialCommon</li><li>Miner</li></spawnCategories>
+    <skillGains>
+      <li><key>Mining</key><value>8</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Mining</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <Undergrounder>0</Undergrounder>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Mailman2</defName>
+    <title>mailman</title>
+    <titleFemale>mail carrier</titleFemale>
+    <titleShort>mailman</titleShort>
+    <titleShortFemale>mailwoman</titleShortFemale>
+    <baseDesc>[PAWN_nameDef] carried mail on [PAWN_possessive] assigned routes. Sometimes [PAWN_pronoun] was even sent to deliver special packages to stylish corporate offices or mansions.
+\n[PAWN_nameDef] got pretty good at avoiding and fighting off angry dogs.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>ImperialCommon</li>
+      <li>Offworld</li>
+    </spawnCategories>
+    <skillGains>
+      <li><key>Melee</key><value>4</value></li>
+    </skillGains>
+    <forcedTraits>
+      <Nimble>0</Nimble>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Assembler69</defName>
+    <title>assembler</title>
+    <titleShort>assembler</titleShort>
+    <baseDesc>[PAWN_nameDef] worked on factory assembly lines, putting together products with the help of robots.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>ImperialCommon</li>
+      <li>Offworld</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Crafting</key><value>7</value></li>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Builder96</defName>
+    <title>builder</title>
+    <titleShort>builder</titleShort>
+    <baseDesc>[PAWN_nameDef] worked on construction sites, building everyday structures according to [PAWN_possessive] boss' instructions.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <spawnCategories>
+      <li>ImperialCommon</li>
+      <li>Offworld</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Construction</key><value>7</value></li>
+    </skillGains>
+  </BackstoryDef>
+
+</Defs>

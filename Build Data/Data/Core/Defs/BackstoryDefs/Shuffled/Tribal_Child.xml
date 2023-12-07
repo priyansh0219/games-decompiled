@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <defName>TribeChild40</defName>
+    <title>tribe child</title>
+    <titleShort>tribal</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up in a tribe, running around the village, moving with the muffalo herds, learning essential skills from [PAWN_possessive] parents.\n\n[PAWN_pronoun] never learned to read and never saw a machine that wasn't an ancient ruin.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Plants</key><value>2</value></li>
+      <li><key>Melee</key><value>2</value></li>
+      <li><key>Shooting</key><value>2</value></li>
+      <li><key>Intellectual</key><value>-3</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>AbandonedChild23</defName>
+    <title>abandoned child</title>
+    <titleShort>abandoned</titleShort>
+    <baseDesc>[PAWN_nameDef] was born sickly. Thinking that [PAWN_pronoun] would only burden the tribe, [PAWN_possessive] parents exposed [PAWN_objective] to the elements. Somehow, [PAWN_pronoun] survived.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Melee</key><value>3</value></li>
+      <li><key>Crafting</key><value>3</value></li>
+      <li><key>Social</key><value>-2</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ReclusiveChild81</defName>
+    <title>reclusive child</title>
+    <titleShort>reclusive</titleShort>
+    <baseDesc>[PAWN_nameDef] didn't learn to speak until [PAWN_pronoun] was nearly five years old. Even then [PAWN_pronoun] preferred to keep to [PAWN_objective]self.
+\nTo the chagrin of [PAWN_possessive] caretakers, [PAWN_pronoun] made a habit of wandering off to live in the wilderness for weeks at a time.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Melee</key><value>4</value></li>
+      <li><key>Crafting</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Herder19</defName>
+    <title>herder</title>
+    <titleShort>herder</titleShort>
+    <baseDesc>[PAWN_nameDef] tended the muffalo herds, keeping them safe from predators and treating sick animals. It was quiet work, but [PAWN_pronoun] enjoyed being away from people.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Medicine</key><value>3</value></li>
+      <li><key>Melee</key><value>3</value></li>
+      <li><key>Social</key><value>-2</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Scavenger22</defName>
+    <title>scavenger</title>
+    <titleShort>scavenger</titleShort>
+    <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] childhood escaping grunt work to go digging through wrecks and ruins for treasures. [PAWN_possessive] natural curiosity got [PAWN_objective] into a lot of trouble, but it also yielded many interesting finds.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Mining</key><value>3</value></li>
+      <li><key>Intellectual</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>CaveChild30</defName>
+    <title>cave child</title>
+    <titleShort>cave child</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up in a large and intricate cave complex that extended deep into a mountainside. [PAWN_pronoun] helped the adults maintain and improve the deep caves.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Mining</key><value>3</value></li>
+      <li><key>Construction</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+    <forcedTraits>
+      <Undergrounder>0</Undergrounder>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>SoleSurvivor21</defName>
+    <title>sole survivor</title>
+    <titleShort>survivor</titleShort>
+    <baseDesc>[PAWN_nameDef]'s entire tribe was wiped out in a raid. Though [PAWN_pronoun] was adopted by another group, [PAWN_pronoun] was emotionally scarred, and preferred to stay near home, cooking and tending crops.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Plants</key><value>3</value></li>
+      <li><key>Cooking</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li><li>TribalFarmer</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>VengefulChild43</defName>
+    <title>vengeful child</title>
+    <titleShort>vengeful</titleShort>
+    <baseDesc>As a child, [PAWN_nameDef] returned to [PAWN_possessive] village to find that it had been wiped out by bandits. [PAWN_pronoun] swore revenge on the attackers and began a violent rampage across the wilderness.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Melee</key><value>3</value></li>
+      <li><key>Shooting</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>FireKeeper44</defName> 
+    <title>fire keeper</title>
+    <titleShort>firekeep</titleShort>
+    <baseDesc>[PAWN_nameDef] was responsible for keeping the tribe's fire going. [PAWN_pronoun] took this responsibility very seriously.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Crafting</key><value>2</value></li>
+      <li><key>Cooking</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Hideaway7</defName>
+    <title>hideaway</title>
+    <titleShort>hideaway</titleShort>
+    <baseDesc>[PAWN_nameDef]'s overprotective parents encouraged [PAWN_objective] to stay at home nearly every day. Though [PAWN_pronoun] had a lot of time to read and pursue crafting hobbies, [PAWN_pronoun] never developed normal social skills.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Intellectual</key><value>3</value></li>
+      <li><key>Crafting</key><value>3</value></li>
+      <li><key>Social</key><value>-2</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>CrashBaby32</defName> 
+    <title>crash baby</title>
+    <titleShort>crashbaby</titleShort>
+    <baseDesc>As a baby, [PAWN_nameDef] was the only survivor of a deadly spacecraft crash. A passing tribe discovered [PAWN_objective] in the wreckage and adopted [PAWN_objective].</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Social</key><value>3</value></li>
+      <li><key>Intellectual</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BuddingArtist44</defName>
+    <title>budding artist</title>
+    <titleShort>artist</titleShort>
+    <baseDesc>[PAWN_nameDef] had a knack for art. Traders and collectors from many different societies sought to buy [PAWN_possessive] creations.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Artistic</key><value>5</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bully70</defName>
+    <title>bully</title>
+    <titleShort>bully</titleShort>
+    <baseDesc>[PAWN_nameDef] tormented other children for fun. To keep [PAWN_objective] busy, an elder assigned [PAWN_objective] to a hunting party at an early age.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Melee</key><value>2</value></li>
+      <li><key>Shooting</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bookworm19</defName>
+    <title>bookworm</title>
+    <titleShort>bookworm</titleShort>
+    <baseDesc>Rather than socialize with the other children, [PAWN_nameDef] preferred to get lost in literature. [PAWN_pronoun] taught [PAWN_objective]self to read at an early age with books bought from passing traders.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Intellectual</key><value>6</value></li>
+      <li><key>Artistic</key><value>2</value></li>
+      <li><key>Social</key><value>-3</value></li>
+    </skillGains>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+  </BackstoryDef>
+
+</Defs>

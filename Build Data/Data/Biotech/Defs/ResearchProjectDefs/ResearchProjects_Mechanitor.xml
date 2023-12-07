@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef Abstract="True" Name="MechtechBase">
+    <techLevel>Industrial</techLevel>
+    <requiresMechanitor>true</requiresMechanitor>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="MechtechBase">
+    <defName>BasicMechtech</defName>
+    <label>basic mechtech</label>
+    <description>The technology needed for your mechanitor to create and control basic-tier mechanoids.</description>
+    <baseCost>200</baseCost>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>0.30</researchViewY>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <heldByFactionCategoryTags Inherit="False" />
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="MechtechBase">
+    <defName>StandardMechtech</defName>
+    <label>standard mechtech</label>
+    <description>The technology needed for your mechanitor to create and control standard-tier mechanoids.\n\nYou can get signal chips by using a mechanitor to summon a diabolus threat.</description>
+    <baseCost>1000</baseCost>
+    <researchViewX>13.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <techprintMarketValue>1000</techprintMarketValue>
+    <prerequisites>
+      <li>BasicMechtech</li>
+    </prerequisites>
+    <requiredStudied>
+      <li>SignalChip</li>
+    </requiredStudied>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="MechtechBase">
+    <defName>HighMechtech</defName>
+    <label>high mechtech</label>
+    <description>The technology needed for your mechanitor to create and control high-tier mechanoids.\n\nYou can get powerfocus chips by using a mechanitor to summon a war queen threat.</description>
+    <baseCost>3000</baseCost>
+    <researchViewX>14.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <techprintMarketValue>1500</techprintMarketValue>
+    <prerequisites>
+      <li>StandardMechtech</li>
+      <li>MultiAnalyzer</li>
+    </prerequisites>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <requiredStudied>
+      <li>PowerfocusChip</li>
+    </requiredStudied>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="MechtechBase">
+    <defName>UltraMechtech</defName>
+    <label>ultra mechtech</label>
+    <description>The advanced technology needed for your mechanitor to create and control ultra-tier mechanoids, including large mechs and ultra-tier mechanitor gear.\n\nYou can get nano structuring chips by using a mechanitor to summon an apocriton threat.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <researchViewX>15.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <prerequisites>
+      <li>Fabrication</li>
+      <li>HighMechtech</li>
+    </prerequisites>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <requiredStudied>
+      <li>NanostructuringChip</li>
+    </requiredStudied>
+  </ResearchProjectDef>
+
+  <!-- =========================================================== -->
+
+  <ResearchProjectDef>
+    <defName>WastepackAtomizer</defName>
+    <label>wastepack atomizer</label>
+    <description>Build wastepack atomizers which can safely dispose of toxic wastepacks by decomposing them at the molecular level.</description>
+    <baseCost>8000</baseCost>
+    <researchViewX>17.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <requiredStudied>
+      <li>NanostructuringChip</li>
+    </requiredStudied>
+  </ResearchProjectDef>
+  
+</Defs>

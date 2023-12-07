@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>NobleApparel</defName>
+    <label>noble apparel</label>
+    <description>Tailor noble-specific apparel like formal shirts and royal robes.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.80</researchViewY>
+    <prerequisites>
+      <li>ComplexClothing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>RoyalApparel</defName>
+    <label>royal apparel</label>
+    <description>Tailor royal apparel of the highest tier, like royal robes and crowns.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.80</researchViewY>
+    <prerequisites>
+      <li>NobleApparel</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>Smithing</li>
+    </hiddenPrerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CataphractArmor</defName>
+    <label>cataphract armor</label>
+    <description>Craft cataphract armor, heavy powered armor that slows the user but which can absorb extreme punishment. Note that these also require advanced components.</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>PoweredArmor</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>17.00</researchViewX>
+    <researchViewY>0.80</researchViewY>
+    <techprintCount>2</techprintCount>
+    <techprintCommonality>3</techprintCommonality>
+    <techprintMarketValue>3000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>JumpPack</defName>
+    <label>jump packs</label>
+    <description>Build jump packs to perform aerial assaults during combat.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>Machining</li>
+    </hiddenPrerequisites>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>2</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+      <li>Outlander</li>
+    </heldByFactionCategoryTags>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>3.60</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Gunlink</defName>
+    <label>gunlink</label>
+    <description>Build wearable gunlinks to enhance your soldiers' shooting accuracy.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>15.00</researchViewX>
+    <researchViewY>4.5</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Worker -->
+
+  <BackstoryDef>
+    <defName>Hunter74</defName>
+    <title>hunter</title>
+    <titleShort>hunter</titleShort>
+    <baseDesc>[PAWN_nameDef] tracked, trapped and killed animals for their meat and leather.
+\n[PAWN_nameDef] used both ranged and melee weapons. Sometimes, [PAWN_pronoun] hunted alongside animals.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalHunter</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Shooting</key><value>4</value></li>
+      <li><key>Melee</key><value>3</value></li>
+      <li><key>Animals</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Logger16</defName>
+    <title>logger</title>
+    <titleShort>logger</titleShort>
+    <baseDesc>[PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalLogger</li></spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <skillGains>
+      <li><key>Plants</key><value>6</value></li>
+      <li><key>Melee</key><value>3</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <possessions>
+      <li>
+        <key>WoodLog</key>
+        <value>10</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <defName>Gatherer70</defName>
+    <title>gatherer</title>
+    <titleShort>gatherer</titleShort>
+    <baseDesc>Using [PAWN_possessive] knowledge of plants, roots, and berries, [PAWN_nameDef] could find food in even the most barren landscapes. [PAWN_pronoun] stayed away from animals.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalFarmer</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Plants</key><value>8</value></li>
+      <li><key>Animals</key><value>-2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Digger66</defName>
+    <title>digger</title>
+    <titleShort>digger</titleShort>
+    <baseDesc>[PAWN_nameDef] carved living spaces and mined minerals from the sides of hills and mountains. [PAWN_pronoun] learned to feel at home picking through rock and shoring up cave walls.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalMiner</li></spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <skillGains>
+      <li><key>Mining</key><value>6</value></li>
+      <li><key>Construction</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Mining</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <Undergrounder>0</Undergrounder>
+    </forcedTraits>
+    <possessions>
+      <li>
+        <key>Jade</key>
+        <value>3</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Weaver63</defName>
+    <title>weaver</title>
+    <titleShort>weaver</titleShort>
+    <baseDesc>[PAWN_nameDef] was an expert at working wool, plant fibers and natural dyes into beautiful clothing for [PAWN_possessive] kin. [PAWN_possessive] handicrafts were traded frequently with other settlements.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Crafting</key><value>6</value></li>
+      <li><key>Plants</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Crafting</li>
+    </requiredWorkTags>
+    <possessions>
+      <li>
+        <key>Cloth</key>
+        <value>10</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Framer37</defName>
+    <title>framer</title>
+    <titleShort>framer</titleShort>
+    <baseDesc>[PAWN_nameDef] was responsible for erecting structures for [PAWN_possessive] fellow tribespeople to live in. This included both temporary structures for nomadic travel, and permanent settlements. Gathering building materials from local plant life was part of the job.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Construction</key><value>6</value></li>
+      <li><key>Plants</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>StewKeeper95</defName> 
+    <title>stew keeper</title>
+    <titleShort>stewkeeper</titleShort>
+    <baseDesc>[PAWN_nameDef] prepared meals from the plants and animals brought in by gatherers, farmers, and hunters of [PAWN_possessive] tribe. [PAWN_pronoun] had to make sure it was calorie-efficient, long-lasting, and healthy. [PAWN_pronoun] often processed and sometime gathered plants [PAWN_objective]self.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Cooking</key><value>6</value></li>
+      <li><key>Plants</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Cooking</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Tamer79</defName>
+    <title>tamer</title>
+    <titleShort>tamer</titleShort>
+    <baseDesc>[PAWN_nameDef]'s role in [PAWN_possessive] tribe was to connect with the natural world around - especially the world of animals. In addition to fulfilling a spiritual role, [PAWN_pronoun] also tamed wild beasts and cared for them as they served the tribe.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Animals</key><value>6</value></li>
+      <li><key>Social</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Animals</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Carver1</defName>
+    <title>carver</title>
+    <titleShort>carver</titleShort>
+    <baseDesc>[PAWN_nameDef] carved artworks for [PAWN_possessive] tribe from wood, stone, and occasionally, more exotic materials. The work was sometimes sold, and sometimes kept to beautify settlements and provide a focus for rituals.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Artistic</key><value>7</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Artistic</li>
+    </requiredWorkTags>
+    <possessions>
+      <li>
+        <key>WoodLog</key>
+        <value>1</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Healer46</defName>
+    <title>healer</title>
+    <titleShort>healer</titleShort>
+    <baseDesc>After [PAWN_possessive] tribe's elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalFarmer</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Medicine</key><value>5</value></li>
+      <li><key>Plants</key><value>3</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Caring</li>
+    </requiredWorkTags>
+    <possessions>
+      <li>
+        <key>MedicineHerbal</key>
+        <value>5</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>HearthTender66</defName>
+    <title>hearth tender</title>
+    <titleShort>tender</titleShort>
+    <baseDesc>While the others were out hunting and foraging, [PAWN_nameDef] would stay at home to cook and take care of the young and sick.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Cooking</key><value>4</value></li>
+      <li><key>Medicine</key><value>3</value></li>
+      <li><key>Crafting</key><value>2</value></li>
+    </skillGains>
+    <forcedTraits>
+      <Undergrounder>0</Undergrounder>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <!-- Warrior -->
+
+  <BackstoryDef>
+    <defName>Warrior94</defName>
+    <title>warrior</title>
+    <titleShort>warrior</titleShort>
+    <baseDesc>[PAWN_nameDef] was a fearsome warrior, proficient with many weapons. [PAWN_pronoun] participated in many battles.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalHunter</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Melee</key><value>4</value></li>
+      <li><key>Shooting</key><value>4</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <possessions>
+      <li>
+        <key>Pila</key>
+        <value>1</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Archer25</defName>
+    <title>archer</title>
+    <titleShort>archer</titleShort>
+    <baseDesc>[PAWN_nameDef] fought for [PAWN_possessive] tribe. [PAWN_pronoun] and specialized in the use of bows, pila, and other ranged weapons.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalHunter</li></spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <li><key>Melee</key><value>2</value></li>
+      <li><key>Shooting</key><value>7</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <possessions>
+      <li>
+        <key>Bow_Short</key>
+        <value>1</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Brave88</defName> 
+    <title>brave</title>
+    <titleShort>brave</titleShort>
+    <baseDesc>[PAWN_nameDef] wielded ikwa, axes, clubs, and other close-ranged weapons in battles for [PAWN_possessive] tribe.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <skillGains>
+      <li><key>Melee</key><value>7</value></li>
+      <li><key>Shooting</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Scout59</defName> 
+    <title>scout</title>
+    <titleShort>scout</titleShort>
+    <baseDesc>Since [PAWN_possessive] tribe made contact with local outlanders, [PAWN_nameDef] contracted [PAWN_possessive] services out as a guide. Frequent contact with ancient technology made [PAWN_objective] comfortable with the lost machines.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalHunter</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Shooting</key><value>2</value></li>
+      <li><key>Intellectual</key><value>2</value></li>
+      <li><key>Social</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <SpeedOffset>2</SpeedOffset>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>VengefulHunter32</defName>
+    <title>vengeful hunter</title>
+    <titleShort>vengeful</titleShort>
+    <baseDesc>Following the death of a close friend by animal attack, [PAWN_nameDef] hunted the beast responsible. [PAWN_pronoun] tracked it to a nearby village, only to find one of the villagers wearing its pelt.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalHunter</li></spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <skillGains>
+      <li><key>Shooting</key><value>4</value></li>
+      <li><key>Melee</key><value>6</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>Animals</li>
+    </workDisables>
+    <possessions>
+      <li>
+        <key>MeleeWeapon_Spear</key>
+        <value>1</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <!-- Spiritual / cultural -->
+
+  <BackstoryDef>
+    <defName>MuffaloShaman95</defName> 
+    <title>muffalo shaman</title>
+    <titleShort>shaman</titleShort>
+    <baseDesc>Because of [PAWN_possessive] quiet wisdom and great strength, [PAWN_nameDef] became the spiritual guide for [PAWN_possessive] tribe. [PAWN_pronoun] had a special connection with the great spirit of the muffalo.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <skillGains>
+      <li><key>Melee</key><value>5</value></li>
+      <li><key>Social</key><value>2</value></li>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>LoreKeeper51</defName>
+    <title>lore keeper</title>
+    <titleShort>keeper</titleShort>
+    <baseDesc>[PAWN_nameDef] was one of a long line of lore keepers in [PAWN_possessive] tribe. Every night around the fire, [PAWN_pronoun] would pass on ancient knowledge and helpful wisdom through stories.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Intellectual</key><value>2</value></li>
+      <li><key>Social</key><value>3</value></li>
+      <li><key>Artistic</key><value>2</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Other -->
+
+  <BackstoryDef>
+    <defName>Loner61</defName> 
+    <title>loner</title>
+    <titleShort>loner</titleShort>
+    <baseDesc>[PAWN_nameDef] never much liked the tribal council or the yearly festivals. [PAWN_pronoun] preferred the open plain and the whistle of wind through the rocks.
+\n[PAWN_pronoun] visited [PAWN_possessive] tribe from time to time, but mostly took care of [PAWN_objective]self using [PAWN_possessive] own survival skills.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalFarmer</li><li>TribalHunter</li></spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <li><key>Shooting</key><value>3</value></li>
+      <li><key>Melee</key><value>2</value></li>
+      <li><key>Plants</key><value>5</value></li>
+      <li><key>Construction</key><value>1</value></li>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Banished68</defName> 
+    <title>banished</title>
+    <titleShort>banished</titleShort>
+    <baseDesc>[PAWN_nameDef]'s tribe banished [PAWN_objective] following a bloody dispute. [PAWN_pronoun] survived in the wilds alone for a long time.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalHunter</li></spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <li><key>Melee</key><value>3</value></li>
+      <li><key>Shooting</key><value>2</value></li>
+      <li><key>Plants</key><value>4</value></li>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Malingerer28</defName>
+    <title>malingerer</title>
+    <titleShort>malingerer</titleShort>
+    <baseDesc>[PAWN_nameDef] often feigned sickness in order to avoid [PAWN_possessive] responsibilities. While resting in the sick hut, [PAWN_pronoun] told stories to the children.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Intellectual</key><value>2</value></li>
+      <li><key>Social</key><value>5</value></li>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Excavator55</defName>
+    <title>excavator</title>
+    <titleShort>excavator</titleShort>
+    <baseDesc>[PAWN_nameDef] worked at dig sites, extracting valuable items and materials from ancient compacted ruins. [PAWN_pronoun] learned how to spot valuables in the ground and use a variety of excavating tools.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalMiner</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <requiredWorkTags>
+      <li>Mining</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Mining</key><value>8</value></li>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Digger31</defName>
+    <title>digger</title>
+    <titleShort>digger</titleShort>
+    <baseDesc>[PAWN_nameDef] labored in mines and caves, digging out spaces for storing items and hiding from threats. [PAWN_possessive] work provided hiding spots for [PAWN_possessive] friends on many occasions.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalMiner</li></spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <requiredWorkTags>
+      <li>Mining</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Mining</key><value>8</value></li>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>CaveBuilder81</defName>
+    <title>cave builder</title>
+    <titleShort>cave builder</titleShort>
+    <baseDesc>[PAWN_nameDef] specialized in cave complex excavation and construction.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalMiner</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <requiredWorkTags>
+      <li>Mining</li>
+      <li>Constructing</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li><key>Mining</key><value>8</value></li>
+      <li><key>Construction</key><value>2</value></li>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>TreehouseBuilder86</defName> 
+    <title>treehouse builder</title>
+    <titleShort>treehouse builder</titleShort>
+    <baseDesc>[PAWN_nameDef] built houses among, and sometimes suspended in, the trees for [PAWN_possessive] people to use while traveling or foraging. [PAWN_nameDef] learned how to best find and use wild plants, and how to fight off wild animals.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalLogger</li></spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <skillGains>
+      <li><key>Plants</key><value>6</value></li>
+      <li><key>Melee</key><value>3</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PlankCutter72</defName>
+    <title>plank cutter</title>
+    <titleShort>plank cutter</titleShort>
+    <baseDesc>[PAWN_nameDef] helped [PAWN_possessive] tribe build huge wooden structures by cutting trees into sturdy planks. [PAWN_nameDef] developed a fine understanding of how wood grows and splits.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalLogger</li></spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <skillGains>
+      <li><key>Plants</key><value>6</value></li>
+      <li><key>Melee</key><value>3</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Herder33</defName>
+    <title>herder</title>
+    <titleShort>herder</titleShort>
+    <baseDesc>[PAWN_nameDef] herded a variety of animals to help feed and clothe [PAWN_possessive] tribe while on the move. [PAWN_nameDef] learned how to calm and direct the beasts, and how to hunt [PAWN_possessive] own meals on the trail.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalHunter</li></spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <li><key>Shooting</key><value>3</value></li>
+      <li><key>Animals</key><value>5</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Butcher40</defName>
+    <title>butcher</title>
+    <titleShort>butcher</titleShort>
+    <baseDesc>[PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories><li>Tribal</li><li>TribalHunter</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <li><key>Cooking</key><value>6</value></li>
+      <li><key>Animals</key><value>3</value></li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <possessions>
+      <li>
+        <key>Meat_Bison</key>
+        <value>5</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+</Defs>
