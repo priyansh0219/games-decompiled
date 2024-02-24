@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: uSkyBox_HorzionOffset
+  m_Shader: {fileID: 4800000, guid: 1cc2bf068d495fa47acd568af0f4003f, type: 3}
+  m_ShaderKeywords: USKY_HDR_OFF
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MoonSampler:
+        m_Texture: {fileID: 2800000, guid: 7c3d2e16d239f7b499d04f7ab09f8540, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OuterSpaceCube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _OffsetHeight: 0
+    - _OuterSpaceIntensity: 0.25
+    m_Colors:
+    - _GroundColor: {r: 1.5737225, g: 3.8878899, b: 9.714602, a: 0}
+    - _MoonOuterCorona: {r: 0, g: 0, b: 0, a: 24}
+    - _NightHorizonColor: {r: 0, g: 0, b: 0, a: 0}
+    - _NightZenithColor: {r: 0.0029019609, g: 0.0041960785, b: 0.0058039217, a: 0.01}
+    - _SkyMultiplier: {r: 0.8975923, g: 4, b: 0, a: 0}
+    - _SunDir: {r: -0, g: 0.2588192, b: 0.96592593, a: 0}
+    - _betaM: {r: 0.0036000002, g: 0.0036000002, b: 0.0036000002, a: 0}
+    - _betaR: {r: 0.0058070356, g: 0.013568736, b: 0.033126794, a: 0}
+    - _colorCorrection: {r: 1, g: 2, b: 0, a: 0}

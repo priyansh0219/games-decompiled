@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: x_CloudsIslandHaze
+  m_Shader: {fileID: 4800000, guid: ebeee13248c0551449c16da1ee3f251e, type: 3}
+  m_ShaderKeywords: ENABLE_ISLAND_CLOUDS FX_ALPHAPOW FX_FRESNELCLIP FX_ISMESH FX_MULMAP FX_REFRACT_OFF FX_SCROLL FX_SOFTEDGES
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DeformMap:
+        m_Texture: {fileID: 2800000, guid: 5b6f6b24e9f1e8a41b836e6b55ad6270, type: 3}
+        m_Scale: {x: 5, y: 0.75}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5b6f6b24e9f1e8a41b836e6b55ad6270, type: 3}
+        m_Scale: {x: 4, y: 0.7}
+        m_Offset: {x: 2.83, y: 1.7}
+    - _MainTex2:
+        m_Texture: {fileID: 2800000, guid: 0187f3f083c653943a6b34cea8be7080, type: 3}
+        m_Scale: {x: 20, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _MixerTex:
+        m_Texture: {fileID: 2800000, guid: 5aed6680a7a1e804d92a6f3d0efbd24b, type: 3}
+        m_Scale: {x: 1, y: 0.2}
+        m_Offset: {x: 0, y: 0.77}
+    m_Floats:
+    - _AlphaPow: 2
+    - _ClipFade: 500
+    - _ClipOffset: 1
+    - _CloudsAttenuation: 13
+    - _CloudsScatteringExponent: 0.4
+    - _CloudsScatteringMultiplier: 2
+    - _DeformStrength: 0.18
+    - _DomeClouds: 0
+    - _FadeInSkyColor: 0.7
+    - _FresnelFade: 6
+    - _FresnelPow: 10
+    - _HorizonFallof: 0.006
+    - _InvFade: 0.19
+    - _IslandClouds: 1
+    - _LightAmount: 0
+    - _LightMin: 0.05
+    - _LightMul: 0.5
+    - _MyCullVariable: 2
+    - _PlanetClouds: 0
+    - _SeaLevel: 0
+    - _SkyColorMultiplier: 2.2
+    - _StepSize: 0.025
+    - _SunColorMultiplier: 1.87
+    - _SurfFade: -700
+    - _ZOffset: 0
+    m_Colors:
+    - _ChannelLerp: {r: 15.8, g: 22.4, b: 3.8, a: 1.5}
+    - _ChannelLerp2: {r: -4, g: -3.36, b: -6.72, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorStrength: {r: 1, g: 1, b: 1, a: 0.6}
+    - _ColorStrengthAtNight: {r: 1, g: 1, b: 1, a: 0.6}
+    - _DeformSpeed: {r: -0.001, g: 0.002, b: 0, a: 0}
+    - _DeformStrength: {r: 0.05, g: 0.05, b: -0.1, a: -0.1}
+    - _MixSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _MixStrength: {r: 8.78, g: 1.5, b: 3, a: 0.7}
+    - _scrollSpeed: {r: 0.02, g: 0.01, b: 0.04, a: -0.02}
