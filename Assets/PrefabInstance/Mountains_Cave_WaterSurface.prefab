@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1348470717679155
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4720564030138798}
+  - component: {fileID: 114237562977687058}
+  - component: {fileID: 114268197651614435}
+  - component: {fileID: 114617009574493988}
+  m_Layer: 0
+  m_Name: Mountains_Cave_WaterSurface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1817056655434270
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4916797436818539}
+  - component: {fileID: 114145216506838442}
+  m_Layer: 0
+  m_Name: Surface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4720564030138798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348470717679155}
+  m_LocalRotation: {x: -0, y: 0.5987039, z: -0, w: 0.8009705}
+  m_LocalPosition: {x: 375.2254, y: -2.810078, z: 1021.20483}
+  m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Children:
+  - {fileID: 4916797436818539}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0, y: -73.55425, z: 0}
+--- !u!114 &114237562977687058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348470717679155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f901faf3f5d8bc238825a5793e60b43, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  classId: d404587a-650b-47ab-a982-65e1b7a5ff64
+--- !u!114 &114268197651614435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348470717679155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce19df187054563ab053562478788faa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cellLevel: 2
+--- !u!114 &114617009574493988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348470717679155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8256ebaf5fd0c876827c40e1cd318d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  reason:
+  deconstructionObstacle: 0
+--- !u!4 &4916797436818539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817056655434270}
+  m_LocalRotation: {x: -0, y: 0.35109612, z: -0, w: 0.93633944}
+  m_LocalPosition: {x: -10.273928, y: 0, z: 22.600687}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4720564030138798}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0, y: -41.10875, z: 0}
+--- !u!114 &114145216506838442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817056655434270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba14ea22249187bb7f95f905c7088350, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  size: {x: 60, y: 50}
+  material: {fileID: 2100000, guid: 6655164726051e64a99fa183b036b08e, type: 2}

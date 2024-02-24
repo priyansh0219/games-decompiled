@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1406595537929561
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4940516215603006}
+  - component: {fileID: 114753186255627203}
+  - component: {fileID: 65580151564508038}
+  - component: {fileID: 114162921040231253}
+  - component: {fileID: 114662362950183104}
+  m_Layer: 21
+  m_Name: HugeTube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4940516215603006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406595537929561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6690843, y: -3.7070181, z: 53.962315}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114753186255627203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406595537929561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee22b63684c7ca4a10f7d1f92f9058e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  priority: 10
+  fogColor: {r: 0.20696366, g: 0.4852941, b: 0.40467423, a: 1}
+  fogStartDistance: 20
+  fogMaxDistance: 100
+  fadeDefaultLights: 0.745
+  fadeRate: 0.33333334
+  fog:
+    enabled: 0
+    color: {r: 0.322394, g: 0.4715122, b: 0.49264705, a: 1}
+    startDistance: 20
+    maxDistance: 100
+    absorptionSpeed: 1
+    sunGlowAmount: 1
+    version: 2
+    dayNightColor:
+      serializedVersion: 2
+      key0: {r: 0.05882353, g: 0.08627451, b: 0.09019608, a: 1}
+      key1: {r: 0.08627451, g: 0.1254902, b: 0.13333334, a: 1}
+      key2: {r: 0.29411766, g: 0.42745098, b: 0.44705883, a: 0}
+      key3: {r: 0.32156864, g: 0.47058824, b: 0.49411765, a: 0}
+      key4: {r: 0.32156864, g: 0.47058824, b: 0.49411765, a: 0}
+      key5: {r: 0.29411766, g: 0.42745098, b: 0.44705883, a: 0}
+      key6: {r: 0.08627451, g: 0.1254902, b: 0.13333334, a: 0}
+      key7: {r: 0.05882353, g: 0.08627451, b: 0.09019608, a: 0}
+      ctime0: 0
+      ctime1: 3277
+      ctime2: 13107
+      ctime3: 16384
+      ctime4: 49151
+      ctime5: 52428
+      ctime6: 62258
+      ctime7: 65535
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 8
+      m_NumAlphaKeys: 2
+    depthDispersion: 0.003
+    scatteringScale: 0.3
+  sun:
+    enabled: 0
+    fade: 0.4
+    color: {r: 0.8811747, g: 0.9632353, b: 0.7507569, a: 1}
+    replaceFraction: 1
+    shadowed: 0
+  amb:
+    enabled: 0
+    color: {r: 0.33088237, g: 0.31504294, b: 0.18733782, a: 1}
+    version: 2
+    dayNightColor:
+      serializedVersion: 2
+      key0: {r: 0.05882353, g: 0.05490196, b: 0.03529412, a: 1}
+      key1: {r: 0.09019608, g: 0.08627451, b: 0.050980393, a: 1}
+      key2: {r: 0.3019608, g: 0.28627452, b: 0.16862746, a: 0}
+      key3: {r: 0.32941177, g: 0.3137255, b: 0.1882353, a: 0}
+      key4: {r: 0.32941177, g: 0.3137255, b: 0.1882353, a: 0}
+      key5: {r: 0.3019608, g: 0.28627452, b: 0.16862746, a: 0}
+      key6: {r: 0.09019608, g: 0.08627451, b: 0.050980393, a: 0}
+      key7: {r: 0.05882353, g: 0.05490196, b: 0.03529412, a: 0}
+      ctime0: 0
+      ctime1: 3277
+      ctime2: 13107
+      ctime3: 16384
+      ctime4: 49151
+      ctime5: 52428
+      ctime6: 62258
+      ctime7: 65535
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 8
+      m_NumAlphaKeys: 2
+    scale: 0.6
+  version: 0
+  overrideBiome: safeShallows_HugeTube
+  highDetail: 1
+  affectsVisuals: 1
+--- !u!65 &65580151564508038
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406595537929561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114162921040231253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406595537929561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f901faf3f5d8bc238825a5793e60b43, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  classId: f08f286f-8b5d-4b22-96ff-21007d34f31f
+--- !u!114 &114662362950183104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406595537929561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce19df187054563ab053562478788faa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cellLevel: 10

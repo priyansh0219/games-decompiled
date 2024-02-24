@@ -1,0 +1,6570 @@
+// Use TechData Editor (Window > TechData Editor) instead of modifying this file directly
+
+{
+    "entries" : [
+        // Quartz
+        {
+            "techType" : 1,
+            "soundPickup" : "event:/loot/pickup_quartz",
+            // Pick
+            "harvestType" : 2
+        },
+        // ScrapMetal
+        {
+            "techType" : 2,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "soundPickup"   : "event:/loot/pickup_scrapmetal",
+            // Pick
+            "harvestType"   : 2
+        },
+        // FiberMesh
+        {
+            "techType" : 3,
+            "ingredients" : [
+                // CreepvinePiece
+                {
+                    "techType" : 2529,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // LimestoneChunk
+        {
+            "techType" : 4,
+            // Click
+            "harvestType" : 5
+        },
+        // Copper
+        {
+            "techType" : 7,
+            "soundPickup" : "event:/loot/pickup_copper",
+            // Pick
+            "harvestType" : 2
+        },
+        // Lead
+        {
+            "techType" : 8,
+            "soundPickup" : "event:/loot/pickup_lead"
+        },
+        // Salt
+        {
+            "techType" : 9,
+            "soundPickup" : "event:/loot/pickup_salt",
+            // Pick
+            "harvestType" : 2
+        },
+        // Glass
+        {
+            "techType" : 15,
+            "ingredients" : [
+                // Quartz
+                {
+                    "techType" : 1,
+                    "amount"   : 2
+                }
+            ],
+            "soundPickup" : "event:/loot/pickup_glass"
+        },
+        // Titanium
+        {
+            "techType" : 16,
+            "craftAmount" : 4,
+            "ingredients" : [
+                // ScrapMetal
+                {
+                    "techType" : 2,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup" : "event:/loot/pickup_titanium"
+        },
+        // Silicone
+        {
+            "techType" : 17,
+            "craftAmount" : 2,
+            "ingredients" : [
+                // CreepvineSeedCluster
+                {
+                    "techType" : 2503,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Gold
+        {
+            "techType" : 21,
+            "soundPickup" : "event:/loot/pickup_gold",
+            // Pick
+            "harvestType" : 2
+        },
+        // Magnesium
+        {
+            "techType" : 22,
+            "soundPickup" : "event:/loot/pickup_magnesium"
+        },
+        // SandLoot
+        {
+            "techType" : 26,
+            // Pick
+            "harvestType" : 2
+        },
+        // Bleach
+        {
+            "techType" : 27,
+            "ingredients" : [
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                },
+                // CoralChunk
+                {
+                    "techType" : 3502,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup" : "event:/loot/pickup_bleach"
+        },
+        // Silver
+        {
+            "techType" : 28,
+            "soundPickup" : "event:/loot/pickup_silver"
+        },
+        // TitaniumIngot
+        {
+            "techType" : 30,
+            "craftTime" : 5.0,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 10
+                }
+            ]
+        },
+        // SandstoneChunk
+        {
+            "techType" : 31,
+            // Click
+            "harvestType" : 5
+        },
+        // CopperWire
+        {
+            "techType" : 32,
+            "ingredients" : [
+                // Copper
+                {
+                    "techType" : 7,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // WiringKit
+        {
+            "techType" : 33,
+            "ingredients" : [
+                // Silver
+                {
+                    "techType" : 28,
+                    "amount"   : 2
+                }
+            ],
+            "soundPickup" : "event:/loot/pickup_wiringkit"
+        },
+        // AdvancedWiringKit
+        {
+            "techType" : 34,
+            "ingredients" : [
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                },
+                // Gold
+                {
+                    "techType" : 21,
+                    "amount"   : 2
+                },
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup" : "event:/loot/pickup_advancedwiringkit"
+        },
+        // Diamond
+        {
+            "techType" : 36,
+            "soundPickup" : "event:/loot/pickup_diamond"
+        },
+        // BasaltChunk
+        {
+            "techType" : 37,
+            // Click
+            "harvestType" : 5
+        },
+        // ShaleChunk
+        {
+            "techType" : 38,
+            // Click
+            "harvestType" : 5
+        },
+        // ObsidianChunk
+        {
+            "techType" : 39,
+            // Click
+            "harvestType" : 5
+        },
+        // Lithium
+        {
+            "techType" : 40,
+            "soundPickup" : "event:/loot/pickup_lithium"
+        },
+        // PlasteelIngot
+        {
+            "techType" : 41,
+            "craftTime" : 5.0,
+            "ingredients" : [
+                // TitaniumIngot
+                {
+                    "techType" : 30,
+                    "amount"   : 1
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // EnameledGlass
+        {
+            "techType" : 42,
+            "ingredients" : [
+                // StalkerTooth
+                {
+                    "techType" : 3504,
+                    "amount"   : 1
+                },
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // PowerCell
+        {
+            "techType" : 43,
+            // PowerCellCharger
+            "equipmentType" : 12,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 2
+                },
+                // Silicone
+                {
+                    "techType" : 17,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup"   : "event:/loot/pickup_powercell"
+        },
+        // ComputerChip
+        {
+            "techType" : 44,
+            "ingredients" : [
+                // JeweledDiskPiece
+                {
+                    "techType" : 3501,
+                    "amount"   : 2
+                },
+                // Gold
+                {
+                    "techType" : 21,
+                    "amount"   : 1
+                },
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup" : "event:/loot/pickup_computerchip"
+        },
+        // Uranium
+        {
+            "techType" : 51,
+            "soundPickup" : "event:/loot/pickup_uranium"
+        },
+        // AluminumOxide
+        {
+            "techType" : 52,
+            "soundPickup" : "event:/loot/pickup_aluminumoxide"
+        },
+        // HydrochloricAcid
+        {
+            "techType" : 53,
+            "ingredients" : [
+                // WhiteMushroom
+                {
+                    "techType" : 3035,
+                    "amount"   : 3
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Magnetite
+        {
+            "techType" : 54,
+            "soundPickup" : "event:/loot/pickup_magnetite"
+        },
+        // Polyaniline
+        {
+            "techType" : 56,
+            "ingredients" : [
+                // Gold
+                {
+                    "techType" : 21,
+                    "amount"   : 1
+                },
+                // HydrochloricAcid
+                {
+                    "techType" : 53,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // AramidFibers
+        {
+            "techType" : 57,
+            "ingredients" : [
+                // Benzene
+                {
+                    "techType" : 61,
+                    "amount"   : 1
+                },
+                // FiberMesh
+                {
+                    "techType" : 3,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Aerogel
+        {
+            "techType" : 59,
+            "ingredients" : [
+                // JellyPlant
+                {
+                    "techType" : 3010,
+                    "amount"   : 1
+                },
+                // AluminumOxide
+                {
+                    "techType" : 52,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Nanowires
+        {
+            "techType" : 60,
+            "ingredients" : [
+                // MercuryOre
+                {
+                    "techType" : 12,
+                    "amount"   : 1
+                },
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Gold
+                {
+                    "techType" : 21,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Benzene
+        {
+            "techType" : 61,
+            "ingredients" : [
+                // BloodOil
+                {
+                    "techType" : 3034,
+                    "amount"   : 3
+                }
+            ]
+        },
+        // Lubricant
+        {
+            "techType" : 62,
+            "ingredients" : [
+                // CreepvineSeedCluster
+                {
+                    "techType" : 2503,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup" : "event:/loot/pickup_lubricant"
+        },
+        // UraniniteCrystal
+        {
+            "techType" : 63,
+            "soundPickup" : "event:/loot/pickup_uraninitecrystal"
+        },
+        // ReactorRod
+        {
+            "techType" : 64,
+            // NuclearReactor
+            "equipmentType" : 10,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // UraniniteCrystal
+                {
+                    "techType" : 63,
+                    "amount"   : 3
+                },
+                // Lead
+                {
+                    "techType" : 8,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                },
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup"   : "event:/loot/pickup_reactorrod"
+        },
+        // DepletedReactorRod
+        {
+            "techType" : 65,
+            // NuclearReactor
+            "equipmentType" : 10
+        },
+        // PrecursorIonCrystal
+        {
+            "techType" : 66,
+            "soundPickup" : "event:/loot/pickup_precursorioncrystal"
+        },
+        // DiveSuit
+        {
+            "techType" : 500,
+            // Body
+            "equipmentType" : 3,
+            "soundPickup"   : "event:/loot/pickup_suit"
+        },
+        // Fins
+        {
+            "techType" : 502,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Foots
+            "equipmentType" : 5,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // Silicone
+                {
+                    "techType" : 17,
+                    "amount"   : 2
+                }
+            ],
+            "soundPickup"   : "event:/loot/pickup_fins"
+        },
+        // Tank
+        {
+            "techType" : 503,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 3
+            },
+            // Tank
+            "equipmentType" : 6,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                }
+            ],
+            "soundPickup"   : "event:/loot/pickup_tank"
+        },
+        // Battery
+        {
+            "techType" : 504,
+            // BatteryCharger
+            "equipmentType" : 11,
+            "ingredients"   : [
+                // AcidMushroom
+                {
+                    "techType" : 3021,
+                    "amount"   : 2
+                },
+                // Copper
+                {
+                    "techType" : 7,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup"   : "event:/loot/pickup_battery"
+        },
+        // Knife
+        {
+            "techType" : 505,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "ingredients"   : [
+                // Silicone
+                {
+                    "techType" : 17,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Drill
+        {
+            "techType" : 506,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // Flashlight
+        {
+            "techType" : 507,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                },
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Beacon
+        {
+            "techType" : 508,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 4.0,
+            "ingredients"   : [
+                // Copper
+                {
+                    "techType" : 7,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Builder
+        {
+            "techType" : 509,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                },
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Compass
+        {
+            "techType" : 512,
+            // Chip
+            "equipmentType" : 7,
+            "ingredients"   : [
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                },
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // AirBladder
+        {
+            "techType" : 513,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // Silicone
+                {
+                    "techType" : 17,
+                    "amount"   : 1
+                },
+                // Bladderfish
+                {
+                    "techType" : 2515,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup"   : "event:/tools/airbladder/airbladder_pickup"
+        },
+        // Terraformer
+        {
+            "techType" : 514,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 5.0,
+            "ingredients"   : [
+                // AdvancedWiringKit
+                {
+                    "techType" : 34,
+                    "amount"   : 1
+                },
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Pipe
+        {
+            "techType" : 515,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftAmount"   : 5,
+            "ingredients"   : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // Thermometer
+        {
+            "techType" : 516,
+            // Chip
+            "equipmentType" : 7,
+            "ingredients"   : [
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // DiveReel
+        {
+            "techType" : 517,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // CreepvineSeedCluster
+                {
+                    "techType" : 2503,
+                    "amount"   : 2
+                },
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Rebreather
+        {
+            "techType" : 518,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Head
+            "equipmentType" : 2,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                },
+                // FiberMesh
+                {
+                    "techType" : 3,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // RadiationSuit
+        {
+            "techType" : 519,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Body
+            "equipmentType" : 3,
+            "craftTime"     : 6.0,
+            "ingredients"   : [
+                // FiberMesh
+                {
+                    "techType" : 3,
+                    "amount"   : 2
+                },
+                // Lead
+                {
+                    "techType" : 8,
+                    "amount"   : 2
+                }
+            ],
+            "linkedItems"   : [
+                // RadiationHelmet
+                520,
+                // RadiationGloves
+                521
+            ],
+            "soundPickup"   : "event:/loot/pickup_suit"
+        },
+        // RadiationHelmet
+        {
+            "techType" : 520,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Head
+            "equipmentType" : 2
+        },
+        // RadiationGloves
+        {
+            "techType" : 521,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Gloves
+            "equipmentType" : 4
+        },
+        // ReinforcedDiveSuit
+        {
+            "techType" : 522,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Body
+            "equipmentType" : 3,
+            "craftTime"     : 6.0,
+            "ingredients"   : [
+                // AramidFibers
+                {
+                    "techType" : 57,
+                    "amount"   : 1
+                },
+                // Diamond
+                {
+                    "techType" : 36,
+                    "amount"   : 2
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "linkedItems"   : [
+                // ReinforcedGloves
+                529
+            ]
+        },
+        // Scanner
+        {
+            "techType" : 523,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // FireExtinguisher
+        {
+            "techType" : 524,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                }
+            ]
+        },
+        // MapRoomHUDChip
+        {
+            "techType" : 525,
+            // Chip
+            "equipmentType" : 7,
+            "ingredients"   : [
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Magnetite
+                {
+                    "techType" : 54,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // PipeSurfaceFloater
+        {
+            "techType" : 526,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "ingredients"   : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // CyclopsDecoy
+        {
+            "techType" : 527,
+            "itemSize" : {
+                "x" : 1,
+                "y" : 2
+            },
+            // DecoySlot
+            "equipmentType" : 16,
+            "craftTime"     : 4.0,
+            "craftAmount"   : 3,
+            "ingredients"   : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                },
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // DoubleTank
+        {
+            "techType" : 528,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 3
+            },
+            // Tank
+            "equipmentType" : 6,
+            "craftTime"     : 5.0,
+            "ingredients"   : [
+                // Tank
+                {
+                    "techType" : 503,
+                    "amount"   : 1
+                },
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 2
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 4
+                },
+                // Silver
+                {
+                    "techType" : 28,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // ReinforcedGloves
+        {
+            "techType" : 529,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Gloves
+            "equipmentType" : 4
+        },
+        // Welder
+        {
+            "techType" : 750,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // Silicone
+                {
+                    "techType" : 17,
+                    "amount"   : 1
+                },
+                // CrashPowder
+                {
+                    "techType" : 35,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Seaglide
+        {
+            "techType" : 751,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 3
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 5.0,
+            "ingredients"   : [
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                },
+                // Lubricant
+                {
+                    "techType" : 62,
+                    "amount"   : 1
+                },
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Constructor
+        {
+            "techType" : 752,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 10.0,
+            "ingredients"   : [
+                // TitaniumIngot
+                {
+                    "techType" : 30,
+                    "amount"   : 1
+                },
+                // Lubricant
+                {
+                    "techType" : 62,
+                    "amount"   : 1
+                },
+                // PowerCell
+                {
+                    "techType" : 43,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Transfuser
+        {
+            "techType" : 753,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 5.0,
+            "ingredients"   : [
+                // AdvancedWiringKit
+                {
+                    "techType" : 34,
+                    "amount"   : 1
+                },
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Flare
+        {
+            "techType" : 754,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftAmount"   : 5,
+            "ingredients"   : [
+                // CrashPowder
+                {
+                    "techType" : 35,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // StasisRifle
+        {
+            "techType" : 755,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 5.0,
+            "ingredients"   : [
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                },
+                // Magnetite
+                {
+                    "techType" : 54,
+                    "amount"   : 2
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // PropulsionCannon
+        {
+            "techType" : 757,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 5.0,
+            "ingredients"   : [
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                },
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Gravsphere
+        {
+            "techType" : 758,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 4.0,
+            "ingredients"   : [
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                },
+                // Copper
+                {
+                    "techType" : 7,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // SmallStorage
+        {
+            "techType" : 759,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 4.0,
+            "ingredients"   : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 4
+                }
+            ]
+        },
+        // LaserCutter
+        {
+            "techType" : 761,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // Diamond
+                {
+                    "techType" : 36,
+                    "amount"   : 2
+                },
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                },
+                // CrashPowder
+                {
+                    "techType" : 35,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // LEDLight
+        {
+            "techType" : 762,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                },
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup"   : "event:/tools/lights/pick_up"
+        },
+        // DiamondBlade
+        {
+            "techType" : 800,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "ingredients"   : [
+                // Knife
+                {
+                    "techType" : 505,
+                    "amount"   : 1
+                },
+                // Diamond
+                {
+                    "techType" : 36,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // HeatBlade
+        {
+            "techType" : 801,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "ingredients"   : [
+                // Knife
+                {
+                    "techType" : 505,
+                    "amount"   : 1
+                },
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // LithiumIonBattery
+        {
+            "techType" : 802,
+            // BatteryCharger
+            "equipmentType" : 11,
+            "ingredients"   : [
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // PlasteelTank
+        {
+            "techType" : 803,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 3
+            },
+            // Tank
+            "equipmentType" : 6,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // DoubleTank
+                {
+                    "techType" : 528,
+                    "amount"   : 1
+                },
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup"   : "event:/loot/pickup_tank"
+        },
+        // HighCapacityTank
+        {
+            "techType" : 804,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            },
+            // Tank
+            "equipmentType" : 6,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // DoubleTank
+                {
+                    "techType" : 528,
+                    "amount"   : 1
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 4
+                }
+            ],
+            "soundPickup"   : "event:/loot/pickup_tank"
+        },
+        // UltraGlideFins
+        {
+            "techType" : 805,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Foots
+            "equipmentType" : 5,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // Fins
+                {
+                    "techType" : 502,
+                    "amount"   : 1
+                },
+                // Silicone
+                {
+                    "techType" : 17,
+                    "amount"   : 2
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup"   : "event:/loot/pickup_fins"
+        },
+        // SwimChargeFins
+        {
+            "techType" : 806,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Foots
+            "equipmentType" : 5,
+            "craftTime"     : 3.0,
+            "ingredients"   : [
+                // Fins
+                {
+                    "techType" : 502,
+                    "amount"   : 1
+                },
+                // Polyaniline
+                {
+                    "techType" : 56,
+                    "amount"   : 1
+                },
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup"   : "event:/loot/pickup_fins"
+        },
+        // RepulsionCannon
+        {
+            "techType" : 807,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 5.0,
+            "ingredients"   : [
+                // PropulsionCannon
+                {
+                    "techType" : 757,
+                    "amount"   : 1
+                },
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Magnetite
+                {
+                    "techType" : 54,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // WaterFiltrationSuit
+        {
+            "techType" : 808,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Body
+            "equipmentType" : 3,
+            "craftTime"     : 6.0,
+            "ingredients"   : [
+                // AramidFibers
+                {
+                    "techType" : 57,
+                    "amount"   : 1
+                },
+                // Aerogel
+                {
+                    "techType" : 59,
+                    "amount"   : 1
+                },
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup"   : "event:/loot/pickup_suit"
+        },
+        // PowerGlide
+        {
+            "techType" : 809,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 3
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "craftTime"     : 5.0,
+            "ingredients"   : [
+                // PowerGlide
+                {
+                    "techType" : 809,
+                    "amount"   : 1
+                },
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CyclopsBlueprint
+        {
+            "techType" : 1002,
+            // Blueprint
+            "backgroundType" : 1
+        },
+        // CyclopsHullBlueprint
+        {
+            "techType" : 1025,
+            // Blueprint
+            "backgroundType" : 1
+        },
+        // CyclopsBridgeBlueprint
+        {
+            "techType" : 1026,
+            // Blueprint
+            "backgroundType" : 1
+        },
+        // CyclopsEngineBlueprint
+        {
+            "techType" : 1027,
+            // Blueprint
+            "backgroundType" : 1
+        },
+        // CyclopsDockingBayBlueprint
+        {
+            "techType" : 1028,
+            // Blueprint
+            "backgroundType" : 1
+        },
+        // SafeShallowsEgg
+        {
+            "techType" : 1250,
+            "soundPickup" : "event:/loot/pickup_egg",
+            // Pick
+            "harvestType" : 2
+        },
+        // KelpForestEgg
+        {
+            "techType" : 1251,
+            "soundPickup" : "event:/loot/pickup_egg",
+            // Pick
+            "harvestType" : 2
+        },
+        // GrassyPlateausEgg
+        {
+            "techType" : 1252,
+            "soundPickup" : "event:/loot/pickup_egg",
+            // Pick
+            "harvestType" : 2
+        },
+        // GrandReefsEgg
+        {
+            "techType" : 1253,
+            "soundPickup" : "event:/loot/pickup_egg",
+            // Pick
+            "harvestType" : 2
+        },
+        // MushroomForestEgg
+        {
+            "techType" : 1254,
+            "soundPickup" : "event:/loot/pickup_egg",
+            // Pick
+            "harvestType" : 2
+        },
+        // KooshZoneEgg
+        {
+            "techType" : 1255,
+            "soundPickup" : "event:/loot/pickup_egg",
+            // Pick
+            "harvestType" : 2
+        },
+        // TwistyBridgesEgg
+        {
+            "techType" : 1256,
+            "soundPickup" : "event:/loot/pickup_egg",
+            // Pick
+            "harvestType" : 2
+        },
+        // LavaZoneEgg
+        {
+            "techType" : 1257,
+            "soundPickup" : "event:/loot/pickup_egg",
+            // Pick
+            "harvestType" : 2
+        },
+        // StalkerEgg
+        {
+            "techType" : 1258,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // ReefbackEgg
+        {
+            "techType" : 1259,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            },
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // SpadefishEgg
+        {
+            "techType" : 1260,
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // RabbitrayEgg
+        {
+            "techType" : 1261,
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // SandsharkEgg
+        {
+            "techType" : 1264,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // JellyrayEgg
+        {
+            "techType" : 1265,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // BonesharkEgg
+        {
+            "techType" : 1266,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // CrabsnakeEgg
+        {
+            "techType" : 1267,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // ShockerEgg
+        {
+            "techType" : 1268,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // GasopodEgg
+        {
+            "techType" : 1269,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // RabbitrayEggUndiscovered
+        {
+            "techType" : 1270,
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // JellyrayEggUndiscovered
+        {
+            "techType" : 1271,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // StalkerEggUndiscovered
+        {
+            "techType" : 1272,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // ReefbackEggUndiscovered
+        {
+            "techType" : 1273,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            },
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // JumperEggUndiscovered
+        {
+            "techType" : 1274,
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // BonesharkEggUndiscovered
+        {
+            "techType" : 1275,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // GasopodEggUndiscovered
+        {
+            "techType" : 1276,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // MesmerEggUndiscovered
+        {
+            "techType" : 1277,
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // SandsharkEggUndiscovered
+        {
+            "techType" : 1278,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // ShockerEggUndiscovered
+        {
+            "techType" : 1279,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            "soundPickup" : "event:/loot/pickup_egg"
+        },
+        // CrabsquidEgg
+        {
+            "techType" : 1283,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // CrabsquidEggUndiscovered
+        {
+            "techType" : 1284,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // LavaLizardEgg
+        {
+            "techType" : 1287,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // LavaLizardEggUndiscovered
+        {
+            "techType" : 1288,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // CrabsnakeEggUndiscovered
+        {
+            "techType" : 1289,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // Workbench
+        {
+            "techType" : 1500,
+            "ingredients" : [
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                },
+                // Diamond
+                {
+                    "techType" : 36,
+                    "amount"   : 1
+                },
+                // Lead
+                {
+                    "techType" : 8,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // HullReinforcementModule
+        {
+            "techType" : 1501,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Fabricator
+        {
+            "techType" : 1502,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                },
+                // Gold
+                {
+                    "techType" : 21,
+                    "amount"   : 1
+                },
+                // JeweledDiskPiece
+                {
+                    "techType" : 3501,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // Aquarium
+        {
+            "techType" : 1503,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 2
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // Locker
+        {
+            "techType" : 1504,
+            "ingredients" : [
+                // Quartz
+                {
+                    "techType" : 1,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // Spotlight
+        {
+            "techType" : 1505,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // CurrentGenerator
+        {
+            "techType" : 1507,
+            "craftTime" : 4.0,
+            "ingredients" : [
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                },
+                // Lubricant
+                {
+                    "techType" : 62,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // SpecialHullPlate
+        {
+            "techType" : 1509,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // BikemanHullPlate
+        {
+            "techType" : 1510,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // EatMyDictionHullPlate
+        {
+            "techType" : 1511,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // DevTestItem
+        {
+            "techType" : 1512,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // SpecimenAnalyzer
+        {
+            "techType" : 1513,
+            "ingredients" : [
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                },
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // HullReinforcementModule2
+        {
+            "techType" : 1514,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // ReefbackShell
+                {
+                    "techType" : 1300,
+                    "amount"   : 1
+                },
+                // HullReinforcementModule
+                {
+                    "techType" : 1501,
+                    "amount"   : 1
+                },
+                // ReefbackDNA
+                {
+                    "techType" : 1400,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // HullReinforcementModule3
+        {
+            "techType" : 1515,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // ReefbackAdvancedStructure
+                {
+                    "techType" : 1302,
+                    "amount"   : 1
+                },
+                // HullReinforcementModule2
+                {
+                    "techType" : 1514,
+                    "amount"   : 1
+                },
+                // ReefbackDNA
+                {
+                    "techType" : 1400,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // PowerUpgradeModule
+        {
+            "techType" : 1516,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Benzene
+                {
+                    "techType" : 61,
+                    "amount"   : 1
+                },
+                // Polyaniline
+                {
+                    "techType" : 56,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // SolarPanel
+        {
+            "techType" : 1517,
+            "ingredients" : [
+                // Quartz
+                {
+                    "techType" : 1,
+                    "amount"   : 2
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                },
+                // Copper
+                {
+                    "techType" : 7,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true,
+            "poweredPrefab" : "Submarine/Build/SolarPanel.prefab"
+        },
+        // Sign
+        {
+            "techType" : 1518,
+            "ingredients" : [
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // PowerTransmitter
+        {
+            "techType" : 1519,
+            "ingredients" : [
+                // Gold
+                {
+                    "techType" : 21,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true,
+            "poweredPrefab" : "Submarine/Build/PowerTransmitter.prefab"
+        },
+        // Accumulator
+        {
+            "techType" : 1520,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Bioreactor
+        {
+            "techType" : 1521,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 4
+                },
+                // Silver
+                {
+                    "techType" : 28,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true,
+            "poweredPrefab" : "Submarine/Build/Bioreactor.prefab"
+        },
+        // ThermalPlant
+        {
+            "techType" : 1522,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 5
+                },
+                // Magnetite
+                {
+                    "techType" : 54,
+                    "amount"   : 2
+                },
+                // Aerogel
+                {
+                    "techType" : 59,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true,
+            "poweredPrefab" : "Submarine/Build/ThermalPlant.prefab"
+        },
+        // NuclearReactor
+        {
+            "techType" : 1523,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 5
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 2
+                },
+                // Lead
+                {
+                    "techType" : 8,
+                    "amount"   : 2
+                },
+                // Silver
+                {
+                    "techType" : 28,
+                    "amount"   : 1
+                },
+                // AluminumOxide
+                {
+                    "techType" : 52,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true,
+            "poweredPrefab" : "Submarine/Build/NuclearReactor.prefab"
+        },
+        // SmallLocker
+        {
+            "techType" : 1524,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // Bench
+        {
+            "techType" : 1525,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // PictureFrame
+        {
+            "techType" : 1526,
+            "ingredients" : [
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // PlanterPot
+        {
+            "techType" : 1527,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // PlanterBox
+        {
+            "techType" : 1528,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 4
+                }
+            ],
+            "buildable"   : true
+        },
+        // PlanterShelf
+        {
+            "techType" : 1529,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // FarmingTray
+        {
+            "techType" : 1530,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // FiltrationMachine
+        {
+            "techType" : 1531,
+            "ingredients" : [
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                },
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 2
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 4
+                }
+            ]
+        },
+        // Techlight
+        {
+            "techType" : 1532,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // Radio
+        {
+            "techType" : 1533,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                },
+                // Copper
+                {
+                    "techType" : 7,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // PlanterPot2
+        {
+            "techType" : 1534,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // PlanterPot3
+        {
+            "techType" : 1535,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // MedicalCabinet
+        {
+            "techType" : 1536,
+            "ingredients" : [
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // FiberMesh
+                {
+                    "techType" : 3,
+                    "amount"   : 1
+                },
+                // Silver
+                {
+                    "techType" : 28,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // CyclopsHullModule1
+        {
+            "techType" : 1537,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // AluminumOxide
+                {
+                    "techType" : 52,
+                    "amount"   : 3
+                }
+            ]
+        },
+        // CyclopsHullModule2
+        {
+            "techType" : 1538,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // CyclopsHullModule1
+                {
+                    "techType" : 1537,
+                    "amount"   : 1
+                },
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // Nickel
+                {
+                    "techType" : 69,
+                    "amount"   : 3
+                }
+            ]
+        },
+        // SingleWallShelf
+        {
+            "techType" : 1539,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // WallShelves
+        {
+            "techType" : 1540,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // Bed1
+        {
+            "techType" : 1541,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                },
+                // FiberMesh
+                {
+                    "techType" : 3,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // Bed2
+        {
+            "techType" : 1542,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                },
+                // FiberMesh
+                {
+                    "techType" : 3,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // NarrowBed
+        {
+            "techType" : 1543,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                },
+                // FiberMesh
+                {
+                    "techType" : 3,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // BatteryCharger
+        {
+            "techType" : 1544,
+            "ingredients" : [
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                },
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // PowerCellCharger
+        {
+            "techType" : 1545,
+            "ingredients" : [
+                // AdvancedWiringKit
+                {
+                    "techType" : 34,
+                    "amount"   : 1
+                },
+                // AluminumOxide
+                {
+                    "techType" : 52,
+                    "amount"   : 2
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // HatchingEnzymes
+        {
+            "techType" : 1547,
+            "ingredients" : [
+                // EyesPlantSeed
+                {
+                    "techType" : 3531,
+                    "amount"   : 1
+                },
+                // SeaCrownSeed
+                {
+                    "techType" : 3526,
+                    "amount"   : 1
+                },
+                // TreeMushroomPiece
+                {
+                    "techType" : 3505,
+                    "amount"   : 1
+                },
+                // RedGreenTentacleSeed
+                {
+                    "techType" : 3532,
+                    "amount"   : 1
+                },
+                // KooshChunk
+                {
+                    "techType" : 3503,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Centrifuge
+        {
+            "techType" : 1550,
+            "ingredients" : [
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                },
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // CyclopsShieldModule
+        {
+            "techType" : 1551,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // AdvancedWiringKit
+                {
+                    "techType" : 34,
+                    "amount"   : 1
+                },
+                // Polyaniline
+                {
+                    "techType" : 56,
+                    "amount"   : 1
+                },
+                // PowerCell
+                {
+                    "techType" : 43,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CyclopsSonarModule
+        {
+            "techType" : 1552,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Magnetite
+                {
+                    "techType" : 54,
+                    "amount"   : 3
+                }
+            ]
+        },
+        // CyclopsSeamothRepairModule
+        {
+            "techType" : 1553,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // Welder
+                {
+                    "techType" : 750,
+                    "amount"   : 1
+                },
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CyclopsDecoyModule
+        {
+            "techType" : 1554,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 2
+                },
+                // Aerogel
+                {
+                    "techType" : 59,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CyclopsFireSuppressionModule
+        {
+            "techType" : 1555,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // Aerogel
+                {
+                    "techType" : 59,
+                    "amount"   : 2
+                },
+                // Sulphur
+                {
+                    "techType" : 23,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // CyclopsThermalReactorModule
+        {
+            "techType" : 1557,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // Polyaniline
+                {
+                    "techType" : 56,
+                    "amount"   : 2
+                },
+                // Kyanite
+                {
+                    "techType" : 68,
+                    "amount"   : 4
+                },
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CyclopsHullModule3
+        {
+            "techType" : 1558,
+            // CyclopsModule
+            "equipmentType" : 8,
+            "ingredients"   : [
+                // CyclopsHullModule2
+                {
+                    "techType" : 1538,
+                    "amount"   : 1
+                },
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // Kyanite
+                {
+                    "techType" : 68,
+                    "amount"   : 3
+                }
+            ]
+        },
+        // StarshipCargoCrate
+        {
+            "techType" : 1800,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // StarshipCircuitBox
+        {
+            "techType" : 1801,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // StarshipDesk
+        {
+            "techType" : 1802,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // StarshipChair
+        {
+            "techType" : 1803,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // StarshipMonitor
+        {
+            "techType" : 1804,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // StarshipChair2
+        {
+            "techType" : 1805,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // StarshipChair3
+        {
+            "techType" : 1806,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // LuggageBag
+        {
+            "techType" : 1807,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // ArcadeGorgetoy
+        {
+            "techType" : 1808,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // LabEquipment1
+        {
+            "techType" : 1809,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // LabEquipment2
+        {
+            "techType" : 1810,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // LabEquipment3
+        {
+            "techType" : 1811,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // CoffeeVendingMachine
+        {
+            "techType" : 1812,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BarTable
+        {
+            "techType" : 1813,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // Cap1
+        {
+            "techType" : 1814,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // Cap2
+        {
+            "techType" : 1815,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // LabContainer
+        {
+            "techType" : 1816,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // LabContainer2
+        {
+            "techType" : 1817,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // LabContainer3
+        {
+            "techType" : 1818,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // Trashcans
+        {
+            "techType" : 1819,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // LabTrashcan
+        {
+            "techType" : 1820,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // VendingMachine
+        {
+            "techType" : 1821,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // LabCounter
+        {
+            "techType" : 1822,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // StarshipSouvenir
+        {
+            "techType" : 1823,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // PosterAurora
+        {
+            "techType" : 1824,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // PosterExoSuit1
+        {
+            "techType" : 1825,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // PosterExoSuit2
+        {
+            "techType" : 1826,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // PosterKitty
+        {
+            "techType" : 1827,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // ToyCar
+        {
+            "techType" : 1828,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // Seamoth
+        {
+            "techType" : 2000,
+            "ingredients" : [
+                // TitaniumIngot
+                {
+                    "techType" : 30,
+                    "amount"   : 1
+                },
+                // PowerCell
+                {
+                    "techType" : 43,
+                    "amount"   : 1
+                },
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 2
+                },
+                // Lubricant
+                {
+                    "techType" : 62,
+                    "amount"   : 1
+                },
+                // Lead
+                {
+                    "techType" : 8,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Exosuit
+        {
+            "techType" : 2001,
+            "ingredients" : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 2
+                },
+                // Aerogel
+                {
+                    "techType" : 59,
+                    "amount"   : 2
+                },
+                // EnameledGlass
+                {
+                    "techType" : 42,
+                    "amount"   : 1
+                },
+                // Diamond
+                {
+                    "techType" : 36,
+                    "amount"   : 2
+                },
+                // Lead
+                {
+                    "techType" : 8,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // Cyclops
+        {
+            "techType" : 2003,
+            "ingredients" : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 3
+                },
+                // EnameledGlass
+                {
+                    "techType" : 42,
+                    "amount"   : 3
+                },
+                // Lubricant
+                {
+                    "techType" : 62,
+                    "amount"   : 1
+                },
+                // AdvancedWiringKit
+                {
+                    "techType" : 34,
+                    "amount"   : 1
+                },
+                // Lead
+                {
+                    "techType" : 8,
+                    "amount"   : 3
+                }
+            ]
+        },
+        // Signal
+        {
+            "techType" : 2005,
+            // Chip
+            "equipmentType" : 7,
+            // Pick
+            "harvestType"   : 2
+        },
+        // SeamothReinforcementModule
+        {
+            "techType" : 2100,
+            // SeamothModule
+            "equipmentType" : 13,
+            // Passive
+            "slotType"      : 1,
+            "ingredients"   : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // VehiclePowerUpgradeModule
+        {
+            "techType" : 2101,
+            // VehicleModule
+            "equipmentType" : 9,
+            // Passive
+            "slotType"      : 1,
+            "ingredients"   : [
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Polyaniline
+                {
+                    "techType" : 56,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // SeamothSolarCharge
+        {
+            "techType" : 2102,
+            // SeamothModule
+            "equipmentType" : 13,
+            // Passive
+            "slotType"      : 1,
+            "ingredients"   : [
+                // AdvancedWiringKit
+                {
+                    "techType" : 34,
+                    "amount"   : 1
+                },
+                // EnameledGlass
+                {
+                    "techType" : 42,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // VehicleStorageModule
+        {
+            "techType" : 2103,
+            // VehicleModule
+            "equipmentType" : 9,
+            // Passive
+            "slotType"      : 1,
+            "ingredients"   : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // SeamothElectricalDefense
+        {
+            "techType" : 2104,
+            // SeamothModule
+            "equipmentType" : 13,
+            // SelectableChargeable
+            "slotType"      : 4,
+            "ingredients"   : [
+                // Polyaniline
+                {
+                    "techType" : 56,
+                    "amount"   : 1
+                },
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                }
+            ],
+            "maxCharge"     : 30.0,
+            "energyCost"    : 5.0
+        },
+        // VehicleArmorPlating
+        {
+            "techType" : 2105,
+            // VehicleModule
+            "equipmentType" : 9,
+            // Passive
+            "slotType"      : 1,
+            "ingredients"   : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 1
+                },
+                // Diamond
+                {
+                    "techType" : 36,
+                    "amount"   : 4
+                }
+            ]
+        },
+        // LootSensorMetal
+        {
+            "techType" : 2106,
+            // VehicleModule
+            "equipmentType" : 9,
+            // Toggleable
+            "slotType"      : 6,
+            "ingredients"   : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                }
+            ],
+            "energyCost"    : 1.0
+        },
+        // LootSensorLithium
+        {
+            "techType" : 2107,
+            // VehicleModule
+            "equipmentType" : 9,
+            // Toggleable
+            "slotType"      : 6,
+            "ingredients"   : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                }
+            ],
+            "energyCost"    : 1.0
+        },
+        // LootSensorFragment
+        {
+            "techType" : 2108,
+            // VehicleModule
+            "equipmentType" : 9,
+            // Toggleable
+            "slotType"      : 6,
+            "ingredients"   : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                }
+            ],
+            "energyCost"    : 1.0
+        },
+        // SeamothTorpedoModule
+        {
+            "techType" : 2109,
+            // SeamothModule
+            "equipmentType" : 13,
+            // Selectable
+            "slotType"      : 3,
+            "ingredients"   : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 1
+                },
+                // Aerogel
+                {
+                    "techType" : 59,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // SeamothSonarModule
+        {
+            "techType" : 2110,
+            // SeamothModule
+            "equipmentType" : 13,
+            // Selectable
+            "slotType"      : 3,
+            "ingredients"   : [
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                },
+                // Magnetite
+                {
+                    "techType" : 54,
+                    "amount"   : 2
+                }
+            ],
+            "energyCost"    : 1.0
+        },
+        // WhirlpoolTorpedo
+        {
+            "techType" : 2111,
+            "craftAmount" : 2,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                },
+                // Magnetite
+                {
+                    "techType" : 54,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // VehicleHullModule1
+        {
+            "techType" : 2112,
+            // SeamothModule
+            "equipmentType" : 13,
+            // Passive
+            "slotType"      : 1,
+            "ingredients"   : [
+                // TitaniumIngot
+                {
+                    "techType" : 30,
+                    "amount"   : 1
+                },
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // VehicleHullModule2
+        {
+            "techType" : 2113,
+            // SeamothModule
+            "equipmentType" : 13,
+            // Passive
+            "slotType"      : 1,
+            "ingredients"   : [
+                // VehicleHullModule1
+                {
+                    "techType" : 2112,
+                    "amount"   : 1
+                },
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // Magnetite
+                {
+                    "techType" : 54,
+                    "amount"   : 2
+                },
+                // EnameledGlass
+                {
+                    "techType" : 42,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // VehicleHullModule3
+        {
+            "techType" : 2114,
+            // SeamothModule
+            "equipmentType" : 13,
+            // Passive
+            "slotType"      : 1,
+            "ingredients"   : [
+                // VehicleHullModule2
+                {
+                    "techType" : 2113,
+                    "amount"   : 1
+                },
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // AluminumOxide
+                {
+                    "techType" : 52,
+                    "amount"   : 3
+                }
+            ]
+        },
+        // ExosuitJetUpgradeModule
+        {
+            "techType" : 2115,
+            // ExosuitModule
+            "equipmentType" : 14,
+            // Passive
+            "slotType"      : 1,
+            "ingredients"   : [
+                // Nickel
+                {
+                    "techType" : 69,
+                    "amount"   : 2
+                },
+                // Sulphur
+                {
+                    "techType" : 23,
+                    "amount"   : 3
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 5
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // ExosuitDrillArmModule
+        {
+            "techType" : 2116,
+            // ExosuitArm
+            "backgroundType" : 6,
+            // ExosuitArm
+            "equipmentType"  : 15,
+            // Selectable
+            "slotType"       : 3,
+            "ingredients"    : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 5
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 1
+                },
+                // Diamond
+                {
+                    "techType" : 36,
+                    "amount"   : 4
+                }
+            ]
+        },
+        // ExosuitThermalReactorModule
+        {
+            "techType" : 2117,
+            // ExosuitModule
+            "equipmentType" : 14,
+            // Passive
+            "slotType"      : 1,
+            "ingredients"   : [
+                // Polyaniline
+                {
+                    "techType" : 56,
+                    "amount"   : 2
+                },
+                // Kyanite
+                {
+                    "techType" : 68,
+                    "amount"   : 2
+                },
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // ExosuitClawArmModule
+        {
+            "techType" : 2118,
+            // ExosuitArm
+            "backgroundType" : 6,
+            // ExosuitArm
+            "equipmentType"  : 15,
+            // Selectable
+            "slotType"       : 3,
+            "energyCost"     : 0.100000001490116
+        },
+        // GasTorpedo
+        {
+            "techType" : 2119,
+            "craftAmount" : 2,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                },
+                // GasPod
+                {
+                    "techType" : 2530,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // ExosuitPropulsionArmModule
+        {
+            "techType" : 2120,
+            // ExosuitArm
+            "backgroundType" : 6,
+            // ExosuitArm
+            "equipmentType"  : 15,
+            // Selectable
+            "slotType"       : 3,
+            "ingredients"    : [
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 5
+                },
+                // Magnetite
+                {
+                    "techType" : 54,
+                    "amount"   : 2
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // ExosuitGrapplingArmModule
+        {
+            "techType" : 2121,
+            // ExosuitArm
+            "backgroundType" : 6,
+            // ExosuitArm
+            "equipmentType"  : 15,
+            // Selectable
+            "slotType"       : 3,
+            "ingredients"    : [
+                // AdvancedWiringKit
+                {
+                    "techType" : 34,
+                    "amount"   : 1
+                },
+                // Benzene
+                {
+                    "techType" : 61,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 5
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // ExosuitTorpedoArmModule
+        {
+            "techType" : 2122,
+            // ExosuitArm
+            "backgroundType" : 6,
+            // ExosuitArm
+            "equipmentType"  : 15,
+            // Selectable
+            "slotType"       : 3,
+            "ingredients"    : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 5
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 1
+                },
+                // Aerogel
+                {
+                    "techType" : 59,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // ExoHullModule1
+        {
+            "techType" : 2128,
+            // ExosuitModule
+            "equipmentType" : 14,
+            // Passive
+            "slotType"      : 1,
+            "ingredients"   : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // Nickel
+                {
+                    "techType" : 69,
+                    "amount"   : 3
+                },
+                // AluminumOxide
+                {
+                    "techType" : 52,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // ExoHullModule2
+        {
+            "techType" : 2129,
+            // ExosuitModule
+            "equipmentType" : 14,
+            // Passive
+            "slotType"      : 1,
+            "ingredients"   : [
+                // ExoHullModule1
+                {
+                    "techType" : 2128,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 5
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 2
+                },
+                // Kyanite
+                {
+                    "techType" : 68,
+                    "amount"   : 3
+                }
+            ]
+        },
+        // MapRoomUpgradeScanRange
+        {
+            "techType" : 2250,
+            "ingredients" : [
+                // Copper
+                {
+                    "techType" : 7,
+                    "amount"   : 1
+                },
+                // Magnetite
+                {
+                    "techType" : 54,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // MapRoomUpgradeScanSpeed
+        {
+            "techType" : 2251,
+            "ingredients" : [
+                // Silver
+                {
+                    "techType" : 28,
+                    "amount"   : 1
+                },
+                // Gold
+                {
+                    "techType" : 21,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // Creepvine
+        {
+            "techType" : 2500,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // CreepvinePiece
+            "harvestOutput"  : 2529
+        },
+        // HoleFish
+        {
+            "techType" : 2501,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedHoleFish
+            "processed"     : 4503,
+            "soundPickup"   : "event:/loot/pickup_fish"
+        },
+        // Jumper
+        {
+            "techType" : 2502,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // CreepvineSeedCluster
+        {
+            "techType" : 2503,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // Pick
+            "harvestType"    : 2
+        },
+        // Peeper
+        {
+            "techType" : 2504,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedPeeper
+            "processed"     : 4502,
+            "soundPickup"   : "event:/loot/pickup_fish"
+        },
+        // Oculus
+        {
+            "techType" : 2505,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedOculus
+            "processed"     : 4511,
+            "soundPickup"   : "event:/loot/pickup_fish"
+        },
+        // RabbitRay
+        {
+            "techType" : 2506,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // GarryFish
+        {
+            "techType" : 2507,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedGarryFish
+            "processed"     : 4504,
+            "soundPickup"   : "event:/loot/pickup_fish"
+        },
+        // Crash
+        {
+            "techType" : 2509,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // Boomerang
+        {
+            "techType" : 2510,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedBoomerang
+            "processed"     : 4509,
+            "soundPickup"   : "event:/loot/pickup_fish"
+        },
+        // LavaLarva
+        {
+            "techType" : 2511,
+            "soundPickup" : "event:/loot/pickup_fish"
+        },
+        // Stalker
+        {
+            "techType" : 2512,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            },
+            // DamageDead
+            "harvestType" : 4
+        },
+        // Eyeye
+        {
+            "techType" : 2513,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedEyeye
+            "processed"     : 4510,
+            "soundPickup"   : "event:/loot/pickup_fish"
+        },
+        // Bladderfish
+        {
+            "techType" : 2515,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedBladderfish
+            "processed"     : 4506,
+            "soundPickup"   : "event:/loot/pickup_fish",
+            // DamageDead
+            "harvestType"   : 4
+        },
+        // Hoverfish
+        {
+            "techType" : 2516,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedHoverfish
+            "processed"     : 4507,
+            "soundPickup"   : "event:/loot/pickup_fish"
+        },
+        // Jellyray
+        {
+            "techType" : 2517,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            }
+        },
+        // Reefback
+        {
+            "techType" : 2518,
+            "itemSize" : {
+                "x" : 4,
+                "y" : 4
+            }
+        },
+        // Reginald
+        {
+            "techType" : 2519,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedReginald
+            "processed"     : 4505,
+            "soundPickup"   : "event:/loot/pickup_fish"
+        },
+        // Spadefish
+        {
+            "techType" : 2520,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedSpadefish
+            "processed"     : 4508,
+            "soundPickup"   : "event:/loot/pickup_fish"
+        },
+        // Floater
+        {
+            "techType" : 2522,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "soundPickup"   : "event:/loot/floater/floater_pickup",
+            "soundDrop"     : "event:/loot/floater/floater_place"
+        },
+        // Gasopod
+        {
+            "techType" : 2523,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            }
+        },
+        // Sandshark
+        {
+            "techType" : 2524,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            }
+        },
+        // CreepvinePiece
+        {
+            "techType" : 2529,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            "soundPickup"    : "event:/loot/pickup_organic"
+        },
+        // Hoopfish
+        {
+            "techType" : 2531,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedHoopfish
+            "processed"     : 4512,
+            "soundPickup"   : "event:/loot/pickup_fish"
+        },
+        // BoneShark
+        {
+            "techType" : 2534,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            }
+        },
+        // Mesmer
+        {
+            "techType" : 2535,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // Cutefish
+        {
+            "techType" : 2538,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            "soundPickup" : "event:/loot/pickup_fish"
+        },
+        // Crabsnake
+        {
+            "techType" : 2539,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            }
+        },
+        // Shocker
+        {
+            "techType" : 2545,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            }
+        },
+        // Spinefish
+        {
+            "techType" : 2546,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedSpinefish
+            "processed"     : 4517
+        },
+        // CrabSquid
+        {
+            "techType" : 2550,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            }
+        },
+        // LavaLizard
+        {
+            "techType" : 2551,
+            "itemSize" : {
+                "x" : 3,
+                "y" : 3
+            }
+        },
+        // LavaBoomerang
+        {
+            "techType" : 2554,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedLavaBoomerang
+            "processed"     : 4519
+        },
+        // LavaEyeye
+        {
+            "techType" : 2555,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            // CookedLavaEyeye
+            "processed"     : 4518
+        },
+        // BallClusters
+        {
+            "techType" : 3001,
+            // DamageAlive
+            "harvestType" : 3
+        },
+        // BarnacleSuckers
+        {
+            "techType" : 3002,
+            // DamageAlive
+            "harvestType" : 3
+        },
+        // BlueBarnacle
+        {
+            "techType" : 3003,
+            // Break
+            "harvestType" : 1
+        },
+        // BlueBarnacleCluster
+        {
+            "techType" : 3004,
+            // Break
+            "harvestType" : 1
+        },
+        // BlueCoralTubes
+        {
+            "techType" : 3005,
+            // Break
+            "harvestType" : 1
+        },
+        // Mohawk
+        {
+            "techType" : 3008,
+            // DamageAlive
+            "harvestType" : 3
+        },
+        // JellyPlant
+        {
+            "techType" : 3010,
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // JellyPlantSeed
+            "harvestOutput"  : 3524,
+            "harvestFinalCutBonus" : 1
+        },
+        // BlueJeweledDisk
+        {
+            "techType" : 3011,
+            // Break
+            "harvestType" : 1,
+            // JeweledDiskPiece
+            "harvestOutput" : 3501
+        },
+        // GreenJeweledDisk
+        {
+            "techType" : 3012,
+            // Break
+            "harvestType" : 1,
+            // JeweledDiskPiece
+            "harvestOutput" : 3501
+        },
+        // PurpleJeweledDisk
+        {
+            "techType" : 3013,
+            // Break
+            "harvestType" : 1,
+            // JeweledDiskPiece
+            "harvestOutput" : 3501
+        },
+        // RedJeweledDisk
+        {
+            "techType" : 3014,
+            // Break
+            "harvestType" : 1,
+            // JeweledDiskPiece
+            "harvestOutput" : 3501
+        },
+        // SmallKoosh
+        {
+            "techType" : 3015,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // KooshChunk
+            "harvestOutput"  : 3503,
+            "harvestFinalCutBonus" : 1
+        },
+        // MediumKoosh
+        {
+            "techType" : 3016,
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // KooshChunk
+            "harvestOutput"  : 3503,
+            "harvestFinalCutBonus" : 1
+        },
+        // LargeKoosh
+        {
+            "techType" : 3017,
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // KooshChunk
+            "harvestOutput"  : 3503
+        },
+        // HugeKoosh
+        {
+            "techType" : 3018,
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // KooshChunk
+            "harvestOutput"  : 3503
+        },
+        // MembrainTree
+        {
+            "techType" : 3019,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // MembrainTreeSeed
+            "harvestOutput"  : 3527,
+            "harvestFinalCutBonus" : 1
+        },
+        // PurpleFan
+        {
+            "techType" : 3020,
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // PurpleFanSeed
+            "harvestOutput"  : 3521,
+            "harvestFinalCutBonus" : 2
+        },
+        // AcidMushroom
+        {
+            "techType" : 3021,
+            // PlantWater
+            "backgroundType" : 2,
+            "soundPickup"    : "event:/loot/pickup_organic",
+            // DamageAlive
+            "harvestType"    : 3,
+            // AcidMushroomSpore
+            "harvestOutput"  : 3509,
+            "harvestFinalCutBonus" : 3
+        },
+        // PurpleTentacle
+        {
+            "techType" : 3022,
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // PurpleTentacleSeed
+            "harvestOutput"  : 3523,
+            "harvestFinalCutBonus" : 2
+        },
+        // CoralShellPlate
+        {
+            "techType" : 3025,
+            // DamageDead
+            "harvestType" : 4,
+            // CoralChunk
+            "harvestOutput" : 3502
+        },
+        // SmallFan
+        {
+            "techType" : 3026,
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // SmallFanSeed
+            "harvestOutput"  : 3522,
+            "harvestFinalCutBonus" : 1
+        },
+        // SmallFanCluster
+        {
+            "techType" : 3027,
+            // DamageAlive
+            "harvestType" : 3,
+            // SmallFanSeed
+            "harvestOutput" : 3522,
+            "harvestFinalCutBonus" : 4
+        },
+        // BigCoralTubes
+        {
+            "techType" : 3028,
+            // DamageAlive
+            "harvestType" : 3,
+            // CoralChunk
+            "harvestOutput" : 3502
+        },
+        // TreeMushroom
+        {
+            "techType" : 3029,
+            // DamageAlive
+            "harvestType" : 3,
+            // TreeMushroomPiece
+            "harvestOutput" : 3505
+        },
+        // BlueCluster
+        {
+            "techType" : 3030,
+            // DamageAlive
+            "harvestType" : 3
+        },
+        // BloodOil
+        {
+            "techType" : 3034,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2
+        },
+        // WhiteMushroom
+        {
+            "techType" : 3035,
+            // PlantWater
+            "backgroundType" : 2,
+            "soundPickup"    : "event:/loot/pickup_organic",
+            // DamageAlive
+            "harvestType"    : 3,
+            // WhiteMushroomSpore
+            "harvestOutput"  : 3510,
+            "harvestFinalCutBonus" : 3
+        },
+        // BloodRoot
+        {
+            "techType" : 3036,
+            // PlantWater
+            "backgroundType" : 2
+        },
+        // BloodVine
+        {
+            "techType" : 3037,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2
+        },
+        // PinkFlower
+        {
+            "techType" : 3038,
+            // PlantAir
+            "backgroundType" : 4,
+            // DamageAlive
+            "harvestType"    : 3,
+            // PinkFlowerSeed
+            "harvestOutput"  : 3528,
+            "harvestFinalCutBonus" : 3
+        },
+        // PinkMushroom
+        {
+            "techType" : 3039,
+            // PlantAir
+            "backgroundType" : 4,
+            "soundPickup"    : "event:/loot/pickup_organic",
+            // DamageAlive
+            "harvestType"    : 3,
+            // PinkMushroomSpore
+            "harvestOutput"  : 3511,
+            "harvestFinalCutBonus" : 3
+        },
+        // PurpleRattle
+        {
+            "techType" : 3040,
+            // PlantAir
+            "backgroundType" : 4,
+            // DamageAlive
+            "harvestType"    : 3,
+            // PurpleRattleSpore
+            "harvestOutput"  : 3512,
+            "harvestFinalCutBonus" : 3
+        },
+        // BulboTree
+        {
+            "techType" : 3041,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAir
+            "backgroundType" : 4,
+            // DamageAlive
+            "harvestType"    : 3,
+            // BulboTreePiece
+            "harvestOutput"  : 3506,
+            "harvestFinalCutBonus" : 1
+        },
+        // PurpleVasePlant
+        {
+            "techType" : 3042,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAir
+            "backgroundType" : 4,
+            // DamageAlive
+            "harvestType"    : 3,
+            // PurpleVasePlantSeed
+            "harvestOutput"  : 3508,
+            "harvestFinalCutBonus" : 1
+        },
+        // OrangeMushroom
+        {
+            "techType" : 3043,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAir
+            "backgroundType" : 4,
+            "soundPickup"    : "event:/loot/pickup_organic",
+            // DamageAlive
+            "harvestType"    : 3,
+            // OrangeMushroomSpore
+            "harvestOutput"  : 3507,
+            "harvestFinalCutBonus" : 1
+        },
+        // FernPalm
+        {
+            "techType" : 3044,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAir
+            "backgroundType" : 4,
+            // DamageAlive
+            "harvestType"    : 3,
+            // FernPalmSeed
+            "harvestOutput"  : 3529,
+            "harvestFinalCutBonus" : 1
+        },
+        // HangingFruitTree
+        {
+            "techType" : 3045,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAir
+            "backgroundType" : 4
+        },
+        // PurpleVegetablePlant
+        {
+            "techType" : 3046,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAir
+            "backgroundType" : 4
+        },
+        // MelonPlant
+        {
+            "techType" : 3047,
+            // PlantAir
+            "backgroundType" : 4,
+            "soundPickup"    : "event:/loot/pickup_organic",
+            // DamageAlive
+            "harvestType"    : 3,
+            // MelonSeed
+            "harvestOutput"  : 3517,
+            "harvestFinalCutBonus" : 3
+        },
+        // BluePalm
+        {
+            "techType" : 3048,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // BluePalmSeed
+            "harvestOutput"  : 3520,
+            "harvestFinalCutBonus" : 1
+        },
+        // GabeSFeather
+        {
+            "techType" : 3049,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // GabeSFeatherSeed
+            "harvestOutput"  : 3525,
+            "harvestFinalCutBonus" : 1
+        },
+        // SeaCrown
+        {
+            "techType" : 3050,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // SeaCrownSeed
+            "harvestOutput"  : 3526,
+            "harvestFinalCutBonus" : 2
+        },
+        // OrangePetalsPlant
+        {
+            "techType" : 3051,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAir
+            "backgroundType" : 4,
+            // DamageAlive
+            "harvestType"    : 3,
+            // OrangePetalsPlantSeed
+            "harvestOutput"  : 3530,
+            "harvestFinalCutBonus" : 1
+        },
+        // EyesPlant
+        {
+            "techType" : 3052,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // EyesPlantSeed
+            "harvestOutput"  : 3531,
+            "harvestFinalCutBonus" : 1
+        },
+        // RedGreenTentacle
+        {
+            "techType" : 3053,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // RedGreenTentacleSeed
+            "harvestOutput"  : 3532,
+            "harvestFinalCutBonus" : 1
+        },
+        // PurpleStalk
+        {
+            "techType" : 3054,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // PurpleStalkSeed
+            "harvestOutput"  : 3533,
+            "harvestFinalCutBonus" : 1
+        },
+        // RedBasketPlant
+        {
+            "techType" : 3055,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // RedBasketPlantSeed
+            "harvestOutput"  : 3534,
+            "harvestFinalCutBonus" : 1
+        },
+        // RedBush
+        {
+            "techType" : 3056,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // RedBushSeed
+            "harvestOutput"  : 3535,
+            "harvestFinalCutBonus" : 1
+        },
+        // RedConePlant
+        {
+            "techType" : 3057,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // RedConePlantSeed
+            "harvestOutput"  : 3536,
+            "harvestFinalCutBonus" : 1
+        },
+        // ShellGrass
+        {
+            "techType" : 3058,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // ShellGrassSeed
+            "harvestOutput"  : 3537,
+            "harvestFinalCutBonus" : 1
+        },
+        // SpottedLeavesPlant
+        {
+            "techType" : 3059,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // SpottedLeavesPlantSeed
+            "harvestOutput"  : 3538,
+            "harvestFinalCutBonus" : 1
+        },
+        // RedRollPlant
+        {
+            "techType" : 3060,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // RedRollPlantSeed
+            "harvestOutput"  : 3539,
+            "harvestFinalCutBonus" : 1
+        },
+        // PurpleBranches
+        {
+            "techType" : 3061,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // PurpleBranchesSeed
+            "harvestOutput"  : 3540,
+            "harvestFinalCutBonus" : 1
+        },
+        // SnakeMushroom
+        {
+            "techType" : 3062,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // SnakeMushroomSpore
+            "harvestOutput"  : 3541,
+            "harvestFinalCutBonus" : 1
+        },
+        // SeaTreaderPoop
+        {
+            "techType" : 3063,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            "soundPickup" : "event:/loot/pickup_seatreaderpoop"
+        },
+        // GenericJeweledDisk
+        {
+            "techType" : 3064,
+            // Break
+            "harvestType" : 1,
+            // JeweledDiskPiece
+            "harvestOutput" : 3501
+        },
+        // CoralChunk
+        {
+            "techType" : 3502,
+            // Pick
+            "harvestType" : 2
+        },
+        // KooshChunk
+        {
+            "techType" : 3503,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2
+        },
+        // BulboTreePiece
+        {
+            "techType" : 3506,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAirSeed
+            "backgroundType" : 5
+        },
+        // OrangeMushroomSpore
+        {
+            "techType" : 3507,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAirSeed
+            "backgroundType" : 5
+        },
+        // PurpleVasePlantSeed
+        {
+            "techType" : 3508,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAirSeed
+            "backgroundType" : 5
+        },
+        // AcidMushroomSpore
+        {
+            "techType" : 3509,
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // WhiteMushroomSpore
+        {
+            "techType" : 3510,
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // PinkMushroomSpore
+        {
+            "techType" : 3511,
+            // PlantAirSeed
+            "backgroundType" : 5
+        },
+        // PurpleRattleSpore
+        {
+            "techType" : 3512,
+            // PlantAirSeed
+            "backgroundType" : 5
+        },
+        // HangingFruit
+        {
+            "techType" : 3513,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAir
+            "backgroundType" : 4
+        },
+        // PurpleVegetable
+        {
+            "techType" : 3514,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAirSeed
+            "backgroundType" : 5
+        },
+        // SmallMelon
+        {
+            "techType" : 3515,
+            // PlantAir
+            "backgroundType" : 4,
+            // DamageAlive
+            "harvestType"    : 3,
+            // MelonSeed
+            "harvestOutput"  : 3517,
+            "harvestFinalCutBonus" : 3
+        },
+        // Melon
+        {
+            "techType" : 3516,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAir
+            "backgroundType" : 4,
+            // DamageAlive
+            "harvestType"    : 3,
+            // MelonSeed
+            "harvestOutput"  : 3517,
+            "harvestFinalCutBonus" : 3
+        },
+        // MelonSeed
+        {
+            "techType" : 3517,
+            // PlantAirSeed
+            "backgroundType" : 5
+        },
+        // PurpleBrainCoralPiece
+        {
+            "techType" : 3518,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2
+        },
+        // SpikePlantSeed
+        {
+            "techType" : 3519,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // BluePalmSeed
+        {
+            "techType" : 3520,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // PurpleFanSeed
+        {
+            "techType" : 3521,
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // SmallFanSeed
+        {
+            "techType" : 3522,
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // PurpleTentacleSeed
+        {
+            "techType" : 3523,
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // JellyPlantSeed
+        {
+            "techType" : 3524,
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // GabeSFeatherSeed
+        {
+            "techType" : 3525,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // SeaCrownSeed
+        {
+            "techType" : 3526,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // MembrainTreeSeed
+        {
+            "techType" : 3527,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // PinkFlowerSeed
+        {
+            "techType" : 3528,
+            // PlantAirSeed
+            "backgroundType" : 5
+        },
+        // FernPalmSeed
+        {
+            "techType" : 3529,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAirSeed
+            "backgroundType" : 5
+        },
+        // OrangePetalsPlantSeed
+        {
+            "techType" : 3530,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantAirSeed
+            "backgroundType" : 5
+        },
+        // EyesPlantSeed
+        {
+            "techType" : 3531,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // RedGreenTentacleSeed
+        {
+            "techType" : 3532,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // PurpleStalkSeed
+        {
+            "techType" : 3533,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // RedBasketPlantSeed
+        {
+            "techType" : 3534,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // RedBushSeed
+        {
+            "techType" : 3535,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // RedConePlantSeed
+        {
+            "techType" : 3536,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // ShellGrassSeed
+        {
+            "techType" : 3537,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // SpottedLeavesPlantSeed
+        {
+            "techType" : 3538,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // RedRollPlantSeed
+        {
+            "techType" : 3539,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // PurpleBranchesSeed
+        {
+            "techType" : 3540,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // SnakeMushroomSpore
+        {
+            "techType" : 3541,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWaterSeed
+            "backgroundType" : 3
+        },
+        // PurpleBrainCoral
+        {
+            "techType" : 4002,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // PurpleBrainCoralPiece
+            "harvestOutput"  : 3518,
+            "harvestFinalCutBonus" : 1
+        },
+        // SpikePlant
+        {
+            "techType" : 4004,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // PlantWater
+            "backgroundType" : 2,
+            // DamageAlive
+            "harvestType"    : 3,
+            // SpikePlantSeed
+            "harvestOutput"  : 3519,
+            "harvestFinalCutBonus" : 1
+        },
+        // BrainCoral
+        {
+            "techType" : 4005,
+            // PlantWater
+            "backgroundType" : 2
+        },
+        // PrecursorKey_Blue
+        {
+            "techType" : 4201,
+            "ingredients" : [
+                // PrecursorIonCrystal
+                {
+                    "techType" : 66,
+                    "amount"   : 1
+                },
+                // Kyanite
+                {
+                    "techType" : 68,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // PrecursorKey_Orange
+        {
+            "techType" : 4202,
+            "ingredients" : [
+                // PrecursorIonCrystal
+                {
+                    "techType" : 66,
+                    "amount"   : 1
+                },
+                // Nickel
+                {
+                    "techType" : 69,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // PrecursorKey_White
+        {
+            "techType" : 4203,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            }
+        },
+        // PrecursorKey_Purple
+        {
+            "techType" : 4204,
+            "ingredients" : [
+                // PrecursorIonCrystal
+                {
+                    "techType" : 66,
+                    "amount"   : 1
+                },
+                // Diamond
+                {
+                    "techType" : 36,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // PrecursorIonPowerCell
+        {
+            "techType" : 4209,
+            // PowerCellCharger
+            "equipmentType" : 12,
+            "craftTime"     : 4.0,
+            "ingredients"   : [
+                // PrecursorIonBattery
+                {
+                    "techType" : 4210,
+                    "amount"   : 2
+                },
+                // Silicone
+                {
+                    "techType" : 17,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // PrecursorIonBattery
+        {
+            "techType" : 4210,
+            // BatteryCharger
+            "equipmentType" : 11,
+            "craftTime"     : 2.0,
+            "ingredients"   : [
+                // PrecursorIonCrystal
+                {
+                    "techType" : 66,
+                    "amount"   : 1
+                },
+                // Gold
+                {
+                    "techType" : 21,
+                    "amount"   : 1
+                },
+                // Silver
+                {
+                    "techType" : 28,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // FilteredWater
+        {
+            "techType" : 4500,
+            "ingredients" : [
+                // Bladderfish
+                {
+                    "techType" : 2515,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup" : "event:/loot/pickup_filteredwater",
+            "soundUse"    : "event:/player/drink"
+        },
+        // DisinfectedWater
+        {
+            "techType" : 4501,
+            "craftAmount" : 2,
+            "ingredients" : [
+                // Bleach
+                {
+                    "techType" : 27,
+                    "amount"   : 1
+                }
+            ],
+            "soundPickup" : "event:/loot/pickup_disinfectedwater",
+            "soundUse"    : "event:/player/drink"
+        },
+        // CookedPeeper
+        {
+            "techType" : 4502,
+            "ingredients" : [
+                // Peeper
+                {
+                    "techType" : 2504,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CookedHoleFish
+        {
+            "techType" : 4503,
+            "ingredients" : [
+                // HoleFish
+                {
+                    "techType" : 2501,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CookedGarryFish
+        {
+            "techType" : 4504,
+            "ingredients" : [
+                // GarryFish
+                {
+                    "techType" : 2507,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CookedReginald
+        {
+            "techType" : 4505,
+            "ingredients" : [
+                // Reginald
+                {
+                    "techType" : 2519,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CookedBladderfish
+        {
+            "techType" : 4506,
+            "ingredients" : [
+                // Bladderfish
+                {
+                    "techType" : 2515,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CookedHoverfish
+        {
+            "techType" : 4507,
+            "ingredients" : [
+                // Hoverfish
+                {
+                    "techType" : 2516,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CookedSpadefish
+        {
+            "techType" : 4508,
+            "ingredients" : [
+                // Spadefish
+                {
+                    "techType" : 2520,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CookedBoomerang
+        {
+            "techType" : 4509,
+            "ingredients" : [
+                // Boomerang
+                {
+                    "techType" : 2510,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CookedEyeye
+        {
+            "techType" : 4510,
+            "ingredients" : [
+                // Eyeye
+                {
+                    "techType" : 2513,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CookedOculus
+        {
+            "techType" : 4511,
+            "ingredients" : [
+                // Oculus
+                {
+                    "techType" : 2505,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CookedHoopfish
+        {
+            "techType" : 4512,
+            "ingredients" : [
+                // Hoopfish
+                {
+                    "techType" : 2531,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // FirstAidKit
+        {
+            "techType" : 4514,
+            "craftTime" : 3.0,
+            "ingredients" : [
+                // FiberMesh
+                {
+                    "techType" : 3,
+                    "amount"   : 1
+                }
+            ],
+            "soundUse"    : "event:/player/use_first_aid"
+        },
+        // WaterFiltrationSuitWater
+        {
+            "techType" : 4515,
+            "soundUse" : "event:/player/drink_stillsuit"
+        },
+        // BigFilteredWater
+        {
+            "techType" : 4516,
+            "soundUse" : "event:/player/drink"
+        },
+        // CookedSpinefish
+        {
+            "techType" : 4517,
+            "ingredients" : [
+                // Spinefish
+                {
+                    "techType" : 2546,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CookedLavaEyeye
+        {
+            "techType" : 4518,
+            "ingredients" : [
+                // LavaEyeye
+                {
+                    "techType" : 2555,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CookedLavaBoomerang
+        {
+            "techType" : 4519,
+            "ingredients" : [
+                // LavaBoomerang
+                {
+                    "techType" : 2554,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredPeeper
+        {
+            "techType" : 4600,
+            "ingredients" : [
+                // Peeper
+                {
+                    "techType" : 2504,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredHoleFish
+        {
+            "techType" : 4601,
+            "ingredients" : [
+                // HoleFish
+                {
+                    "techType" : 2501,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredGarryFish
+        {
+            "techType" : 4602,
+            "ingredients" : [
+                // GarryFish
+                {
+                    "techType" : 2507,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredReginald
+        {
+            "techType" : 4603,
+            "ingredients" : [
+                // Reginald
+                {
+                    "techType" : 2519,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredBladderfish
+        {
+            "techType" : 4604,
+            "ingredients" : [
+                // Bladderfish
+                {
+                    "techType" : 2515,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredHoverfish
+        {
+            "techType" : 4605,
+            "ingredients" : [
+                // Hoverfish
+                {
+                    "techType" : 2516,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredSpadefish
+        {
+            "techType" : 4606,
+            "ingredients" : [
+                // Spadefish
+                {
+                    "techType" : 2520,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredBoomerang
+        {
+            "techType" : 4607,
+            "ingredients" : [
+                // Boomerang
+                {
+                    "techType" : 2510,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredEyeye
+        {
+            "techType" : 4608,
+            "ingredients" : [
+                // Eyeye
+                {
+                    "techType" : 2513,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredOculus
+        {
+            "techType" : 4609,
+            "ingredients" : [
+                // Oculus
+                {
+                    "techType" : 2505,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredHoopfish
+        {
+            "techType" : 4610,
+            "ingredients" : [
+                // Hoopfish
+                {
+                    "techType" : 2531,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredSpinefish
+        {
+            "techType" : 4611,
+            "ingredients" : [
+                // Spinefish
+                {
+                    "techType" : 2546,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredLavaEyeye
+        {
+            "techType" : 4612,
+            "ingredients" : [
+                // LavaEyeye
+                {
+                    "techType" : 2555,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // CuredLavaBoomerang
+        {
+            "techType" : 4613,
+            "ingredients" : [
+                // LavaBoomerang
+                {
+                    "techType" : 2554,
+                    "amount"   : 1
+                },
+                // Salt
+                {
+                    "techType" : 9,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // BaseRoom
+        {
+            "techType" : 5500,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 6
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseHatch
+        {
+            "techType" : 5501,
+            "ingredients" : [
+                // Quartz
+                {
+                    "techType" : 1,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseWall
+        {
+            "techType" : 5502,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseDoor
+        {
+            "techType" : 5503,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseLadder
+        {
+            "techType" : 5504,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseWindow
+        {
+            "techType" : 5505,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseCorridor
+        {
+            "techType" : 5508,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseFoundation
+        {
+            "techType" : 5509,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                },
+                // Lead
+                {
+                    "techType" : 8,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseCorridorI
+        {
+            "techType" : 5510,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseCorridorL
+        {
+            "techType" : 5511,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseCorridorT
+        {
+            "techType" : 5512,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseCorridorX
+        {
+            "techType" : 5513,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseReinforcement
+        {
+            "techType" : 5514,
+            "ingredients" : [
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseBulkhead
+        {
+            "techType" : 5515,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                },
+                // Silicone
+                {
+                    "techType" : 17,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseCorridorGlassI
+        {
+            "techType" : 5516,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseCorridorGlassL
+        {
+            "techType" : 5517,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseObservatory
+        {
+            "techType" : 5518,
+            "ingredients" : [
+                // EnameledGlass
+                {
+                    "techType" : 42,
+                    "amount"   : 2
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseConnector
+        {
+            "techType" : 5519,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseMoonpool
+        {
+            "techType" : 5520,
+            "ingredients" : [
+                // TitaniumIngot
+                {
+                    "techType" : 30,
+                    "amount"   : 2
+                },
+                // Lubricant
+                {
+                    "techType" : 62,
+                    "amount"   : 1
+                },
+                // Lead
+                {
+                    "techType" : 8,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseCorridorGlass
+        {
+            "techType" : 5521,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // BaseUpgradeConsole
+        {
+            "techType" : 5522,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                },
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // BasePlanter
+        {
+            "techType" : 5523,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseFiltrationMachine
+        {
+            "techType" : 5524,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                },
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                },
+                // Aerogel
+                {
+                    "techType" : 59,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseWaterPark
+        {
+            "techType" : 5525,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 5
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseMapRoom
+        {
+            "techType" : 5526,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 5
+                },
+                // Copper
+                {
+                    "techType" : 7,
+                    "amount"   : 2
+                },
+                // Gold
+                {
+                    "techType" : 21,
+                    "amount"   : 1
+                },
+                // JeweledDiskPiece
+                {
+                    "techType" : 3501,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // MapRoomCamera
+        {
+            "techType" : 5527,
+            "itemSize" : {
+                "x" : 2,
+                "y" : 2
+            },
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3,
+            "ingredients"   : [
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Battery
+                {
+                    "techType" : 504,
+                    "amount"   : 1
+                },
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // BaseBioReactor
+        {
+            "techType" : 5528,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 3
+                },
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                },
+                // Lubricant
+                {
+                    "techType" : 62,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseNuclearReactor
+        {
+            "techType" : 5529,
+            "ingredients" : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // AdvancedWiringKit
+                {
+                    "techType" : 34,
+                    "amount"   : 1
+                },
+                // Lead
+                {
+                    "techType" : 8,
+                    "amount"   : 3
+                }
+            ],
+            "buildable"   : true
+        },
+        // BasePipeConnector
+        {
+            "techType" : 5530,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BaseLargeRoom
+        {
+            "techType" : 5534,
+            "ingredients" : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 2
+                }
+            ],
+            "buildable"   : true
+        },
+        // BasePartitionDoor
+        {
+            "techType" : 5539,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                },
+                // Quartz
+                {
+                    "techType" : 1,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // BaseGlassDome
+        {
+            "techType" : 5540,
+            "ingredients" : [
+                // EnameledGlass
+                {
+                    "techType" : 42,
+                    "amount"   : 2
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 2
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // BasePartition
+        {
+            "techType" : 5541,
+            "ingredients" : [
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // BaseLargeGlassDome
+        {
+            "techType" : 5542,
+            "ingredients" : [
+                // EnameledGlass
+                {
+                    "techType" : 42,
+                    "amount"   : 4
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 4
+                },
+                // Lithium
+                {
+                    "techType" : 40,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // RocketBase
+        {
+            "techType" : 5900,
+            "ingredients" : [
+                // TitaniumIngot
+                {
+                    "techType" : 30,
+                    "amount"   : 2
+                },
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                },
+                // Lead
+                {
+                    "techType" : 8,
+                    "amount"   : 4
+                }
+            ]
+        },
+        // RocketBaseLadder
+        {
+            "techType" : 5901,
+            "ingredients" : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // CopperWire
+                {
+                    "techType" : 32,
+                    "amount"   : 1
+                },
+                // Lubricant
+                {
+                    "techType" : 62,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // RocketStage1
+        {
+            "techType" : 5902,
+            "ingredients" : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // Nickel
+                {
+                    "techType" : 69,
+                    "amount"   : 3
+                },
+                // Aerogel
+                {
+                    "techType" : 59,
+                    "amount"   : 2
+                },
+                // WiringKit
+                {
+                    "techType" : 33,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // RocketStage2
+        {
+            "techType" : 5903,
+            "ingredients" : [
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // Sulphur
+                {
+                    "techType" : 23,
+                    "amount"   : 4
+                },
+                // Kyanite
+                {
+                    "techType" : 68,
+                    "amount"   : 4
+                },
+                // PrecursorIonPowerCell
+                {
+                    "techType" : 4209,
+                    "amount"   : 2
+                }
+            ]
+        },
+        // RocketStage3
+        {
+            "techType" : 5904,
+            "ingredients" : [
+                // CyclopsShieldModule
+                {
+                    "techType" : 1551,
+                    "amount"   : 1
+                },
+                // PlasteelIngot
+                {
+                    "techType" : 41,
+                    "amount"   : 1
+                },
+                // EnameledGlass
+                {
+                    "techType" : 42,
+                    "amount"   : 1
+                },
+                // ComputerChip
+                {
+                    "techType" : 44,
+                    "amount"   : 1
+                }
+            ]
+        },
+        // DioramaHullPlate
+        {
+            "techType" : 6000,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // MarkiplierHullPlate
+        {
+            "techType" : 6001,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // MuyskermHullPlate
+        {
+            "techType" : 6002,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // LordMinionHullPlate
+        {
+            "techType" : 6003,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // JackSepticEyeHullPlate
+        {
+            "techType" : 6004,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // Poster
+        {
+            "techType" : 6005,
+            // Hand
+            "equipmentType" : 1,
+            // Selectable
+            "slotType"      : 3
+        },
+        // IGPHullPlate
+        {
+            "techType" : 6006,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // GilathissHullPlate
+        {
+            "techType" : 6007,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // Marki1
+        {
+            "techType" : 6008,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // Marki2
+        {
+            "techType" : 6009,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // JackSepticEye
+        {
+            "techType" : 6010,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        },
+        // EatMyDiction
+        {
+            "techType" : 6011,
+            "ingredients" : [
+                // Glass
+                {
+                    "techType" : 15,
+                    "amount"   : 1
+                },
+                // Titanium
+                {
+                    "techType" : 16,
+                    "amount"   : 1
+                }
+            ],
+            "buildable"   : true
+        }
+    ]
+}

@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50696a777f66ae9024fca26fad0c352a, type: 3}
+  m_Name: CompoundGoalData
+  m_EditorClassIdentifier:
+  goals:
+  - delay: 0
+    key: Goal_PDALoading
+    goalType: 0
+    preconditions:
+    - Trigger_PDAIntroBegin
+  - delay: 5
+    key: Precursor_Gun_DataDownload2
+    goalType: 2
+    preconditions:
+    - Precursor_Gun_DataDownload2
+  - delay: 5
+    key: Precursor_Gun_DataDownload1
+    goalType: 2
+    preconditions:
+    - Precursor_Gun_DataDownload1
+  - delay: 2
+    key: Precursor_LostRiverBase_DataDownload2
+    goalType: 2
+    preconditions:
+    - Precursor_LostRiverBase_Log3
+  - delay: 0
+    key: Infection_Progress4
+    goalType: 3
+    preconditions:
+    - Precursor_LostRiverBase_Log3
+  - delay: 8
+    key: Precursor_LostRiverBase_DataDownload4
+    goalType: 2
+    preconditions:
+    - SelfScan4
+  - delay: 2400
+    key: RadioSunbeamStart
+    goalType: 3
+    preconditions:
+    - OnPlayRadioBounceBack
+  - delay: 2370
+    key: PrecursorGunAimCheck
+    goalType: 3
+    preconditions:
+    - OnPlayRadioSunbeam4
+  - delay: 30
+    key: SunbeamCheckPlayerRange
+    goalType: 3
+    preconditions:
+    - PrecursorGunAim
+  - delay: 6
+    key: Precursor_Gun_DataDownload3
+    goalType: 2
+    preconditions:
+    - Precursor_Gun_LostRiverHint
+  - delay: 600
+    key: RadioGrassy25
+    goalType: 1
+    preconditions:
+    - OnPlayRadioBounceBack
+  - delay: 38
+    key: SeaEmperorLifeCycle
+    goalType: 2
+    preconditions:
+    - PrecursorPrisonAquariumFinalTeleporterActive
+  - delay: 25
+    key: UnlockHatchingEnzymes
+    goalType: 3
+    preconditions:
+    - PrecursorPrisonAquariumFinalTeleporterActive
+  - delay: 3600
+    key: Emperor_Telepathic_Contact1
+    goalType: 0
+    preconditions:
+    - Precursor_Gun_DisableDenied
+  - delay: 40
+    key: UnlockRadiationSuit
+    goalType: 3
+    preconditions:
+    - Story_AuroraWarning4
+  - delay: 0
+    key: Goal_UnlockRadSuit
+    goalType: 0
+    preconditions:
+    - UnlockRadiationSuit
+  - delay: 3
+    key: RadSuit
+    goalType: 2
+    preconditions:
+    - UnlockRadiationSuit
+  - delay: 3
+    key: Void
+    goalType: 2
+    preconditions:
+    - Goal_BiomeVoid
+  - delay: 6
+    key: SecondarySystems
+    goalType: 2
+    preconditions:
+    - RepairLifepod
+  - delay: 0
+    key: Goal_SecondarySystems
+    goalType: 0
+    preconditions:
+    - RepairLifepod
+  - delay: 0
+    key: Precursor_LavaCastle_Log3
+    goalType: 0
+    preconditions:
+    - Precursor_LavaCastleBase_DataDownload1
+  - delay: 0
+    key: Precursor_LavaCastle_Log4
+    goalType: 0
+    preconditions:
+    - Precursor_LavaCastleBase_ThermalPlant2
+  - delay: 3
+    key: Rocket
+    goalType: 2
+    preconditions:
+    - Aurora_RingRoom_Terminal3
+  - delay: 10
+    key: TimeCapsule
+    goalType: 2
+    preconditions:
+    - Aurora_RingRoom_Terminal3
+  - delay: 7200
+    key: RadioGrassy21
+    goalType: 1
+    preconditions:
+    - OnPlayRadioBounceBack
+  - delay: 33
+    key: CaptainCode
+    goalType: 2
+    preconditions:
+    - OnPlayRadioCaptainsQuartersCode
+  - delay: 10
+    key: RaysAdvanced
+    goalType: 2
+    preconditions:
+    - FireRay
+    - GhostRay
+    - Jellyray
+    - RabbitRay
+  - delay: 12
+    key: RadioRadiationSuitNoSignalAlt
+    goalType: 0
+    preconditions:
+    - OnPlayRadioRadiationSuit
+  - delay: 12
+    key: RadioShallows22NoSignalAlt
+    goalType: 0
+    preconditions:
+    - OnPlayRadioShallows22
+  - delay: 12
+    key: RadioKelp28NoSignalAlt
+    goalType: 0
+    preconditions:
+    - OnPlayRadioKelp28
+  - delay: 14
+    key: RadioRadiationSuitNoSignalAltDatabank
+    goalType: 2
+    preconditions:
+    - OnPlayRadioRadiationSuit
+  - delay: 14
+    key: RadioShallows22NoSignalAltDatabank
+    goalType: 2
+    preconditions:
+    - OnPlayRadioShallows22
+  - delay: 14
+    key: RadioKelp28NoSignalAltDatabank
+    goalType: 2
+    preconditions:
+    - OnPlayRadioKelp28

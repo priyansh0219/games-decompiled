@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1445467207321066
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4987243311248331}
+  - component: {fileID: 114696952170491255}
+  - component: {fileID: 114392512588029221}
+  - component: {fileID: 114838166639269677}
+  m_Layer: 0
+  m_Name: FallingRock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4987243311248331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445467207321066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.6, y: -9.79, z: 16.19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114696952170491255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445467207321066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bedf7c8a67444de8cb1891ecd3132c48, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  startPrefab: {fileID: 1431442112541562, guid: 7bb17f083c7f80e4a9de352fa75b708b, type: 2}
+  prefabs:
+  - {fileID: 1236890665807012, guid: f4100466d0efd56438f6e302fc233117, type: 2}
+  - {fileID: 1137827332264103, guid: 32c8988ddde680d4f8a690b4cb6fc253, type: 2}
+  - {fileID: 1046447388587351, guid: 3cb0af91782c5da46a1499def8f39ff5, type: 2}
+  - {fileID: 1886642983781247, guid: 2448d7f26a3c96b4a9212f2f5246c9ee, type: 2}
+  minQuantity: 1
+  maxQuantity: 5
+  emitterRadius: 1
+  minLifetime: 15
+  maxLifetime: 15
+  minDelay: 15
+  maxDelay: 50
+  minSpawnDuration: 3
+  maxSpawnDuration: 2
+  minSize: 0.4
+  maxSize: 0.65
+  playOnAwake: 1
+  loop: 1
+  rockTrailPrefab: {fileID: 1763234796441279, guid: b7441ac9a20c3dd439fcfceaabacae19, type: 2}
+--- !u!114 &114392512588029221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445467207321066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f901faf3f5d8bc238825a5793e60b43, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  classId: e019dd4a-88e3-49c8-93a4-fe909b9b6391
+--- !u!114 &114838166639269677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445467207321066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce19df187054563ab053562478788faa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cellLevel: 2

@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1374534631333400
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4722346275624899}
+  - component: {fileID: 114468841458156956}
+  - component: {fileID: 65636598379344744}
+  - component: {fileID: 114822845614454989}
+  - component: {fileID: 114890576859956336}
+  m_Layer: 21
+  m_Name: Cave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4722346275624899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374534631333400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.5327833, y: -3.5577896, z: 57.06021}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114468841458156956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374534631333400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee22b63684c7ca4a10f7d1f92f9058e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  priority: 20
+  fogColor: {r: 0.098778136, g: 0.550173, b: 0.6397059, a: 1}
+  fogStartDistance: 50
+  fogMaxDistance: 150
+  fadeDefaultLights: 1
+  fadeRate: 0.5
+  fog:
+    enabled: 1
+    color: {r: 0.23015787, g: 0.5631574, b: 0.72794116, a: 1}
+    startDistance: 50
+    maxDistance: 200
+    absorptionSpeed: 4
+    sunGlowAmount: 0.5
+    version: 2
+    dayNightColor:
+      serializedVersion: 2
+      key0: {r: 0, g: 0.09803922, b: 0.1254902, a: 1}
+      key1: {r: 0.101960786, g: 0.1882353, b: 0.28627452, a: 1}
+      key2: {r: 0.101960786, g: 0.1882353, b: 0.28627452, a: 0}
+      key3: {r: 0, g: 0.09803922, b: 0.1254902, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 16384
+      ctime2: 50886
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 4
+      m_NumAlphaKeys: 2
+    depthDispersion: 0.003
+    scatteringScale: 0.1
+  sun:
+    enabled: 1
+    fade: 0.8
+    color: {r: 0.20117864, g: 0.32570702, b: 0.44852942, a: 1}
+    replaceFraction: 0.8
+    shadowed: 1
+  amb:
+    enabled: 1
+    color: {r: 0.375, g: 0.33419117, b: 0.27297795, a: 1}
+    version: 2
+    dayNightColor:
+      serializedVersion: 2
+      key0: {r: 0.05490196, g: 0.047058824, b: 0.039215688, a: 1}
+      key1: {r: 0.0627451, g: 0.1764706, b: 0.24313726, a: 1}
+      key2: {r: 0.0627451, g: 0.1764706, b: 0.24313726, a: 0}
+      key3: {r: 0.05490196, g: 0.047058824, b: 0.039215688, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 13107
+      ctime2: 52428
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 4
+      m_NumAlphaKeys: 2
+    scale: 0.2
+  version: 0
+  overrideBiome: GrandReef_Cave
+  highDetail: 1
+  affectsVisuals: 1
+--- !u!65 &65636598379344744
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374534631333400}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114822845614454989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374534631333400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f901faf3f5d8bc238825a5793e60b43, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  classId: 5d258b1c-8723-4420-a9b1-95f5e56e2680
+--- !u!114 &114890576859956336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374534631333400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce19df187054563ab053562478788faa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cellLevel: 10

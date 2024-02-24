@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1170337908325552
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4687346390559969}
+  - component: {fileID: 114530015673214259}
+  - component: {fileID: 65577941147352325}
+  - component: {fileID: 114666276390362624}
+  - component: {fileID: 114753321650628553}
+  m_Layer: 21
+  m_Name: MF_caves_dark_box
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4687346390559969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170337908325552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.5327833, y: -3.5577896, z: 57.06021}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114530015673214259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170337908325552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee22b63684c7ca4a10f7d1f92f9058e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  priority: 15
+  fogColor: {r: 0.098778136, g: 0.550173, b: 0.6397059, a: 1}
+  fogStartDistance: 50
+  fogMaxDistance: 150
+  fadeDefaultLights: 1
+  fadeRate: 0.33333334
+  fog:
+    enabled: 1
+    color: {r: 0.23015787, g: 0.5631574, b: 0.72794116, a: 1}
+    startDistance: 30
+    maxDistance: 200
+    absorptionSpeed: 1
+    sunGlowAmount: 1
+    version: 2
+    dayNightColor:
+      serializedVersion: 2
+      key0: {r: 0, g: 0.050980393, b: 0.0627451, a: 1}
+      key1: {r: 0, g: 0.07450981, b: 0.09411765, a: 1}
+      key2: {r: 0, g: 0.24705882, b: 0.32156864, a: 0}
+      key3: {r: 0, g: 0.27450982, b: 0.3529412, a: 0}
+      key4: {r: 0, g: 0.27450982, b: 0.3529412, a: 0}
+      key5: {r: 0, g: 0.24705882, b: 0.32156864, a: 0}
+      key6: {r: 0, g: 0.07450981, b: 0.09411765, a: 0}
+      key7: {r: 0, g: 0.050980393, b: 0.0627451, a: 0}
+      ctime0: 0
+      ctime1: 3277
+      ctime2: 13107
+      ctime3: 16384
+      ctime4: 49151
+      ctime5: 52428
+      ctime6: 62258
+      ctime7: 65535
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 8
+      m_NumAlphaKeys: 2
+    depthDispersion: 0.003
+    scatteringScale: 1
+  sun:
+    enabled: 1
+    fade: 0.2
+    color: {r: 1, g: 1, b: 0.98039216, a: 1}
+    replaceFraction: 1
+    shadowed: 0
+  amb:
+    enabled: 1
+    color: {r: 0.375, g: 0.33419117, b: 0.27297795, a: 1}
+    version: 2
+    dayNightColor:
+      serializedVersion: 2
+      key0: {r: 0.015686275, g: 0.011764706, b: 0.011764706, a: 1}
+      key1: {r: 0.019607844, g: 0.019607844, b: 0.015686275, a: 1}
+      key2: {r: 0.07058824, g: 0.0627451, b: 0.050980393, a: 0}
+      key3: {r: 0.078431375, g: 0.07058824, b: 0.05882353, a: 0}
+      key4: {r: 0.078431375, g: 0.07058824, b: 0.05882353, a: 0}
+      key5: {r: 0.07058824, g: 0.0627451, b: 0.050980393, a: 0}
+      key6: {r: 0.019607844, g: 0.019607844, b: 0.015686275, a: 0}
+      key7: {r: 0.015686275, g: 0.011764706, b: 0.011764706, a: 0}
+      ctime0: 0
+      ctime1: 3277
+      ctime2: 13107
+      ctime3: 16384
+      ctime4: 49151
+      ctime5: 52428
+      ctime6: 62258
+      ctime7: 65535
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 8
+      m_NumAlphaKeys: 2
+    scale: 1
+  version: 0
+  overrideBiome: mushroomForest_cave_dark
+  highDetail: 1
+  affectsVisuals: 1
+--- !u!65 &65577941147352325
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170337908325552}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114666276390362624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170337908325552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f901faf3f5d8bc238825a5793e60b43, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  classId: 38be97b7-d57e-4cc0-8258-ffead8fa7c31
+--- !u!114 &114753321650628553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170337908325552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce19df187054563ab053562478788faa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cellLevel: 10

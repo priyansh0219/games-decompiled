@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1759134317331526
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4392383543516169}
+  - component: {fileID: 114811237920641937}
+  m_Layer: 0
+  m_Name: SkyGrassyPlateaus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4392383543516169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759134317331526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114811237920641937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759134317331526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bd3792456da76275049302fcbaa605, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  specularCube: {fileID: 8900000, guid: ea205a0f4f9caed4781ff4cb76311fdd, type: 3}
+  IsProbe: 0
+  dimensions:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+  affectedByDayNightCycle: 1
+  outdoors: 1
+  masterIntensity: 1
+  skyIntensity: 1
+  specIntensity: 1
+  diffIntensity: 1
+  camExposure: 1
+  specIntensityLM: 0.2
+  diffIntensityLM: 0.05
+  hdrSky: 0
+  hdrSpec: 0
+  linearSpace: 1
+  autoDetectColorSpace: 1
+  hasDimensions: 0
+  SH:
+    c:
+    - 0.28382537
+    - 1.592487
+    - 3.2500136
+    - 0.08868927
+    - 0.7655753
+    - 1.4214203
+    - -0.0073854662
+    - -0.05576512
+    - -0.08441801
+    - -0.0026979665
+    - -0.029608548
+    - -0.05553752
+    - -0.0024072358
+    - -0.014612511
+    - -0.009711595
+    - -0.0017158015
+    - -0.012939383
+    - -0.007011711
+    - -0.012382311
+    - -0.04016522
+    - -0.0054537826
+    - 0.00028334127
+    - 0.0035391499
+    - -2.9493305E-05
+    - -0.021369562
+    - -0.07009598
+    - -0.012749119
+    cBuffer:
+    - {x: 0.08006565, y: 0.44923225, z: 0.9168119, w: 0}
+    - {x: 0.0433338, y: 0.374062, z: 0.6945095, w: 0}
+    - {x: -0.0036085572, y: -0.027246976, z: -0.04124685, w: 0}
+    - {x: -0.0013182332, y: -0.01446681, z: -0.02713577, w: 0}
+    - {x: -0.002630022, y: -0.015964877, z: -0.010610389, w: 0}
+    - {x: -0.0018745963, y: -0.014136904, z: -0.0076606344, w: 0}
+    - {x: -0.0039052765, y: -0.012667771, z: -0.001720077, w: 0}
+    - {x: 0.0003095641, y: 0.0038666928, z: -3.2222866E-05, w: 0}
+    - {x: -0.011673641, y: -0.03829163, z: -0.0069645154, w: 0}
+  CustomSH: {fileID: 0}
+  _blackCube: {fileID: 0}
+  _SkyboxMaterial: {fileID: 0}

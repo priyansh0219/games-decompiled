@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1072241473098006
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4927967475390803}
+  - component: {fileID: 114097906313166167}
+  m_Layer: 0
+  m_Name: SkyJellyshroomCaves
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4927967475390803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072241473098006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114097906313166167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072241473098006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bd3792456da76275049302fcbaa605, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  specularCube: {fileID: 8900000, guid: 9713dbbd0501ea441a408c5cdbc68a6d, type: 3}
+  IsProbe: 0
+  dimensions:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+  affectedByDayNightCycle: 1
+  outdoors: 1
+  masterIntensity: 1
+  skyIntensity: 1
+  specIntensity: 1
+  diffIntensity: 1
+  camExposure: 1
+  specIntensityLM: 0.2
+  diffIntensityLM: 0.05
+  hdrSky: 0
+  hdrSpec: 0
+  linearSpace: 1
+  autoDetectColorSpace: 1
+  hasDimensions: 0
+  SH:
+    c:
+    - 0.21304527
+    - 0.034029774
+    - 0.537336
+    - -0.076222956
+    - -0.01862406
+    - -0.28051314
+    - -0.0030571274
+    - -0.00018044325
+    - -0.025287755
+    - -0.0029483228
+    - -0.0022968147
+    - -0.014676272
+    - 0.001829877
+    - 0.0012086428
+    - 0.00958789
+    - -0.0009469307
+    - -0.0010824201
+    - 0.0051868176
+    - -0.0075100227
+    - -0.0028082323
+    - -0.036429584
+    - -0.0014053896
+    - -0.0004886549
+    - -0.006161872
+    - -0.009542208
+    - -0.004475719
+    - -0.0440323
+    cBuffer:
+    - {x: 0.060098957, y: 0.009599621, z: 0.15157968, w: 0}
+    - {x: -0.037242725, y: -0.009099762, z: -0.13705942, w: 0}
+    - {x: -0.00149372, y: -8.816503E-05, z: -0.01235566, w: 0}
+    - {x: -0.0014405579, y: -0.0011222294, z: -0.007170863, w: 0}
+    - {x: 0.0019992294, y: 0.001320501, z: 0.010475234, w: 0}
+    - {x: -0.0010345677, y: -0.0011825964, z: 0.0056668497, w: 0}
+    - {x: -0.0023685978, y: -0.0008856928, z: -0.011489584, w: 0}
+    - {x: -0.0015354563, y: -0.00053387915, z: -0.006732144, w: 0}
+    - {x: -0.0052126627, y: -0.00244497, z: -0.024053713, w: 0}
+  CustomSH: {fileID: 0}
+  _blackCube: {fileID: 0}
+  _SkyboxMaterial: {fileID: 0}

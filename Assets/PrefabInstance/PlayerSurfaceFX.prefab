@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1495933092325364
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4370525603785638}
+  - component: {fileID: 114270253343403078}
+  m_Layer: 0
+  m_Name: PlayerSurfaceFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4370525603785638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495933092325364}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114270253343403078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495933092325364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f91f01aba67eb897aacc93eac3b65da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  emitters:
+  - spawnOnPlay: 0
+    isdistanceBased: 0
+    fx: {fileID: 1294963404298832, guid: 83cabda45e7027e49a1bc19e7001de2a, type: 2}
+    parented: 1
+    parentTransform: {fileID: 4370525603785638}
+    posOffset: {x: 0, y: -0.27, z: 0.5}
+    eulerOffset: {x: -90, y: 0, z: 0}
+    fakeParent: 0
+    lateTime: 0
+    instanceGO: {fileID: 0}
+    fxPS: {fileID: 0}
+  - spawnOnPlay: 0
+    isdistanceBased: 0
+    fx: {fileID: 1823283875992023, guid: d01447314b7d5f34784684d7a000d63f, type: 2}
+    parented: 1
+    parentTransform: {fileID: 4370525603785638}
+    posOffset: {x: 0, y: 0, z: 0}
+    eulerOffset: {x: -90, y: 0, z: 0}
+    fakeParent: 0
+    lateTime: 0
+    instanceGO: {fileID: 0}
+    fxPS: {fileID: 0}
+  - spawnOnPlay: 1
+    isdistanceBased: 0
+    fx: {fileID: 1606459699978282, guid: eded15466e2bcde469c321c697cedf3e, type: 2}
+    parented: 1
+    parentTransform: {fileID: 4370525603785638}
+    posOffset: {x: 0, y: -0.8, z: 0}
+    eulerOffset: {x: -90, y: 0, z: 0}
+    fakeParent: 0
+    lateTime: 0
+    instanceGO: {fileID: 0}
+    fxPS: {fileID: 0}
+  - spawnOnPlay: 1
+    isdistanceBased: 0
+    fx: {fileID: 1818583955152184, guid: 9a409d2786982ca4497a3f730d487c34, type: 2}
+    parented: 1
+    parentTransform: {fileID: 4370525603785638}
+    posOffset: {x: 0, y: 0, z: 0}
+    eulerOffset: {x: -90, y: 0, z: 0}
+    fakeParent: 0
+    lateTime: 0
+    instanceGO: {fileID: 0}
+    fxPS: {fileID: 0}

@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1122046314524298
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4465727266101101}
+  - component: {fileID: 114069407173399918}
+  - component: {fileID: 114463043064117218}
+  - component: {fileID: 114149590088555746}
+  - component: {fileID: 114337099927635583}
+  - component: {fileID: 114937923870287388}
+  - component: {fileID: 114799357475025242}
+  - component: {fileID: 114920288747113276}
+  m_Layer: 0
+  m_Name: RadiationDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4465727266101101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122046314524298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 774.2748, y: -30.677963, z: -85.44429}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114069407173399918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122046314524298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eec1c6f20d825189e3edd0b5bd11e5a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  damagePlayerInRadius: {fileID: 114149590088555746}
+  radiatePlayerInRange: {fileID: 114337099927635583}
+  playerDistanceTracker: {fileID: 114463043064117218}
+  leaksRemainingNotification: {fileID: 114799357475025242}
+  leaksFixedNotification: {fileID: 114920288747113276}
+  leaksFixedGoal:
+    delay: 0
+    key: AuroraRadiationFixed
+    goalType: 3
+  kGrowRate: 0.1
+  kStartRadius: 675
+  kMaxRadius: 950
+  kNaturalDissipation: -0.25
+--- !u!114 &114463043064117218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122046314524298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dbdd56d676b8962497953053c9dde21, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  maxDistance: 1000
+--- !u!114 &114149590088555746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122046314524298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 652aef7ddab4b108299c1ac8aaeee88f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  updateInterval: 3
+  damageRadius: 675
+  damageAmount: 4
+  damageType: 12
+  doDebug: 0
+--- !u!114 &114337099927635583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122046314524298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c217efd0157da4df70288d11f5fe761, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  radiateRadius: 700
+--- !u!114 &114937923870287388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122046314524298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 795778bed9e635c88140ea51a0c6dd11, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  classId: 6459caf3-35e2-4afa-9df6-2521ec0bdd7f
+  uniqueName: CrashedShipRadiationDamage
+  serializeObjectTree: 0
+--- !u!114 &114799357475025242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122046314524298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22ace04d6594523d87846e7e0545fce, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  text: RemainingRadiationLeaks
+  sound: {fileID: 11400000, guid: 84b25cb87354c424ba34b0cb3650ee05, type: 2}
+--- !u!114 &114920288747113276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122046314524298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22ace04d6594523d87846e7e0545fce, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  text: RadiationFixed
+  sound: {fileID: 11400000, guid: b999fde892fdcba4ba1bb261bec6288c, type: 2}

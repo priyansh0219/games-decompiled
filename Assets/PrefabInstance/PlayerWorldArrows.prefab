@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1754247794361265
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4411842187114251}
+  - component: {fileID: 114613575109204316}
+  - component: {fileID: 114176771083643230}
+  - component: {fileID: 114058918972044068}
+  - component: {fileID: 114638316346248784}
+  - component: {fileID: 114858286438256501}
+  - component: {fileID: 114316242259788713}
+  - component: {fileID: 114396326107856469}
+  - component: {fileID: 114274494806383162}
+  - component: {fileID: 114374768588894659}
+  - component: {fileID: 114304200176368333}
+  - component: {fileID: 114507366687495416}
+  m_Layer: 0
+  m_Name: PlayerWorldArrows
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4411842187114251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754247794361265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114613575109204316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754247794361265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68607b6bfe497084457ba4f732949ed, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  worldArrows: []
+--- !u!114 &114176771083643230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754247794361265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39df05d3d11e04562306120f5053a54e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  itemGoalTracker: {fileID: 114058918972044068}
+  biomeGoalTracker: {fileID: 114638316346248784}
+  locationGoalTracker: {fileID: 114858286438256501}
+  compoundGoalTracker: {fileID: 114316242259788713}
+  onGoalUnlockTracker: {fileID: 114374768588894659}
+  customEventHandler: {fileID: 114507366687495416}
+--- !u!114 &114058918972044068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754247794361265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1735947460cb93adaac8ec6f4733da00, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  goalData: {fileID: 11400000, guid: 160c18a7f3bac5a4da9791868de23701, type: 2}
+--- !u!114 &114638316346248784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754247794361265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a3480a03ce09a07b953b0ba9c67863, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  goalData: {fileID: 11400000, guid: 5a1e6a3da8f2ef648a7a5d308ab8e613, type: 2}
+  trackBiomeInterval: 3
+--- !u!114 &114858286438256501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754247794361265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362563b20928d65b77cfe65daef0cdf8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  goalData: {fileID: 11400000, guid: 015b17dc9be81c84980517bbbbd8c192, type: 2}
+  trackLocationInterval: 3
+--- !u!114 &114316242259788713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754247794361265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf0beab145d4d82709f05374c5c4a38, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  goalData: {fileID: 11400000, guid: c32278121d3152c43a870d0ffe273f83, type: 2}
+--- !u!114 &114396326107856469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754247794361265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f4b5891bb98810e68bb69638c87b076, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114274494806383162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754247794361265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 795778bed9e635c88140ea51a0c6dd11, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  classId: 7efd7115-0b8c-4dfb-95b4-f6e02b853592
+  uniqueName: PlayerWorldArrows
+  serializeObjectTree: 0
+--- !u!114 &114374768588894659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754247794361265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c66967cc99a2848d95a72c0eb5e08c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  unlockData: {fileID: 11400000, guid: 3c6ad939a4f37974da1a9e9d3428c0c6, type: 2}
+  signalPrefab: {fileID: 1844860295295983, guid: 240dfbed5a2abff4c9e08c2d5d86149c, type: 2}
+--- !u!114 &114304200176368333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754247794361265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84148d949b0054066b5c9fe033719e48, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114507366687495416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754247794361265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bd46dda7aca86d5ac8e17fd7e61ec94, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  landingSiteLocation: {x: 341.1, y: 22, z: 1054.9}
+  landingSiteRadius: 120
+  sunbeamDestroyEventInRange:
+    delay: 0
+    key: PDASunbeamDestroyEventInRange
+    goalType: 0
+  sunbeamDestroyEventOutOfRange:
+    delay: 22
+    key: PDASunbeamDestroyEventOutOfRange
+    goalType: 0
+  gunDeactivate:
+    delay: 0
+    key: Goal_Disable_Gun
+    goalType: 3
+  sunbeamCancel:
+    delay: 2400
+    key: RadioSunbeamCancel
+    goalType: 1
+  sunbeamGoals:
+  - delay: 0
+    key: RadioSunbeam1
+    goalType: 1
+    trigger: RadioSunbeamStart
+  - delay: 600
+    key: RadioSunbeam2
+    goalType: 1
+    trigger: OnPlayRadioSunbeam1
+  - delay: 2400
+    key: RadioSunbeam3
+    goalType: 1
+    trigger: OnPlayRadioSunbeam2
+  - delay: 2400
+    key: RadioSunbeam4
+    goalType: 1
+    trigger: OnPlayRadioSunbeam3
+  - delay: 0
+    key: PrecursorGunAim
+    goalType: 3
+    trigger: PrecursorGunAimCheck

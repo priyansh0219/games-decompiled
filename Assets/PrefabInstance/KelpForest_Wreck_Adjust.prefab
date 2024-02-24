@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1909974783098647
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4324407865448823}
+  - component: {fileID: 114189589978535973}
+  - component: {fileID: 65095149452024706}
+  - component: {fileID: 114722296848970022}
+  - component: {fileID: 114841995015767634}
+  m_Layer: 21
+  m_Name: KelpForest_Wreck_Adjust
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4324407865448823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909974783098647}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.44013548, y: 1.0079895, z: 51.386993}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114189589978535973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909974783098647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee22b63684c7ca4a10f7d1f92f9058e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  priority: 10
+  fogColor: {r: 0.18604021, g: 0.22794116, b: 0.20713517, a: 1}
+  fogStartDistance: 15
+  fogMaxDistance: 75
+  fadeDefaultLights: 0
+  fadeRate: 0.33333334
+  fog:
+    enabled: 1
+    color: {r: 0.113051474, g: 0.12450558, b: 0.125, a: 1}
+    startDistance: 20
+    maxDistance: 350
+    absorptionSpeed: 1
+    sunGlowAmount: 1
+    version: 2
+    dayNightColor:
+      serializedVersion: 2
+      key0: {r: 0, g: 0.3882353, b: 0.39215687, a: 1}
+      key1: {r: 0, g: 0.3882353, b: 0.39215687, a: 1}
+      key2: {r: 0.019607844, g: 0.023529412, b: 0.023529412, a: 0}
+      key3: {r: 0.019607844, g: 0.023529412, b: 0.023529412, a: 0}
+      key4: {r: 0.019607844, g: 0.023529412, b: 0.023529412, a: 0}
+      key5: {r: 0.019607844, g: 0.023529412, b: 0.023529412, a: 0}
+      key6: {r: 0.019607844, g: 0.023529412, b: 0.023529412, a: 0}
+      key7: {r: 0.019607844, g: 0.023529412, b: 0.023529412, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 65535
+      ctime3: 65535
+      ctime4: 65535
+      ctime5: 65535
+      ctime6: 65535
+      ctime7: 65535
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    depthDispersion: 0.003
+    scatteringScale: 1
+  sun:
+    enabled: 1
+    fade: 0
+    color: {r: 0.54117644, g: 0.9194822, b: 1, a: 1}
+    replaceFraction: 0
+    shadowed: 0
+  amb:
+    enabled: 1
+    color: {r: 0.06812285, g: 0.07084478, b: 0.07352942, a: 1}
+    version: 2
+    dayNightColor:
+      serializedVersion: 2
+      key0: {r: 0, g: 0.078431375, b: 0.078431375, a: 1}
+      key1: {r: 0, g: 0.078431375, b: 0.078431375, a: 1}
+      key2: {r: 0.011764706, g: 0.011764706, b: 0.011764706, a: 0}
+      key3: {r: 0.011764706, g: 0.011764706, b: 0.011764706, a: 0}
+      key4: {r: 0.011764706, g: 0.011764706, b: 0.011764706, a: 0}
+      key5: {r: 0.011764706, g: 0.011764706, b: 0.011764706, a: 0}
+      key6: {r: 0.011764706, g: 0.011764706, b: 0.011764706, a: 0}
+      key7: {r: 0.011764706, g: 0.011764706, b: 0.011764706, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 65535
+      ctime3: 65535
+      ctime4: 65535
+      ctime5: 65535
+      ctime6: 65535
+      ctime7: 65535
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    scale: 1
+  version: 0
+  overrideBiome: kelpForest_WreckInterior
+  highDetail: 1
+  affectsVisuals: 1
+--- !u!65 &65095149452024706
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909974783098647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114722296848970022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909974783098647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f901faf3f5d8bc238825a5793e60b43, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  classId: 0ae50529-0f64-474a-9e19-5ae3e9020a8c
+--- !u!114 &114841995015767634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909974783098647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce19df187054563ab053562478788faa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cellLevel: 10

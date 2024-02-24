@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1829101254196183
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4217949221547407}
+  - component: {fileID: 114447996957624455}
+  m_Layer: 0
+  m_Name: VFXStoryEventsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4217949221547407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829101254196183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114447996957624455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829101254196183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18785a0f375e063e0da285f8f81f7e2a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  shipPrefab: {fileID: 1023732839369190, guid: 8790415006ec9f748951b93acc150760, type: 2}
+  warmupPrefab: {fileID: 1463303274430185, guid: acdd39262eac2a145b4c76abe337c71e, type: 2}
+  levitatingRocksPrefab: {fileID: 1824629757517338, guid: cc4e0a7d2175793469d72549f260a613, type: 2}
+  muzzlePrefab: {fileID: 1578947765433225, guid: c3ffe914364ff48499ee5b55e276e4db, type: 2}
+  explosionPrefab: {fileID: 1267584070382988, guid: e3acccccbaf47bb43839420bcb556dfb, type: 2}
+  groundShockwavePrefab: {fileID: 1287984738291888, guid: 7487ef27a135d79418850afc64c73c64, type: 2}
+  beamPrefab: {fileID: 1603514030436255, guid: e4f275873f63df14492a2695e2586f2e, type: 2}
+  shootDownSFX: {fileID: 1768772966709704, guid: 739dc92b0a4f0c34296cdce70bb75388, type: 2}
+  shootDownSFXNoVoice: {fileID: 1976204535613105, guid: 568390b7021aef649a2ecf1d321864fe, type: 2}
+  burningChunkPrefabs:
+  - {fileID: 1716046429369731, guid: f1c7ef150fb27fe4080794891cf6f8ec, type: 2}
+  - {fileID: 1099425266812822, guid: 6ce8342076d8f994daf319f5f3baacd5, type: 2}
+  chunksAmount: 15
+  chunksSpawnDelay: 0.2
+  chunkSpawnRadius: 25
+  chunkForce: 10
+  beamWidthCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.03233345
+      inSlope: 10.780654
+      outSlope: 10.780654
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.14999999
+      value: 1
+      inSlope: 0.09457731
+      outSlope: 0.09457731
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.39999998
+      value: 1
+      inSlope: 0.095232695
+      outSlope: 0.095232695
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.620703
+      outSlope: -0.620703
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  beamLengthCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.20047355
+      value: 0.19999999
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.19999999
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  shipApproachDuration: 24
+  warmupDuration: 3
+  explosionDelay: 2
+  beamDelay: 2
+  beamDuration: 4
+  shipInitPos: {x: -12094.2, y: 15000, z: 6899.9}
+  targetInitPos: {x: 1294.2, y: 3620.1, z: 3899.9}
+  cloudsColor:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 0.1764706, g: 0.29411766, b: 0.019607844, a: 1}
+    key2: {r: 0.4117647, g: 0.6627451, b: 0.07450981, a: 1}
+    key3: {r: 0.9843137, g: 0.7294118, b: 0.2901961, a: 0}
+    key4: {r: 0.6313726, g: 0.45490196, b: 0.14509805, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0.11764706, g: 0.05882353, b: 0.03137255, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 13818
+    ctime2: 16971
+    ctime3: 18648
+    ctime4: 33002
+    ctime5: 65535
+    ctime6: 13885
+    ctime7: 65535
+    atime0: 0
+    atime1: 65535
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 6
+    m_NumAlphaKeys: 2
+  cloudsColorDuration: 10

@@ -1,0 +1,36 @@
+Shader "UI/ResourcesBlip" {
+	Properties {
+		_Color ("Tint Color", Vector) = (1,1,1,0.5)
+		_ColorStrength ("Color Strength", Vector) = (1,1,1,1)
+		_PingFrequency ("Ping Frequency", Float) = 0.1
+		_ScrollSpeed ("Scroll Speed", Float) = 0.1
+		_StencilComp ("Stencil Comparison", Float) = 8
+		_Stencil ("Stencil ID", Float) = 0
+		_StencilOp ("Stencil Operation", Float) = 0
+		_StencilWriteMask ("Stencil Write Mask", Float) = 255
+		_StencilReadMask ("Stencil Read Mask", Float) = 255
+		_ColorMask ("Color Mask", Float) = 15
+		[Toggle(UNITY_UI_ALPHACLIP)] _UseUIAlphaClip ("Use Alpha Clip", Float) = 0
+	}
+	//DummyShaderTextExporter
+	SubShader{
+		Tags { "RenderType"="Opaque" }
+		LOD 200
+		CGPROGRAM
+#pragma surface surf Standard
+#pragma target 3.0
+
+		fixed4 _Color;
+		struct Input
+		{
+			float2 uv_MainTex;
+		};
+		
+		void surf(Input IN, inout SurfaceOutputStandard o)
+		{
+			o.Albedo = _Color.rgb;
+			o.Alpha = _Color.a;
+		}
+		ENDCG
+	}
+}
